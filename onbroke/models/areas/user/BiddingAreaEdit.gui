@@ -1,0 +1,84 @@
+GUI _Goy80Fm_Ee2zbeoDKccEjg {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "BiddingAreaEdit"
+  DataContext _Go5DcVm_Ee2zbeoDKccEjg at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Go978Vm_Ee2zbeoDKccEjg at 240,10 size 270,230 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _GpBmUFm_Ee2zbeoDKccEjg {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _GpECkVm_Ee2zbeoDKccEjg at 10,30 size 250,170 {
+  		generalStyle GeneralStyling _GpeSQFm_Ee2zbeoDKccEjg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _GpIUAFm_Ee2zbeoDKccEjg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _GpNzkFm_Ee2zbeoDKccEjg at 2,10 size 14,7 {
+  		}
+  		
+  		Col _GpSsEFm_Ee2zbeoDKccEjg at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _GpdEIFm_Ee2zbeoDKccEjg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _Gpb2AFm_Ee2zbeoDKccEjg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _GpVvYVm_Ee2zbeoDKccEjg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _GpXkkVm_Ee2zbeoDKccEjg at 10,2 size 7,14 {
+  			}
+  			
+  			Button _b9LjoVnDEe2zb-oDKccEjg at 10,30 size 200,60 {
+  				label "Label"
+  				styling ButtonStyling _b9a0MFnDEe2zb-oDKccEjg {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions _b9cCUFnDEe2zb-oDKccEjg {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _b9S4YFnDEe2zb-oDKccEjg {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _b9SRUFnDEe2zb-oDKccEjg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _b9RDMVnDEe2zb-oDKccEjg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _b9RqQVnDEe2zb-oDKccEjg at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}
