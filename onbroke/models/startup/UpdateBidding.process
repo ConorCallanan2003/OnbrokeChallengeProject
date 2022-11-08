@@ -1,0 +1,80 @@
+Process _h8iFsFwuEe2d79mobnuSHQ {
+  modelName "UpdateBidding"
+  description "UpdateBidding"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _iM7SIVwuEe2d79mobnuSHQ at 20,20 size 210,210 {
+  	dfViewWorkaround true
+  	ComplexVariable _kCV7oFwuEe2d79mobnuSHQ at 10,155 size 190,25 {
+  		expanded false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  		-ComplexRead-> _TP1YAVw_Ee24Z6XfAkH_7w  decorate "" at (0,0) {
+  			id _WyUnUVw_Ee24Z6XfAkH_7w
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+  
+  StartSIB _iNG4UFwuEe2d79mobnuSHQ at 330,20 size 100,108 {
+  	PrimitiveOutputPort _i-WvEVwuEe2d79mobnuSHQ at 5,67 size 90,18 {
+  		dataType Text
+  		isList false
+  		name "text"
+  		-PrimitiveDirectDataFlow-> _TQBlQVw_Ee24Z6XfAkH_7w via (320,96) (320,264) decorate "" at (0,0) {
+  			id _WVQ34Fw_Ee24Z6XfAkH_7w
+  			dfViewWorkaround true
+  		}
+  	}
+  	
+  	ComplexOutputPort _kzC_0VwuEe2d79mobnuSHQ at 5,85 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexUpdate-> _kCV7oFwuEe2d79mobnuSHQ  decorate "" at (0,0) {
+  			id _lZG6QVwuEe2d79mobnuSHQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _TPtcMFw_Ee24Z6XfAkH_7w  decorate "" at (0,0) {
+  		id _VUR8AVw_Ee24Z6XfAkH_7w
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _iNLJwVwuEe2d79mobnuSHQ at 330,500 size 100,65 {
+  	branchName "success"
+  }
+  
+  SetAttributeValueSIB _TPtcMFw_Ee24Z6XfAkH_7w at 330,170 size 120,108 {
+  	libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  	label "Set title"
+  	ignoredBranch [  ]
+  	ComplexInputPort _TP1YAVw_Ee24Z6XfAkH_7w at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	
+  	PrimitiveInputPort _TQBlQVw_Ee24Z6XfAkH_7w at 5,85 size 110,18 {
+  		dataType Text
+  		isList false
+  		name "title"
+  	}
+  	-BranchConnector-> _TQHr4Vw_Ee24Z6XfAkH_7w   {
+  		id _TQJhEVw_Ee24Z6XfAkH_7w
+  		concurrent true
+  	}
+  }
+  
+  Branch _TQHr4Vw_Ee24Z6XfAkH_7w at 330,310 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _iNLJwVwuEe2d79mobnuSHQ  decorate "" at (0,0) {
+  		id _VsY6AVw_Ee24Z6XfAkH_7w
+  		concurrent true
+  	}
+  }
+}

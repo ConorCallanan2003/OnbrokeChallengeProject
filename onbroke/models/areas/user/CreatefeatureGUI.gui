@@ -1,0 +1,178 @@
+GUI _N90GIV7vEe2Ml8OCwlD7jg {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "CreatefeatureGUI"
+  DataContext _N95lsV7vEe2Ml8OCwlD7jg at 10,10 size 180,155 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _PCfPMV7vEe2Ml8OCwlD7jg at 20,100 size 140,25 {
+  		dataType Text
+  		isInput false
+  		name "title"
+  		dfViewWorkaround true
+  		isList false
+  		-FormLoadSubmit-> _S6v6MV7vEe2Ml8OCwlD7jg  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _Tfm6wV7vEe2Ml8OCwlD7jg
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _Scyy4V7vEe2Ml8OCwlD7jg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _T6LW4V7vEe2Ml8OCwlD7jg
+  		}
+  	}
+  }
+  
+  Template _N96MwV7vEe2Ml8OCwlD7jg at 240,10 size 290,430 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _N99QEF7vEe2Ml8OCwlD7jg {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _N9-eMV7vEe2Ml8OCwlD7jg at 10,30 size 270,370 {
+  		generalStyle GeneralStyling _N-Fy8F7vEe2Ml8OCwlD7jg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _N-ATYV7vEe2Ml8OCwlD7jg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _N-ATY17vEe2Ml8OCwlD7jg at 2,10 size 14,7 {
+  		}
+  		
+  		Col _N-BhgV7vEe2Ml8OCwlD7jg at 10,30 size 240,320 {
+  			wideness Full
+  			layout Layout _N-FL4F7vEe2Ml8OCwlD7jg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _N-Ek0F7vEe2Ml8OCwlD7jg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _N-DWsV7vEe2Ml8OCwlD7jg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _N-D9wV7vEe2Ml8OCwlD7jg at 10,2 size 7,14 {
+  			}
+  			
+  			Form _Scl-kV7vEe2Ml8OCwlD7jg at 10,30 size 220,190 {
+  				inline false
+  				generalStyle GeneralStyling _SdJYMF7vEe2Ml8OCwlD7jg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _SctTUV7vEe2Ml8OCwlD7jg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _Sct6YV7vEe2Ml8OCwlD7jg at 2,10 size 14,7 {
+  				}
+  				
+  				Button _Scyy4V7vEe2Ml8OCwlD7jg at 10,100 size 200,60 {
+  					label "Submit"
+  					styling ButtonStyling _Sc_nMF7vEe2Ml8OCwlD7jg {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					options ButtonOptions _SdD4oF7vEe2Ml8OCwlD7jg {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _Sc7VwF7vEe2Ml8OCwlD7jg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _Sc5gkF7vEe2Ml8OCwlD7jg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _Sc12MV7vEe2Ml8OCwlD7jg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _Sc3rYV7vEe2Ml8OCwlD7jg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Field _S6v6MV7vEe2Ml8OCwlD7jg at 10,30 size 200,60 {
+  					maxMB 0
+  					inputType Text
+  					label "Title"
+  					styling FormFieldStyling _S7lnsF7vEe2Ml8OCwlD7jg {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _S7b2sF7vEe2Ml8OCwlD7jg {
+  							readonly false
+  						}
+  					validation FormFieldValidation _S7VJAF7vEe2Ml8OCwlD7jg {
+  							min 0
+  							max -1
+  							required false
+  						}
+  					disabled false
+  					icon Icon _S7PCYF7vEe2Ml8OCwlD7jg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _S7KJ4F7vEe2Ml8OCwlD7jg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _S7F4cV7vEe2Ml8OCwlD7jg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _S7F4c17vEe2Ml8OCwlD7jg at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  			
+  			Button _b3fywV7vEe2Ml8OCwlD7jg at 10,230 size 200,60 {
+  				label "Label"
+  				styling ButtonStyling _b4GPsF7vEe2Ml8OCwlD7jg {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions _b4KhIF7vEe2Ml8OCwlD7jg {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _b3vDUF7vEe2Ml8OCwlD7jg {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _b3l5YF7vEe2Ml8OCwlD7jg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _b3gZ0V7vEe2Ml8OCwlD7jg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _b3gZ017vEe2Ml8OCwlD7jg at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}
