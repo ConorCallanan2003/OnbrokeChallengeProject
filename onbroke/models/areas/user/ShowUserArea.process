@@ -125,9 +125,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
+  		-ComplexDirectDataFlow-> _Wk9_sVuuEe2ynpC10MMKgg via (1279,316) (1279,458) decorate "" at (0,0) {
+  			id _W_jC4VuuEe2ynpC10MMKgg
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1349,451) (1420,451) (1420,172) decorate "" at (0,0) {
-  		id _sF5jEVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _Ziqi4VuNEe2UtLY7Wb082w  decorate "" at (0,0) {
+  		id _amRU8VuNEe2UtLY7Wb082w
   		concurrent true
   	}
   }
@@ -138,9 +142,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
+  		-ComplexDirectDataFlow-> _cCjpwVuuEe2ynpC10MMKgg via (1439,316) (1459,467) decorate "" at (0,0) {
+  			id _cwvlcVuuEe2ynpC10MMKgg
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1509,450) (1580,450) (1580,172) decorate "" at (0,0) {
-  		id _u5uVkVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _cCW1cVuuEe2ynpC10MMKgg  decorate "" at (0,0) {
+  		id _chVQcVuuEe2ynpC10MMKgg
   		concurrent true
   	}
   }
@@ -237,6 +245,52 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	name "back"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1270,492) (1270,172) decorate "" at (0,0) {
   		id _Bz9mQFOoEe2KQc5QIsW97w
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _Ziqi4VuNEe2UtLY7Wb082w at 1300,382 size 120,90 {
+  	libraryComponentUID "_mdniwVtTEe2ySJBy9D3dpw"
+  	label "BiddingEditProcess"
+  	ignoredBranch [  ]
+  	ComplexInputPort _Wk9_sVuuEe2ynpC10MMKgg at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _ZjIc8VuNEe2UtLY7Wb082w   {
+  		id _ZjK5MVuNEe2UtLY7Wb082w
+  		concurrent true
+  	}
+  }
+  
+  Branch _ZjIc8VuNEe2UtLY7Wb082w at 1300,490 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1360,172) decorate "" at (0,0) {
+  		id _X60_YVuuEe2ynpC10MMKgg
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _cCW1cVuuEe2ynpC10MMKgg at 1480,391 size 120,90 {
+  	libraryComponentUID "_tvxu4VutEe2ynpC10MMKgg"
+  	label "deleteBidding"
+  	ignoredBranch [  ]
+  	ComplexInputPort _cCjpwVuuEe2ynpC10MMKgg at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _cCpwYVuuEe2ynpC10MMKgg   {
+  		id _cCsMoVuuEe2ynpC10MMKgg
+  		concurrent true
+  	}
+  }
+  
+  Branch _cCpwYVuuEe2ynpC10MMKgg at 1449,490 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1508,172) decorate "" at (0,0) {
+  		id _d_yLcVuuEe2ynpC10MMKgg
   		concurrent true
   	}
   }

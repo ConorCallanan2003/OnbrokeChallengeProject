@@ -1,0 +1,53 @@
+Process _tvxu4VutEe2ynpC10MMKgg {
+  modelName "deleteBidding"
+  description "deleteBidding"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _t4yg8VutEe2ynpC10MMKgg at 20,20 size 210,80 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _t40WIFutEe2ynpC10MMKgg at 330,20 size 100,90 {
+  	ComplexOutputPort _wVfz8VutEe2ynpC10MMKgg at 5,67 size 90,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  		-ComplexDirectDataFlow-> _7rCgsFwtEe2d79mobnuSHQ via (310,96) (310,246) decorate "" at (0,0) {
+  			id _-OTusVwtEe2d79mobnuSHQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _5e1H0FwtEe2d79mobnuSHQ  decorate "" at (0,0) {
+  		id __JqjsVwtEe2d79mobnuSHQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _t409MVutEe2ynpC10MMKgg at 340,410 size 100,65 {
+  	branchName "success"
+  }
+  
+  DeleteSIB _5e1H0FwtEe2d79mobnuSHQ at 320,170 size 120,90 {
+  	force true
+  	label "Delete"
+  	ignoredBranch [  ]
+  	ComplexInputPort _7rCgsFwtEe2d79mobnuSHQ at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _5h8tQFwtEe2d79mobnuSHQ   {
+  		id _5iKIoVwtEe2d79mobnuSHQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _5h8tQFwtEe2d79mobnuSHQ at 310,320 size 120,25 {
+  	name "deleted"
+  	-ControlFlow-> _t409MVutEe2ynpC10MMKgg  decorate "" at (0,0) {
+  		id _-1xXUVwtEe2d79mobnuSHQ
+  		concurrent true
+  	}
+  }
+}
