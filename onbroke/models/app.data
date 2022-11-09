@@ -154,16 +154,16 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,304 size 140,127 {
+  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,304 size 140,145 {
   	name "Bidding"
-  	BidirectionalAttribute _T0d8UVFNEe2J0bu3ffrh5w at 5,104 size 130,18 {
+  	BidirectionalAttribute _T0d8UVFNEe2J0bu3ffrh5w at 5,122 size 130,18 {
   		oppositeAttribute _T0OEsVFNEe2J0bu3ffrh5w
   		dataType _dh6BYMwNEeWZVvvwxpYu8A
   		name "user"
   		isList false
   	}
   	
-  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,68 size 130,18 {
+  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,86 size 130,18 {
   		oppositeAttribute _xZISQVGIEe2J0bu3ffrh5w
   		dataType _DJ1LAVFNEe2J0bu3ffrh5w
   		name "offer"
@@ -176,16 +176,22 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,50 size 130,18 {
+  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,68 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "features"
   		isList true
   	}
   	
-  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,86 size 130,18 {
+  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,104 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "preferences"
   		isList true
+  	}
+  	
+  	PrimitiveAttribute _qo9BUWBiEe2zFOcETdlBwQ at 5,50 size 130,18 {
+  		dataType Text
+  		name "description"
+  		isList false
   	}
   	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
   		id _h2jugVGDEe2J0bu3ffrh5w

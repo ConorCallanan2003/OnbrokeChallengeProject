@@ -13,7 +13,7 @@ Process _tvxu4VutEe2ynpC10MMKgg {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
-  		-ComplexDirectDataFlow-> _7rCgsFwtEe2d79mobnuSHQ via (310,96) (330,376) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _7rCgsFwtEe2d79mobnuSHQ via (310,96) (320,376) decorate "" at (0,0) {
   			id _-OTusVwtEe2d79mobnuSHQ
   			dfViewWorkaround true
   		}
@@ -33,7 +33,7 @@ Process _tvxu4VutEe2ynpC10MMKgg {
   	branchName "success"
   }
   
-  DeleteSIB _5e1H0FwtEe2d79mobnuSHQ at 340,300 size 120,90 {
+  DeleteSIB _5e1H0FwtEe2d79mobnuSHQ at 330,300 size 120,90 {
   	force true
   	label "Delete"
   	ignoredBranch [  ]
