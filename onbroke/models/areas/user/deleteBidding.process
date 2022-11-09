@@ -13,22 +13,22 @@ Process _tvxu4VutEe2ynpC10MMKgg {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
-  		-ComplexDirectDataFlow-> _7rCgsFwtEe2d79mobnuSHQ via (310,96) (310,246) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _7rCgsFwtEe2d79mobnuSHQ via (310,96) (330,376) decorate "" at (0,0) {
   			id _-OTusVwtEe2d79mobnuSHQ
   			dfViewWorkaround true
   		}
   	}
-  	-ControlFlow-> _5e1H0FwtEe2d79mobnuSHQ  decorate "" at (0,0) {
-  		id __JqjsVwtEe2d79mobnuSHQ
+  	-ControlFlow-> _bfwnsWAtEe2KJog_oImiIQ  decorate "" at (0,0) {
+  		id _kJI4UWAtEe2KJog_oImiIQ
   		concurrent true
   	}
   }
   
-  EndSIB _t409MVutEe2ynpC10MMKgg at 340,410 size 100,65 {
+  EndSIB _t409MVutEe2ynpC10MMKgg at 360,490 size 100,65 {
   	branchName "success"
   }
   
-  DeleteSIB _5e1H0FwtEe2d79mobnuSHQ at 320,170 size 120,90 {
+  DeleteSIB _5e1H0FwtEe2d79mobnuSHQ at 340,300 size 120,90 {
   	force true
   	label "Delete"
   	ignoredBranch [  ]
@@ -43,10 +43,49 @@ Process _tvxu4VutEe2ynpC10MMKgg {
   	}
   }
   
-  Branch _5h8tQFwtEe2d79mobnuSHQ at 310,320 size 120,25 {
+  Branch _5h8tQFwtEe2d79mobnuSHQ at 330,410 size 120,25 {
   	name "deleted"
   	-ControlFlow-> _t409MVutEe2ynpC10MMKgg  decorate "" at (0,0) {
   		id _-1xXUVwtEe2d79mobnuSHQ
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _bfwnsWAtEe2KJog_oImiIQ at 380,130 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_sR_EMGAsEe2KJog_oImiIQ"
+  	name "deleteBiddingConfirm"
+  	label "deleteBiddingConfirm"
+  	ignoredBranch [  ]
+  	ComplexInputPort _bf-qIWAtEe2KJog_oImiIQ at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _bgEwwWAtEe2KJog_oImiIQ   {
+  		id _bgHNAWAtEe2KJog_oImiIQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _bgK3YWAtEe2KJog_oImiIQ   {
+  		id _bgMFgWAtEe2KJog_oImiIQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _bgEwwWAtEe2KJog_oImiIQ at 320,263 size 120,25 {
+  	name "Confirm"
+  	-ControlFlow-> _5e1H0FwtEe2d79mobnuSHQ  decorate "" at (0,0) {
+  		id _l3eCYWAtEe2KJog_oImiIQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _bgK3YWAtEe2KJog_oImiIQ at 439,263 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _t409MVutEe2ynpC10MMKgg  decorate "" at (0,0) {
+  		id _n3pKYWAtEe2KJog_oImiIQ
   		concurrent true
   	}
   }
