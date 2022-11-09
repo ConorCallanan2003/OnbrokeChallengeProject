@@ -122,7 +122,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   	}
   }
   
-  Template _Go978Vm_Ee2zbeoDKccEjg_INTERNAL at 240,10 size 520,960 {
+  Template _Go978Vm_Ee2zbeoDKccEjg_INTERNAL at 240,10 size 520,1170 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _GpBmUFm_Ee2zbeoDKccEjg {
@@ -131,7 +131,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _GpECkVm_Ee2zbeoDKccEjg_INTERNAL at 10,90 size 500,840 {
+  	Row _GpECkVm_Ee2zbeoDKccEjg_INTERNAL at 10,90 size 500,1050 {
   		generalStyle GeneralStyling _GpeSQFm_Ee2zbeoDKccEjg {
   				tallness Fitting
   				marginBottom None
@@ -144,7 +144,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		MoveDown _GpNzkFm_Ee2zbeoDKccEjg_INTERNAL at 2,10 size 14,7 {
   		}
   		
-  		Col _GpSsEFm_Ee2zbeoDKccEjg_INTERNAL at 10,30 size 470,790 {
+  		Col _GpSsEFm_Ee2zbeoDKccEjg_INTERNAL at 10,30 size 470,1000 {
   			wideness Full
   			layout Layout _GpdEIFm_Ee2zbeoDKccEjg {
   					size Default
@@ -163,7 +163,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			MoveRight _GpXkkVm_Ee2zbeoDKccEjg_INTERNAL at 10,2 size 7,14 {
   			}
   			
-  			Button _b9LjoVnDEe2zb-oDKccEjg_INTERNAL at 10,630 size 200,60 {
+  			Button _b9LjoVnDEe2zb-oDKccEjg_INTERNAL at 10,840 size 200,60 {
   				label "Submit"
   				styling ButtonStyling _b9a0MFnDEe2zb-oDKccEjg {
   						fullWidth false
@@ -193,7 +193,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				}
   			}
   			
-  			Form _-HWNIFtTEe2ySJBy9D3dpw_INTERNAL at 10,30 size 450,590 {
+  			Form _-HWNIFtTEe2ySJBy9D3dpw_INTERNAL at 10,100 size 450,730 {
   				inline false
   				generalStyle GeneralStyling _-IDXwFtTEe2ySJBy9D3dpw {
   						tallness Fitting
@@ -207,7 +207,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				MoveDown _-HglMVtTEe2ySJBy9D3dpw_INTERNAL at 2,10 size 14,7 {
   				}
   				
-  				Row _YKs38V3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 430,530 {
+  				Row _YKs38V3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 430,670 {
   					generalStyle GeneralStyling _YL1gYF3eEe2HQ8xwZL7uug {
   							tallness Fitting
   							marginBottom None
@@ -220,7 +220,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   					MoveDown _YK1a0V3eEe2HQ8xwZL7uug_INTERNAL at 2,10 size 14,7 {
   					}
   					
-  					Col _YK5sQV3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 400,480 {
+  					Col _YK5sQV3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 400,620 {
   						wideness Full
   						layout Layout _YLgJMF3eEe2HQ8xwZL7uug {
   								size Default
@@ -239,7 +239,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   						MoveRight _YLF5gV3eEe2HQ8xwZL7uug_INTERNAL at 10,2 size 7,14 {
   						}
   						
-  						Table _NVwBQV3WEe2FVevBlBmE3A_INTERNAL at 10,100 size 380,170 {
+  						Table _NVwBQV3WEe2FVevBlBmE3A_INTERNAL at 10,170 size 380,170 {
   							striped true
   							numbering false
   							pagination 0
@@ -351,7 +351,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							}
   						}
   						
-  						Table _a_RZAV7pEe2MjMOCwlD7jg at 10,280 size 250,170 {
+  						Table _a_RZAV7pEe2MjMOCwlD7jg at 10,420 size 250,170 {
   							striped true
   							numbering false
   							pagination 0
@@ -424,11 +424,71 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   								}
   							}
   						}
+  						
+  						Button _EABIkF-lEe2c5ZoBUTVdBw at 10,100 size 200,60 {
+  							label "Create new feature"
+  							styling ButtonStyling _EBMNQF-lEe2c5ZoBUTVdBw {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions _EBV-QF-lEe2c5ZoBUTVdBw {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon _EAuTMF-lEe2c5ZoBUTVdBw {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _EAaKIF-lEe2c5ZoBUTVdBw {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _EAMuwV-lEe2c5ZoBUTVdBw at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _EAPLAV-lEe2c5ZoBUTVdBw at 2,10 size 14,7 {
+  							}
+  						}
+  						
+  						Button _Eli3gV-lEe2c5ZoBUTVdBw at 10,350 size 200,60 {
+  							label "Create new preference"
+  							styling ButtonStyling _EmCmwF-lEe2c5ZoBUTVdBw {
+  									fullWidth false
+  									size Default
+  									disabled false
+  									color Default
+  								}
+  							options ButtonOptions _EmZzIF-lEe2c5ZoBUTVdBw {
+  									isLink false
+  									submitsForm true
+  								}
+  							disabled false
+  							icon Icon _ElsBcF-lEe2c5ZoBUTVdBw {
+  									postIcon None
+  									preIcon None
+  								}
+  							generalStyle GeneralStyling _EllTwF-lEe2c5ZoBUTVdBw {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveUp _ElkFoV-lEe2c5ZoBUTVdBw at 2,2 size 14,7 {
+  							}
+  							
+  							MoveDown _ElkFo1-lEe2c5ZoBUTVdBw at 2,10 size 14,7 {
+  							}
+  						}
   					}
   				}
   			}
   			
-  			Button _wIQk8V7pEe2MjcOCwlD7jg at 10,700 size 200,60 {
+  			Button _wIQk8V7pEe2MjcOCwlD7jg at 10,910 size 200,60 {
   				label "Label"
   				styling ButtonStyling _wIxiUF7pEe2MjcOCwlD7jg {
   						fullWidth false
@@ -455,6 +515,36 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				}
   				
   				MoveDown _wIWrkV7pEe2MjcOCwlD7jg at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _BoausWALEe2YNpeIwSxEfw at 10,30 size 200,60 {
+  				label "Refresh"
+  				styling ButtonStyling _BqOFgGALEe2YNpeIwSxEfw {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				options ButtonOptions _Bqa50GALEe2YNpeIwSxEfw {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _Bo1lcGALEe2YNpeIwSxEfw {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _BoeZEGALEe2YNpeIwSxEfw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _BodK8WALEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _BodK82ALEe2YNpeIwSxEfw at 2,10 size 14,7 {
   				}
   			}
   		}
