@@ -113,7 +113,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   						fullWidth false
   						size Default
   						disabled false
-  						color Default
+  						color Green
   					}
   				options ButtonOptions _xnyEMGAsEe2KJog_oImiIQ {
   						isLink false
@@ -121,7 +121,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   					}
   				disabled false
   				icon Icon _xnvA4WAsEe2KJog_oImiIQ {
-  						postIcon None
+  						postIcon Check
   						preIcon None
   					}
   				generalStyle GeneralStyling _xnvA4GAsEe2KJog_oImiIQ {
@@ -152,7 +152,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   				disabled false
   				icon Icon _020zEGAsEe2KJog_oImiIQ {
   						postIcon None
-  						preIcon None
+  						preIcon ArrowLeft
   					}
   				generalStyle GeneralStyling _02yW0GAsEe2KJog_oImiIQ {
   						tallness Fitting
