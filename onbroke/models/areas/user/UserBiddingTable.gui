@@ -4,7 +4,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "UserBiddingTable"
-  DataContext _uST3oVFOEe2J0bu3ffrh5w at 10,10 size 221,454 {
+  DataContext _uST3oVFOEe2J0bu3ffrh5w at 10,10 size 221,737 {
   	dfViewWorkaround true
   	ComplexVariable _yjDUEVFOEe2J0bu3ffrh5w at 10,80 size 201,25 {
   		expanded false
@@ -34,7 +34,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   		}
   	}
   	
-  	ComplexVariable _2ZbvwVFOEe2J0bu3ffrh5w at 10,130 size 201,294 {
+  	ComplexVariable _2ZbvwVFOEe2J0bu3ffrh5w at 10,130 size 201,267 {
   		expanded true
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
@@ -80,18 +80,13 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   		PrimitiveAttribute _mV_iIV1TEe22EcnnM_xaIQ at 10,212 size 181,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
-  			-TableColumnLoad-> _xZ0bKlFOEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
-  				id _RqEIkWBnEe2Ruocz95LX5w
+  			-TableColumnLoad-> _1_Ld0WDSEe2HtLNu6rgXKQ  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _6zEqoWDSEe2HtLNu6rgXKQ
   			}
   		}
   		
   		PrimitiveExtensionAttribute _mWAJMV1TEe22EcnnM_xaIQ at 10,239 size 181,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
-  			isLive false
-  		}
-  		
-  		ComplexAttribute _PAKHEGBnEe2Ruocz95LX5w at 10,266 size 181,25 {
-  			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
   			isLive false
   		}
   		-AddComplexToSubmission-> _xZ1CjFFOEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
@@ -105,10 +100,72 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   		-AddComplexToSubmission-> _xZ1pWlFOEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _7sgy8VFOEe2J0bu3ffrh5w
   		}
+  		
+  		-ComplexAttributeConnector-> _s4WcMWDSEe2HtLNu6rgXKQ  decorate "Ellipse" at (0,0) {
+  			id _s4oJAWDSEe2HtLNu6rgXKQ
+  			associationName "offer"
+  		}
+  	}
+  	
+  	ComplexVariable _s4WcMWDSEe2HtLNu6rgXKQ at 10,440 size 201,267 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput false
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _s5SQUWDSEe2HtLNu6rgXKQ at 10,239 size 181,25 {
+  			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _s5TecWDSEe2HtLNu6rgXKQ at 10,50 size 181,25 {
+  			libraryComponentUID "_xZISQVGIEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _s5Tec2DSEe2HtLNu6rgXKQ at 10,158 size 181,25 {
+  			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _s5UFgWDSEe2HtLNu6rgXKQ at 10,104 size 181,25 {
+  			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _s5UskWDSEe2HtLNu6rgXKQ at 10,185 size 181,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _s5Y-AWDSEe2HtLNu6rgXKQ at 10,77 size 181,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _s5Y-A2DSEe2HtLNu6rgXKQ at 10,131 size 181,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _s5dPcWDSEe2HtLNu6rgXKQ at 10,212 size 181,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _xZ0bKlFOEe2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _xeUhwWDSEe2HtLNu6rgXKQ
+  			}
+  		}
+  		
+  		PrimitiveExtensionAttribute _s5fEoWDSEe2HtLNu6rgXKQ at 10,23 size 181,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  		}
   	}
   }
   
-  Template _uSVFwVFOEe2J0bu3ffrh5w at 300,10 size 950,350 {
+  Template _uSVFwVFOEe2J0bu3ffrh5w at 300,10 size 1180,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _uSVFwlFOEe2J0bu3ffrh5w {
@@ -117,7 +174,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Table _xZzNAVFOEe2J0bu3ffrh5w at 10,100 size 930,220 {
+  	Table _xZzNAVFOEe2J0bu3ffrh5w at 10,100 size 1160,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -164,7 +221,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   						renderMarkdown false
   						maxChars 0
   						html false
-  						rawContent "{{bidding.title}}"
+  						rawContent "{{bidding.offer.title}}"
   						styling TextStyling _xZ0bR1FOEe2J0bu3ffrh5w {
   								small false
   								highlight false
@@ -190,7 +247,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		TableEntry _xZ0bUVFOEe2J0bu3ffrh5w at 240,30 size 670,170 {
+  		TableEntry _xZ0bUVFOEe2J0bu3ffrh5w at 470,30 size 670,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -313,6 +370,54 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   					
   					MoveRight _xZ1pZ1FOEe2J0bu3ffrh5w at 10,2 size 7,14 {
   					}
+  				}
+  			}
+  		}
+  		
+  		TableEntry _1_Ld0WDSEe2HtLNu6rgXKQ at 240,30 size 220,120 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Bidding"
+  			sortable false
+  			generalStyle GeneralStyling _1_m7oGDSEe2HtLNu6rgXKQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _1_V14WDSEe2HtLNu6rgXKQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _1_Wc8WDSEe2HtLNu6rgXKQ at 10,2 size 7,14 {
+  			}
+  			
+  			Text _4VLr4WDSEe2HtLNu6rgXKQ at 10,30 size 200,60 {
+  				content [ StaticContent _4VbjgGDSEe2HtLNu6rgXKQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{bidding.title}}"
+  						styling TextStyling _4Vd_wGDSEe2HtLNu6rgXKQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _4VUOwGDSEe2HtLNu6rgXKQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _4VRygWDSEe2HtLNu6rgXKQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _4VSZkWDSEe2HtLNu6rgXKQ at 2,10 size 14,7 {
   				}
   			}
   		}

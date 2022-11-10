@@ -552,6 +552,12 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   	Panel _E8DFMGBkEe2RsYcz95LX5w at 10,890 size 220,120 {
   		collapsable false
   		defaultOpen "true"
+  		heading StaticContent _SO7TQGDiEe2HtbNu6rgXKQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Description"
+  			}
   		coloring ComponentColoring _E9CjsGBkEe2RsYcz95LX5w {
   				color Default
   			}
@@ -559,7 +565,8 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   				tallness Fitting
   				marginBottom None
   				attributes [  ]
-  				marginTop None
+  				marginTop Triple
+  				rawContent ""
   			}
   		MoveUp _E8UK8WBkEe2RsYcz95LX5w at 2,2 size 14,7 {
   		}

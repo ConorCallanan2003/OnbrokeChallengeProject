@@ -6,7 +6,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   title "BiddingAreaEdit"
   DataContext _Go5DcVm_Ee2zbeoDKccEjg_INTERNAL at 40,0 size 180,1005 {
   	dfViewWorkaround true
-  	ComplexVariable _JJXtIV3mEe2HRMxwZL7uug_INTERNAL at 10,570 size 160,25 {
+  	ComplexVariable _JJXtIV3mEe2HRMxwZL7uug_INTERNAL at 17,540 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -18,7 +18,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			id _K3QLQV3mEe2HRMxwZL7uug_INTERNAL
   		}
   		
-  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (40,552) (40,1290) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _Lg6zUV3mEe2HRMxwZL7uug_INTERNAL
   		}
   	}
@@ -33,7 +33,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		isList false
   	}
   	
-  	ComplexVariable _KK_rwV3yEe2HVMxwZL7uug at 10,160 size 160,25 {
+  	ComplexVariable _KK_rwV3yEe2HVMxwZL7uug at 0,140 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -46,12 +46,12 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributeName current
   		}
   		
-  		-TableLoad-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL via (30,152) (30,590) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _MyZL0V3yEe2HVMxwZL7uug
   		}
   	}
   	
-  	ComplexVariable _MOl7MV3yEe2HVMxwZL7uug at 10,230 size 160,25 {
+  	ComplexVariable _MOl7MV3yEe2HVMxwZL7uug at 0,189 size 160,51 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -59,24 +59,31 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "feature"
   		dfViewWorkaround true
   		isList false
+  		PrimitiveAttribute _MGNEsWDmEe2niNyWP4DbtA at 10,23 size 140,25 {
+  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _N6ftEV3WEe2FVevBlBmE3A_INTERNAL via (40,224) (40,570) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _NLvJYWDmEe2niNyWP4DbtA
+  			}
+  		}
   	}
   	
-  	PrimitiveVariable _SqPbAV7ZEe2AfsprczT5lQ at 20,520 size 140,25 {
+  	PrimitiveVariable _SqPbAV7ZEe2AfsprczT5lQ at 10,770 size 140,25 {
   		dataType Text
   		isInput false
   		name "title"
   		dfViewWorkaround true
   		isList false
-  		-FormLoadSubmit-> _X37A0F7ZEe2AfsprczT5lQ  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-FormLoadSubmit-> _X37A0F7ZEe2AfsprczT5lQ via (30,782) (30,310) decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _a1bTwF7ZEe2AfsprczT5lQ
   		}
   		
-  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (30,782) (30,1290) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _b1Xt0F7ZEe2AfsprczT5lQ
   		}
   	}
   	
-  	ComplexVariable _nRZR8V7pEe2MjcOCwlD7jg at 10,610 size 160,25 {
+  	ComplexVariable _nRZR8V7pEe2MjcOCwlD7jg at 17,700 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -84,11 +91,11 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "selectedPreferences"
   		dfViewWorkaround true
   		isList true
-  		-ComplexDataTarget-> _a_RZAV7pEe2MjMOCwlD7jg  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  		-ComplexDataTarget-> _a_RZAV7pEe2MjMOCwlD7jg via (40,712) (40,925) decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
   			id _sFn18V7pEe2MjcOCwlD7jg
   		}
   		
-  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (40,730) (40,1310) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _87eYwV7pEe2MjcOCwlD7jg
   		}
   	}
@@ -106,7 +113,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributeName current
   		}
   		
-  		-TableLoad-> _a_RZAV7pEe2MjMOCwlD7jg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _a_RZAV7pEe2MjMOCwlD7jg via (30,332) (30,925) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _5eqCQV9aEe2NEczcaLyZmg
   		}
   	}
@@ -127,11 +134,11 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "description"
   		dfViewWorkaround true
   		isList false
-  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (40,950) (40,1270) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _W3khgWBiEe2zFOcETdlBwQ
   		}
   		
-  		-FormLoadSubmit-> _CRDJcWBiEe2zFOcETdlBwQ  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-FormLoadSubmit-> _CRDJcWBiEe2zFOcETdlBwQ via (40,962) (40,1110) decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _ZGCkMWBiEe2zFOcETdlBwQ
   		}
   	}
@@ -257,6 +264,12 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   						Panel _BRdKIWBhEe2z_pJXnN5yhQ at 10,30 size 220,120 {
   							collapsable false
   							defaultOpen "true"
+  							heading StaticContent _ZlreYGDiEe2HtbNu6rgXKQ {
+  									renderMarkdown false
+  									maxChars 0
+  									html false
+  									rawContent "Title"
+  								}
   							coloring ComponentColoring _BSJGoGBhEe2z_pJXnN5yhQ {
   									color Default
   								}
