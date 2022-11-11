@@ -51,7 +51,7 @@ Process _i06ZIV-lEe2c5ZoBUTVdBw {
   		dataType Text
   		isList false
   		name "title"
-  		-PrimitiveDirectDataFlow-> _UvorEV-mEe2Y_7LmLNugjg via (430,262) (440,420) decorate "" at (0,0) {
+  		-PrimitiveDirectDataFlow-> _UvorEV-mEe2Y_7LmLNugjg via (430,262) (430,402) decorate "" at (0,0) {
   			id _Vka-AF-mEe2Y_7LmLNugjg
   			dfViewWorkaround true
   		}
@@ -62,7 +62,7 @@ Process _i06ZIV-lEe2c5ZoBUTVdBw {
   	}
   }
   
-  CreateSIB _TxV20V-mEe2Y_7LmLNugjg at 450,290 size 120,162 {
+  CreateSIB _TxV20V-mEe2Y_7LmLNugjg at 450,290 size 120,144 {
   	libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   	label "Create Feature"
   	ignoredBranch [  ]
@@ -72,24 +72,18 @@ Process _i06ZIV-lEe2c5ZoBUTVdBw {
   		name "internalName"
   	}
   	
-  	ComplexInputPort _UvKxAV-mEe2Y_7LmLNugjg at 5,85 size 110,18 {
-  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
-  		isList false
-  		name "priority"
-  	}
-  	
-  	BooleanInputStatic _MFJKul-nEe2Y_7LmLNugjg at 5,103 size 110,18 {
+  	BooleanInputStatic _MFJKul-nEe2Y_7LmLNugjg at 5,85 size 110,18 {
   		value false
   		name "isTemplateForOffer"
   	}
   	
-  	PrimitiveInputPort _UvorEV-mEe2Y_7LmLNugjg at 5,121 size 110,18 {
+  	PrimitiveInputPort _UvorEV-mEe2Y_7LmLNugjg at 5,103 size 110,18 {
   		dataType Text
   		isList false
   		name "title"
   	}
   	
-  	BooleanInputStatic _LIiYgV-nEe2Y_7LmLNugjg at 5,139 size 110,18 {
+  	BooleanInputStatic _LIiYgV-nEe2Y_7LmLNugjg at 5,121 size 110,18 {
   		value true
   		name "isTemplateForBidding"
   	}

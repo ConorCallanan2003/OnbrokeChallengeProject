@@ -4,9 +4,9 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "BiddingAreaEdit"
-  DataContext _Go5DcVm_Ee2zbeoDKccEjg_INTERNAL at 40,0 size 180,1005 {
+  DataContext _Go5DcVm_Ee2zbeoDKccEjg_INTERNAL at 40,140 size 180,1085 {
   	dfViewWorkaround true
-  	ComplexVariable _JJXtIV3mEe2HRMxwZL7uug_INTERNAL at 10,570 size 160,25 {
+  	ComplexVariable _JJXtIV3mEe2HRMxwZL7uug_INTERNAL at 0,630 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -14,26 +14,16 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "selectedFeatures"
   		dfViewWorkaround true
   		isList true
-  		-ComplexDataTarget-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  		-ComplexDataTarget-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL via (255,782) (255,635) decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
   			id _K3QLQV3mEe2HRMxwZL7uug_INTERNAL
   		}
   		
-  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (30,782) (30,1600) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _Lg6zUV3mEe2HRMxwZL7uug_INTERNAL
   		}
   	}
   	
-  	ComplexVariable _vGgnMV3wEe2HVMxwZL7uug at 10,40 size 160,25 {
-  		expanded false
-  		isLive false
-  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
-  		isInput true
-  		name "biddings"
-  		dfViewWorkaround true
-  		isList false
-  	}
-  	
-  	ComplexVariable _KK_rwV3yEe2HVMxwZL7uug at 10,160 size 160,25 {
+  	ComplexVariable _KK_rwV3yEe2HVMxwZL7uug at 10,450 size 160,25 index 4 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -46,12 +36,12 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributeName current
   		}
   		
-  		-TableLoad-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL via (260,602) (260,635) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _MyZL0V3yEe2HVMxwZL7uug
   		}
   	}
   	
-  	ComplexVariable _MOl7MV3yEe2HVMxwZL7uug at 10,230 size 160,25 {
+  	ComplexVariable _MOl7MV3yEe2HVMxwZL7uug at 10,510 size 160,51 index 5 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -59,24 +49,16 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "feature"
   		dfViewWorkaround true
   		isList false
-  	}
-  	
-  	PrimitiveVariable _SqPbAV7ZEe2AfsprczT5lQ at 20,520 size 140,25 {
-  		dataType Text
-  		isInput false
-  		name "title"
-  		dfViewWorkaround true
-  		isList false
-  		-FormLoadSubmit-> _X37A0F7ZEe2AfsprczT5lQ  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _a1bTwF7ZEe2AfsprczT5lQ
-  		}
-  		
-  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _b1Xt0F7ZEe2AfsprczT5lQ
+  		PrimitiveAttribute _MGNEsWDmEe2niNyWP4DbtA at 10,23 size 140,25 {
+  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _N6ftEV3WEe2FVevBlBmE3A_INTERNAL via (260,685) (260,640) decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _WkzEcWHsEe2qD5qkkJmaRQ
+  			}
   		}
   	}
   	
-  	ComplexVariable _nRZR8V7pEe2MjcOCwlD7jg at 10,610 size 160,25 {
+  	ComplexVariable _nRZR8V7pEe2MjcOCwlD7jg at 10,1030 size 160,25 index 1 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -84,16 +66,16 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "selectedPreferences"
   		dfViewWorkaround true
   		isList true
-  		-ComplexDataTarget-> _a_RZAV7pEe2MjMOCwlD7jg  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  		-ComplexDataTarget-> _a_RZAV7pEe2MjMOCwlD7jg via (260,1182) (260,1055) decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
   			id _sFn18V7pEe2MjcOCwlD7jg
   		}
   		
-  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddComplexToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (40,1182) (40,1600) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _87eYwV7pEe2MjcOCwlD7jg
   		}
   	}
   	
-  	ComplexVariable _y8pt0V9aEe2NEczcaLyZmg at 0,320 size 160,25 {
+  	ComplexVariable _y8pt0V9aEe2NEczcaLyZmg at 20,920 size 160,25 index 2 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -106,12 +88,12 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributeName current
   		}
   		
-  		-TableLoad-> _a_RZAV7pEe2MjMOCwlD7jg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _a_RZAV7pEe2MjMOCwlD7jg via (265,1072) (265,1055) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _5eqCQV9aEe2NEczcaLyZmg
   		}
   	}
   	
-  	ComplexVariable _25D5AV9aEe2NEczcaLyZmg at 0,390 size 160,25 {
+  	ComplexVariable _25D5AV9aEe2NEczcaLyZmg at 20,970 size 160,25 index 3 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -119,25 +101,13 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		name "preference"
   		dfViewWorkaround true
   		isList false
-  	}
-  	
-  	PrimitiveVariable _Tm2XoWBiEe2zFOcETdlBwQ at 10,950 size 140,25 {
-  		dataType Text
-  		isInput false
-  		name "description"
-  		dfViewWorkaround true
-  		isList false
-  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _W3khgWBiEe2zFOcETdlBwQ
-  		}
-  		
-  		-FormLoadSubmit-> _CRDJcWBiEe2zFOcETdlBwQ  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _ZGCkMWBiEe2zFOcETdlBwQ
+  		-TableColumnLoad-> _bfZqkV7pEe2MjMOCwlD7jg via (270,1122) (270,1060) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _XgkwMWHsEe2qD5qkkJmaRQ
   		}
   	}
   }
   
-  Template _Go978Vm_Ee2zbeoDKccEjg_INTERNAL at 240,10 size 540,1410 {
+  Template _Go978Vm_Ee2zbeoDKccEjg_INTERNAL at 240,10 size 540,1630 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _GpBmUFm_Ee2zbeoDKccEjg {
@@ -146,7 +116,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _GpECkVm_Ee2zbeoDKccEjg_INTERNAL at 10,90 size 520,1290 {
+  	Row _GpECkVm_Ee2zbeoDKccEjg_INTERNAL at 10,90 size 520,1510 {
   		generalStyle GeneralStyling _GpeSQFm_Ee2zbeoDKccEjg {
   				tallness Fitting
   				marginBottom None
@@ -159,7 +129,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		MoveDown _GpNzkFm_Ee2zbeoDKccEjg_INTERNAL at 2,10 size 14,7 {
   		}
   		
-  		Col _GpSsEFm_Ee2zbeoDKccEjg_INTERNAL at 10,30 size 490,1240 {
+  		Col _GpSsEFm_Ee2zbeoDKccEjg_INTERNAL at 10,30 size 490,1460 {
   			wideness Full
   			layout Layout _GpdEIFm_Ee2zbeoDKccEjg {
   					size Default
@@ -178,7 +148,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			MoveRight _GpXkkVm_Ee2zbeoDKccEjg_INTERNAL at 10,2 size 7,14 {
   			}
   			
-  			Button _b9LjoVnDEe2zb-oDKccEjg_INTERNAL at 10,1080 size 200,60 {
+  			Button _b9LjoVnDEe2zb-oDKccEjg_INTERNAL at 10,1300 size 200,60 {
   				label "Submit"
   				styling ButtonStyling _b9a0MFnDEe2zb-oDKccEjg {
   						fullWidth false
@@ -208,7 +178,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				}
   			}
   			
-  			Form _-HWNIFtTEe2ySJBy9D3dpw_INTERNAL at 10,30 size 470,1040 {
+  			Form _-HWNIFtTEe2ySJBy9D3dpw_INTERNAL at 10,30 size 470,1260 {
   				inline false
   				generalStyle GeneralStyling _-IDXwFtTEe2ySJBy9D3dpw {
   						tallness Fitting
@@ -222,7 +192,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				MoveDown _-HglMVtTEe2ySJBy9D3dpw_INTERNAL at 2,10 size 14,7 {
   				}
   				
-  				Row _YKs38V3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 450,980 {
+  				Row _YKs38V3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 450,1200 {
   					generalStyle GeneralStyling _YL1gYF3eEe2HQ8xwZL7uug {
   							tallness Fitting
   							marginBottom None
@@ -235,7 +205,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   					MoveDown _YK1a0V3eEe2HQ8xwZL7uug_INTERNAL at 2,10 size 14,7 {
   					}
   					
-  					Col _YK5sQV3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 420,930 {
+  					Col _YK5sQV3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 420,1150 {
   						wideness Full
   						layout Layout _YLgJMF3eEe2HQ8xwZL7uug {
   								size Default
@@ -254,61 +224,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   						MoveRight _YLF5gV3eEe2HQ8xwZL7uug_INTERNAL at 10,2 size 7,14 {
   						}
   						
-  						Panel _BRdKIWBhEe2z_pJXnN5yhQ at 10,30 size 220,120 {
-  							collapsable false
-  							defaultOpen "true"
-  							coloring ComponentColoring _BSJGoGBhEe2z_pJXnN5yhQ {
-  									color Default
-  								}
-  							generalStyle GeneralStyling _BR0WgGBhEe2z_pJXnN5yhQ {
-  									tallness Fitting
-  									marginBottom None
-  									attributes [  ]
-  									marginTop None
-  								}
-  							MoveUp _BRrMkWBhEe2z_pJXnN5yhQ at 2,2 size 14,7 {
-  							}
-  							
-  							MoveDown _BRuP4GBhEe2z_pJXnN5yhQ at 2,10 size 14,7 {
-  							}
-  							
-  							Field _X37A0F7ZEe2AfsprczT5lQ at 10,30 size 200,60 {
-  								maxMB 0
-  								inputType Text
-  								label "Title"
-  								styling FormFieldStyling _X4V3kF7ZEe2AfsprczT5lQ {
-  										size Default
-  										disabled false
-  										color Default
-  									}
-  								additionalOptions FormFieldAdditionalOptions _X4Pw8F7ZEe2AfsprczT5lQ {
-  										readonly false
-  									}
-  								validation FormFieldValidation _X4JqUF7ZEe2AfsprczT5lQ {
-  										min 0
-  										max -1
-  										required false
-  									}
-  								disabled false
-  								icon Icon _X4DjsF7ZEe2AfsprczT5lQ {
-  										postIcon None
-  										preIcon None
-  									}
-  								generalStyle GeneralStyling _X3_SQF7ZEe2AfsprczT5lQ {
-  										tallness Fitting
-  										marginBottom None
-  										attributes [  ]
-  										marginTop None
-  									}
-  								MoveUp _X39dEV7ZEe2AfsprczT5lQ at 2,2 size 14,7 {
-  								}
-  								
-  								MoveDown _X3-EIV7ZEe2AfsprczT5lQ at 2,10 size 14,7 {
-  								}
-  							}
-  						}
-  						
-  						Panel _B8j8oWBhEe2z_pJXnN5yhQ at 10,160 size 400,300 {
+  						Panel _B8j8oWBhEe2z_pJXnN5yhQ at 10,90 size 400,410 {
   							collapsable false
   							defaultOpen "true"
   							coloring ComponentColoring _B823kGBhEe2z_pJXnN5yhQ {
@@ -434,7 +350,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							}
   						}
   						
-  						Panel _f0XS0GBhEe2zFOcETdlBwQ at 10,470 size 270,300 {
+  						Panel _f0XS0GBhEe2zFOcETdlBwQ at 10,510 size 400,410 {
   							collapsable false
   							defaultOpen "true"
   							coloring ComponentColoring _f1AzEGBhEe2zFOcETdlBwQ {
@@ -482,7 +398,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   								}
   							}
   							
-  							Table _a_RZAV7pEe2MjMOCwlD7jg at 10,100 size 250,170 {
+  							Table _a_RZAV7pEe2MjMOCwlD7jg at 10,100 size 380,170 {
   								striped true
   								numbering false
   								pagination 0
@@ -557,7 +473,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							}
   						}
   						
-  						Panel _A9pA0WBiEe2zFOcETdlBwQ at 10,780 size 220,120 {
+  						Panel _A9pA0WBiEe2zFOcETdlBwQ at 10,930 size 220,190 {
   							collapsable false
   							defaultOpen "true"
   							coloring ComponentColoring _A91OEGBiEe2zFOcETdlBwQ {
@@ -575,7 +491,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							MoveDown _A9q2A2BiEe2zFOcETdlBwQ at 2,10 size 14,7 {
   							}
   							
-  							Field _CRDJcWBiEe2zFOcETdlBwQ at 10,30 size 200,60 {
+  							Field _CRDJcWBiEe2zFOcETdlBwQ at 10,100 size 200,60 {
   								maxMB 0
   								inputType Text
   								label "Desription"
@@ -609,12 +525,42 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   								MoveDown _CRMTYWBiEe2zFOcETdlBwQ at 2,10 size 14,7 {
   								}
   							}
+  							
+  							Text _YKdO8WHREe2pvsVyqO_APw at 10,30 size 200,60 {
+  								content [ StaticContent _YK4FsGHREe2pvsVyqO_APw {
+  										renderMarkdown false
+  										maxChars 0
+  										html false
+  										rawContent "Current Desription\n{{bidding.description}}"
+  										styling TextStyling _YK4FsWHREe2pvsVyqO_APw {
+  												small false
+  												highlight false
+  												deleted false
+  												underline false
+  												bold false
+  												alignment Left
+  												italic false
+  												color Default
+  											}
+  									} ]
+  								generalStyle GeneralStyling _YKfEIGHREe2pvsVyqO_APw {
+  										tallness Fitting
+  										marginBottom None
+  										attributes [  ]
+  										marginTop None
+  									}
+  								MoveUp _YKedEWHREe2pvsVyqO_APw at 2,2 size 14,7 {
+  								}
+  								
+  								MoveDown _YKedE2HREe2pvsVyqO_APw at 2,10 size 14,7 {
+  								}
+  							}
   						}
   					}
   				}
   			}
   			
-  			Button _wIQk8V7pEe2MjcOCwlD7jg at 10,1150 size 200,60 {
+  			Button _wIQk8V7pEe2MjcOCwlD7jg at 10,1370 size 200,60 {
   				label "Cancel"
   				styling ButtonStyling _wIxiUF7pEe2MjcOCwlD7jg {
   						fullWidth false
@@ -652,7 +598,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				renderMarkdown false
   				maxChars 0
   				html false
-  				rawContent "{{biddings.title}}"
+  				rawContent "{{bidding.title}}"
   				styling TextStyling _afMlMF1REe22C8nnM_xaIQ {
   						small false
   						highlight false
@@ -674,6 +620,37 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		}
   		
   		MoveDown _afBmEV1REe22C8nnM_xaIQ_INTERNAL at 2,10 size 14,7 {
+  		}
+  	}
+  }
+  
+  DataContext _3jUB0WHJEe2ppMVyqO_APw at 900,90 size 240,85 {
+  	dfViewWorkaround true
+  	ComplexVariable _S06NAWEVEe2I56YW-V6C4A at 40,30 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "bidding"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+  
+  DataContext _LetZQWHKEe2ppMVyqO_APw at 885,1282 size 269,105 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _Tm2XoWBiEe2zFOcETdlBwQ at 60,50 size 140,25 {
+  		dataType Text
+  		isInput false
+  		name "description"
+  		dfViewWorkaround true
+  		isList false
+  		-AddPrimitiveToSubmission-> _b9LjoVnDEe2zb-oDKccEjg_INTERNAL via (1100,1344) (1100,1600) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _W3khgWBiEe2zFOcETdlBwQ
+  		}
+  		
+  		-FormLoadSubmit-> _CRDJcWBiEe2zFOcETdlBwQ via (728,1344) (727,1420) decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _ZGCkMWBiEe2zFOcETdlBwQ
   		}
   	}
   }

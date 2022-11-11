@@ -4,9 +4,9 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "NewBiddingArea"
-  DataContext _ZI9JkWBHEe2Zz8LOII5r3g at 10,40 size 180,1055 {
+  DataContext _ZI9JkWBHEe2Zz8LOII5r3g at 10,40 size 180,785 {
   	dfViewWorkaround true
-  	ComplexVariable _D43aoGBIEe2Zz8LOII5r3g at 10,280 size 160,25 {
+  	ComplexVariable _D43aoGBIEe2Zz8LOII5r3g at 10,480 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -19,12 +19,12 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   			attributeName current
   		}
   		
-  		-TableLoad-> _p7ZzEWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _p7ZzEWBHEe2Zz8LOII5r3g via (225,532) (225,555) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _LkYU0WBIEe2Zz8LOII5r3g
   		}
   	}
   	
-  	ComplexVariable _GNCcsWBIEe2Zz8LOII5r3g at 10,470 size 160,25 {
+  	ComplexVariable _GNCcsWBIEe2Zz8LOII5r3g at 10,670 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -32,7 +32,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		name "preferences"
   		dfViewWorkaround true
   		isList true
-  		-TableLoad-> _qKoh4WBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _qKoh4WBHEe2Zz8LOII5r3g via (225,722) (225,865) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _L9weIWBIEe2Zz8LOII5r3g
   		}
   		
@@ -42,7 +42,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		}
   	}
   	
-  	ComplexVariable _K3GYEGBIEe2Zz8LOII5r3g at 10,330 size 160,25 {
+  	ComplexVariable _K3GYEGBIEe2Zz8LOII5r3g at 10,530 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -52,7 +52,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		isList false
   	}
   	
-  	ComplexVariable _MSpJAWBIEe2Zz8LOII5r3g at 10,530 size 160,25 {
+  	ComplexVariable _MSpJAWBIEe2Zz8LOII5r3g at 10,730 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -62,72 +62,23 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		isList false
   	}
   	
-  	PrimitiveVariable _TVrt8WBIEe2Zz8LOII5r3g at 20,600 size 140,25 {
+  	PrimitiveVariable _TVrt8WBIEe2Zz8LOII5r3g at 20,240 size 140,25 {
   		dataType Text
   		isInput false
   		name "title"
   		dfViewWorkaround true
   		isList false
-  		-FormLoadSubmit-> _kwsBsWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _VeJ2UWBIEe2Zz8LOII5r3g
-  		}
-  		
-  		-AddPrimitiveToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-AddPrimitiveToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g via (20,292) (20,1210) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _WBoW0WBIEe2Zz8LOII5r3g
   		}
-  	}
-  	
-  	ComplexVariable _Y1SxQWBIEe2Zz8LOII5r3g at 10,660 size 160,25 {
-  		expanded false
-  		isLive false
-  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
-  		isInput false
-  		name "selectedFeature"
-  		dfViewWorkaround true
-  		isList true
-  		-ComplexDataTarget-> _p7ZzEWBHEe2Zz8LOII5r3g  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
-  			id _foZcwWBIEe2Zz8LOII5r3g
-  		}
   		
-  		-AddComplexToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _gV5b8WBIEe2Zz8LOII5r3g
-  		}
-  	}
-  	
-  	ComplexVariable _bA67UWBIEe2Zz8LOII5r3g at 10,730 size 160,25 {
-  		expanded false
-  		isLive false
-  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
-  		isInput false
-  		name "selectedPreferences"
-  		dfViewWorkaround true
-  		isList true
-  		-AddComplexToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _eamz8WBIEe2Zz8LOII5r3g
-  		}
-  		
-  		-ComplexDataTarget-> _qKoh4WBHEe2Zz8LOII5r3g  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
-  			id _fGELwWBIEe2Zz8LOII5r3g
-  		}
-  	}
-  	
-  	PrimitiveVariable _McQZMWBiEe2zFOcETdlBwQ at 20,1000 size 140,25 {
-  		dataType Text
-  		isInput false
-  		name "description"
-  		dfViewWorkaround true
-  		isList false
-  		-FormLoadSubmit-> _JpxDcWBiEe2zFOcETdlBwQ  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _PQ0LgWBiEe2zFOcETdlBwQ
-  		}
-  		
-  		-AddPrimitiveToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _PrswsWBiEe2zFOcETdlBwQ
+  		-FormSubmit-> _kwsBsWBHEe2Zz8LOII5r3g  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _-zuiIWHOEe2pusVyqO_APw
   		}
   	}
   }
   
-  Template _ZI9woWBHEe2Zz8LOII5r3g at 240,10 size 370,1350 {
+  Template _ZI9woWBHEe2Zz8LOII5r3g at 240,10 size 370,1410 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _ZJAM4GBHEe2Zz8LOII5r3g {
@@ -201,7 +152,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		}
   	}
   	
-  	Form _kVGR4WBHEe2Zz8LOII5r3g at 10,200 size 290,1120 {
+  	Form _kVGR4WBHEe2Zz8LOII5r3g at 10,200 size 290,1180 {
   		inline false
   		generalStyle GeneralStyling _kVesYGBHEe2Zz8LOII5r3g {
   				tallness Fitting
@@ -215,42 +166,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		MoveDown _kVIuIWBHEe2Zz8LOII5r3g at 2,10 size 14,7 {
   		}
   		
-  		Field _kwsBsWBHEe2Zz8LOII5r3g at 10,30 size 200,60 {
-  			maxMB 0
-  			inputType Text
-  			label "Title"
-  			styling FormFieldStyling _kxJ7wGBHEe2Zz8LOII5r3g {
-  					size Default
-  					disabled false
-  					color Default
-  				}
-  			additionalOptions FormFieldAdditionalOptions _kxD1IGBHEe2Zz8LOII5r3g {
-  					readonly false
-  				}
-  			validation FormFieldValidation _kw-8oGBHEe2Zz8LOII5r3g {
-  					min 0
-  					max -1
-  					required false
-  				}
-  			disabled false
-  			icon Icon _kw4O8GBHEe2Zz8LOII5r3g {
-  					postIcon None
-  					preIcon None
-  				}
-  			generalStyle GeneralStyling _kw1ysGBHEe2Zz8LOII5r3g {
-  					tallness Fitting
-  					marginBottom None
-  					attributes [  ]
-  					marginTop None
-  				}
-  			MoveUp _kwyIUWBHEe2Zz8LOII5r3g at 2,2 size 14,7 {
-  			}
-  			
-  			MoveDown _kwyvYWBHEe2Zz8LOII5r3g at 2,10 size 14,7 {
-  			}
-  		}
-  		
-  		Panel _n3QxEWBHEe2Zz8LOII5r3g at 10,100 size 270,300 {
+  		Panel _n3QxEWBHEe2Zz8LOII5r3g at 10,160 size 270,300 {
   			collapsable false
   			defaultOpen "true"
   			coloring ComponentColoring _n3jsAGBHEe2Zz8LOII5r3g {
@@ -279,7 +195,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				hover false
   				responsive true
   				name "table"
-  				choices NONE
+  				choices MULTIPLE
   				dropTargets [  ]
   				generalStyle GeneralStyling _p7i9AGBHEe2Zz8LOII5r3g {
   						tallness Fitting
@@ -296,7 +212,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				TableEntry _qadGkWBHEe2Zz8LOII5r3g at 10,30 size 220,120 {
   					fullTextSearch false
   					defaultSorting NONE
-  					label "Column"
+  					label "Features"
   					sortable false
   					generalStyle GeneralStyling _qap64GBHEe2Zz8LOII5r3g {
   							tallness Fitting
@@ -373,7 +289,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   			}
   		}
   		
-  		Panel _orfDUWBHEe2Zz8LOII5r3g at 10,410 size 270,300 {
+  		Panel _orfDUWBHEe2Zz8LOII5r3g at 10,470 size 270,300 {
   			collapsable false
   			defaultOpen "true"
   			coloring ComponentColoring _orj70GBHEe2Zz8LOII5r3g {
@@ -402,7 +318,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				hover false
   				responsive true
   				name "table"
-  				choices NONE
+  				choices MULTIPLE
   				dropTargets [  ]
   				generalStyle GeneralStyling _qKqXEGBHEe2Zz8LOII5r3g {
   						tallness Fitting
@@ -419,7 +335,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				TableEntry _qkVbUWBHEe2Zz8LOII5r3g at 10,30 size 220,120 {
   					fullTextSearch false
   					defaultSorting NONE
-  					label "Column"
+  					label "Preferences"
   					sortable false
   					generalStyle GeneralStyling _qkbh8GBHEe2Zz8LOII5r3g {
   							tallness Fitting
@@ -496,7 +412,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   			}
   		}
   		
-  		Row _vvLIgWBHEe2Zz8LOII5r3g at 10,850 size 250,240 {
+  		Row _vvLIgWBHEe2Zz8LOII5r3g at 10,910 size 250,240 {
   			generalStyle GeneralStyling _vvaZEGBHEe2Zz8LOII5r3g {
   					tallness Fitting
   					marginBottom None
@@ -590,7 +506,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   			}
   		}
   		
-  		Panel _I_3K0WBiEe2zFOcETdlBwQ at 10,720 size 220,120 {
+  		Panel _I_3K0WBiEe2zFOcETdlBwQ at 10,780 size 220,120 {
   			collapsable false
   			defaultOpen "true"
   			coloring ComponentColoring _JAh5MGBiEe2zFOcETdlBwQ {
@@ -642,6 +558,118 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				MoveDown _Jp4_QWBiEe2zFOcETdlBwQ at 2,10 size 14,7 {
   				}
   			}
+  		}
+  		
+  		Panel _qKUVYWDiEe2niNyWP4DbtA at 10,30 size 220,120 {
+  			collapsable false
+  			defaultOpen "true"
+  			heading StaticContent _q_OkIGDiEe2niNyWP4DbtA {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "Title"
+  				}
+  			coloring ComponentColoring _qLCuIGDiEe2niNyWP4DbtA {
+  					color Default
+  				}
+  			generalStyle GeneralStyling _qKlbIGDiEe2niNyWP4DbtA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _qKgioGDiEe2niNyWP4DbtA at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _qKhJsWDiEe2niNyWP4DbtA at 2,10 size 14,7 {
+  			}
+  			
+  			Field _kwsBsWBHEe2Zz8LOII5r3g at 10,30 size 200,60 {
+  				maxMB 0
+  				inputType Text
+  				label "Title"
+  				styling FormFieldStyling _kxJ7wGBHEe2Zz8LOII5r3g {
+  						size Default
+  						disabled false
+  						color Default
+  					}
+  				additionalOptions FormFieldAdditionalOptions _kxD1IGBHEe2Zz8LOII5r3g {
+  						readonly false
+  					}
+  				validation FormFieldValidation _kw-8oGBHEe2Zz8LOII5r3g {
+  						min 0
+  						max -1
+  						required false
+  					}
+  				disabled false
+  				icon Icon _kw4O8GBHEe2Zz8LOII5r3g {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _kw1ysGBHEe2Zz8LOII5r3g {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _kwyIUWBHEe2Zz8LOII5r3g at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _kwyvYWBHEe2Zz8LOII5r3g at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+  
+  DataContext _aCqVcGHLEe2ppMVyqO_APw at 670,810 size 211,225 {
+  	dfViewWorkaround true
+  	ComplexVariable _Y1SxQWBIEe2Zz8LOII5r3g at 30,40 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "selectedFeature"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexDataTarget-> _p7ZzEWBHEe2Zz8LOII5r3g via (610,862) (610,555) decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _foZcwWBIEe2Zz8LOII5r3g
+  		}
+  		
+  		-AddComplexToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g via (880,862) (880,1210) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _gV5b8WBIEe2Zz8LOII5r3g
+  		}
+  	}
+  	
+  	ComplexVariable _bA67UWBIEe2Zz8LOII5r3g at 30,110 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "selectedPreferences"
+  		dfViewWorkaround true
+  		isList true
+  		-AddComplexToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g via (880,932) (880,1210) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _eamz8WBIEe2Zz8LOII5r3g
+  		}
+  		
+  		-ComplexDataTarget-> _qKoh4WBHEe2Zz8LOII5r3g via (610,932) (610,865) decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _fGELwWBIEe2Zz8LOII5r3g
+  		}
+  	}
+  	
+  	PrimitiveVariable _McQZMWBiEe2zFOcETdlBwQ at 30,170 size 140,25 {
+  		dataType Text
+  		isInput false
+  		name "description"
+  		dfViewWorkaround true
+  		isList false
+  		-FormLoadSubmit-> _JpxDcWBiEe2zFOcETdlBwQ via (585,992) (585,1050) decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _PQ0LgWBiEe2zFOcETdlBwQ
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _wqqgYWBHEe2Zz8LOII5r3g via (860,992) (860,1210) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _PrswsWBiEe2zFOcETdlBwQ
   		}
   	}
   }

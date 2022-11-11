@@ -63,7 +63,7 @@ GUI _Bn2jcWAKEe2YNpeIwSxEfw {
   			MoveRight _BpKyEWAKEe2YNpeIwSxEfw at 10,2 size 7,14 {
   			}
   			
-  			Form _NvcnYWAKEe2YNpeIwSxEfw at 10,30 size 220,190 {
+  			Form _NvcnYWAKEe2YNpeIwSxEfw at 10,30 size 220,120 {
   				inline false
   				generalStyle GeneralStyling _Nv1o8GAKEe2YNpeIwSxEfw {
   						tallness Fitting
@@ -75,36 +75,6 @@ GUI _Bn2jcWAKEe2YNpeIwSxEfw {
   				}
   				
   				MoveDown _NvgRwWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
-  				}
-  				
-  				Button _NviG8WAKEe2YNpeIwSxEfw at 10,100 size 200,60 {
-  					label "Submit"
-  					styling ButtonStyling _NvwJYGAKEe2YNpeIwSxEfw {
-  							fullWidth false
-  							size Default
-  							disabled false
-  							color Default
-  						}
-  					options ButtonOptions _NvyloGAKEe2YNpeIwSxEfw {
-  							isLink false
-  							submitsForm true
-  						}
-  					disabled false
-  					icon Icon _NvsfAGAKEe2YNpeIwSxEfw {
-  							postIcon None
-  							preIcon None
-  						}
-  					generalStyle GeneralStyling _NvrQ4GAKEe2YNpeIwSxEfw {
-  							tallness Fitting
-  							marginBottom None
-  							attributes [  ]
-  							marginTop None
-  						}
-  					MoveUp _NvpbsWAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
-  					}
-  					
-  					MoveDown _NvqCwWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
-  					}
   				}
   				
   				Field _OaAAQWAKEe2YNpeIwSxEfw at 10,30 size 200,60 {
@@ -144,12 +114,12 @@ GUI _Bn2jcWAKEe2YNpeIwSxEfw {
   			}
   			
   			Button _iyZcwWAKEe2YNpeIwSxEfw at 10,230 size 200,60 {
-  				label "Label"
+  				label "Cancel"
   				styling ButtonStyling _izBu4GAKEe2YNpeIwSxEfw {
   						fullWidth false
   						size Default
   						disabled false
-  						color Default
+  						color Red
   					}
   				options ButtonOptions _izGAUGAKEe2YNpeIwSxEfw {
   						isLink false
@@ -170,6 +140,36 @@ GUI _Bn2jcWAKEe2YNpeIwSxEfw {
   				}
   				
   				MoveDown _iydHIWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _NviG8WAKEe2YNpeIwSxEfw at 10,160 size 200,60 {
+  				label "Submit"
+  				styling ButtonStyling _NvwJYGAKEe2YNpeIwSxEfw {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Green
+  					}
+  				options ButtonOptions _NvyloGAKEe2YNpeIwSxEfw {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _NvsfAGAKEe2YNpeIwSxEfw {
+  						postIcon Check
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _NvrQ4GAKEe2YNpeIwSxEfw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _NvpbsWAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _NvqCwWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
   				}
   			}
   		}

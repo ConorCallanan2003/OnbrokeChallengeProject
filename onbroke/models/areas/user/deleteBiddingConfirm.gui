@@ -66,7 +66,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   	}
   }
   
-  Template _sSD8sWAsEe2KJog_oImiIQ at 240,10 size 320,360 {
+  Template _sSD8sWAsEe2KJog_oImiIQ at 240,10 size 320,430 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _sSHAAGAsEe2KJog_oImiIQ {
@@ -75,7 +75,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _sSHnEWAsEe2KJog_oImiIQ at 10,90 size 250,240 {
+  	Row _sSHnEWAsEe2KJog_oImiIQ at 10,90 size 250,310 {
   		generalStyle GeneralStyling _sSQxAGAsEe2KJog_oImiIQ {
   				tallness Fitting
   				marginBottom None
@@ -88,7 +88,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   		MoveDown _sSI1M2AsEe2KJog_oImiIQ at 2,10 size 14,7 {
   		}
   		
-  		Col _sSLRcWAsEe2KJog_oImiIQ at 10,30 size 220,190 {
+  		Col _sSLRcWAsEe2KJog_oImiIQ at 10,30 size 220,260 {
   			wideness Full
   			layout Layout _sSQJ8GAsEe2KJog_oImiIQ {
   					size Default
@@ -107,7 +107,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   			MoveRight _sSNGoWAsEe2KJog_oImiIQ at 10,2 size 7,14 {
   			}
   			
-  			Button _xnnFEWAsEe2KJog_oImiIQ at 10,30 size 200,60 {
+  			Button _xnnFEWAsEe2KJog_oImiIQ at 10,100 size 200,60 {
   				label "Confirm"
   				styling ButtonStyling _xnxdIGAsEe2KJog_oImiIQ {
   						fullWidth false
@@ -137,7 +137,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   				}
   			}
   			
-  			Button _02vTgWAsEe2KJog_oImiIQ at 10,100 size 200,60 {
+  			Button _02vTgWAsEe2KJog_oImiIQ at 10,170 size 200,60 {
   				label "Back"
   				styling ButtonStyling _025EgGAsEe2KJog_oImiIQ {
   						fullWidth false
@@ -164,6 +164,36 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   				}
   				
   				MoveDown _02xIsWAsEe2KJog_oImiIQ at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Text _7PJk8WHKEe2ppMVyqO_APw at 10,30 size 200,60 {
+  				content [ StaticContent _7PimgGHKEe2ppMVyqO_APw {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Are you ceartain you want to delete {{bidding.title}}"
+  						styling TextStyling _7PkbsGHKEe2ppMVyqO_APw {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _7PfjMGHKEe2ppMVyqO_APw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _7PbRwWHKEe2ppMVyqO_APw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _7Pb40WHKEe2ppMVyqO_APw at 2,10 size 14,7 {
   				}
   			}
   		}

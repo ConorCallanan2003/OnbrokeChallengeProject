@@ -188,6 +188,10 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "currentUser"
+  		-ComplexDirectDataFlow-> _MsZcoWDTEe2HtLNu6rgXKQ via (959,316) (959,436) decorate "" at (0,0) {
+  			id _NOzmIWDTEe2HtLNu6rgXKQ
+  			dfViewWorkaround true
+  		}
   	}
   	-ControlFlow-> _Mn11kWBLEe2Zz8LOII5r3g  decorate "" at (0,0) {
   		id _M6nnoWBLEe2Zz8LOII5r3g
@@ -241,7 +245,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch __Fl7gVOnEe2KQc5QIsW97w at 1129,480 size 120,25 {
+  Branch __Fl7gVOnEe2KQc5QIsW97w at 1120,480 size 120,25 {
   	name "back"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1270,492) (1270,172) decorate "" at (0,0) {
   		id _Bz9mQFOoEe2KQc5QIsW97w
@@ -299,10 +303,10 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	libraryComponentUID "_Aea3kWBJEe2Zz8LOII5r3g"
   	label "newBiddingProcess"
   	ignoredBranch [  ]
-  	ComplexInputPort _MoRTYWBLEe2Zz8LOII5r3g at 5,67 size 110,18 {
-  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  	ComplexInputPort _MsZcoWDTEe2HtLNu6rgXKQ at 5,67 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
-  		name "bidding"
+  		name "user"
   	}
   	-BranchConnector-> _Mo3wUWBLEe2Zz8LOII5r3g   {
   		id _Mo6zoWBLEe2Zz8LOII5r3g

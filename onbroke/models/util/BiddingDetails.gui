@@ -98,7 +98,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   	}
   }
   
-  Template _zSCKsVOjEe2KQc5QIsW97w at 300,10 size 370,1465 {
+  Template _zSCKsVOjEe2KQc5QIsW97w at 300,10 size 370,1595 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _zSCKslOjEe2KQc5QIsW97w {
@@ -193,7 +193,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _B7wNIVOkEe2KQc5QIsW97w at 10,270 size 270,300 {
+  	Panel _B7wNIVOkEe2KQc5QIsW97w at 10,400 size 270,300 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _B7w0P1OkEe2KQc5QIsW97w {
@@ -324,7 +324,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _JSSV0VOkEe2KQc5QIsW97w at 10,580 size 270,300 {
+  	Panel _JSSV0VOkEe2KQc5QIsW97w at 10,710 size 270,300 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _JSSV-FOkEe2KQc5QIsW97w {
@@ -455,7 +455,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _C18IAVOlEe2KQc5QIsW97w at 10,1020 size 170,415 {
+  	Panel _C18IAVOlEe2KQc5QIsW97w at 10,1150 size 170,415 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _C18vIlOlEe2KQc5QIsW97w {
@@ -549,9 +549,15 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _E8DFMGBkEe2RsYcz95LX5w at 10,890 size 220,120 {
+  	Panel _E8DFMGBkEe2RsYcz95LX5w at 10,1020 size 220,120 {
   		collapsable false
   		defaultOpen "true"
+  		heading StaticContent _SO7TQGDiEe2HtbNu6rgXKQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Description"
+  			}
   		coloring ComponentColoring _E9CjsGBkEe2RsYcz95LX5w {
   				color Default
   			}
@@ -559,7 +565,8 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   				tallness Fitting
   				marginBottom None
   				attributes [  ]
-  				marginTop None
+  				marginTop Triple
+  				rawContent ""
   			}
   		MoveUp _E8UK8WBkEe2RsYcz95LX5w at 2,2 size 14,7 {
   		}
@@ -594,6 +601,61 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   			}
   			
   			MoveDown _FwKCsWBkEe2RsYcz95LX5w at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Panel _yuxtEWHPEe2pu8VyqO_APw at 10,270 size 220,120 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _1fJi8GHPEe2pu8VyqO_APw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Title"
+  			}
+  		coloring ComponentColoring _yu3MoGHPEe2pu8VyqO_APw {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _yuy7MmHPEe2pu8VyqO_APw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _yuyUIWHPEe2pu8VyqO_APw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _yuy7MWHPEe2pu8VyqO_APw at 2,10 size 14,7 {
+  		}
+  		
+  		Text _zzkK4WHPEe2pu8VyqO_APw at 10,30 size 200,60 {
+  			content [ StaticContent _zzui8GHPEe2pu8VyqO_APw {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "{{bidding.title}}"
+  					styling TextStyling _zzyNUGHPEe2pu8VyqO_APw {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic false
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _zzocUGHPEe2pu8VyqO_APw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _zzkx8WHPEe2pu8VyqO_APw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _zzlZAWHPEe2pu8VyqO_APw at 2,10 size 14,7 {
   			}
   		}
   	}
