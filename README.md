@@ -1,2 +1,2 @@
 # OnbrokeChallengeProject
-Group Members: Conor Callanan, Karl Gilmartin and Darrgh Grealish
+Group Members: Conor Callanan, Karl Gilmartin and Darragh Grealish
