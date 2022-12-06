@@ -1,0 +1,371 @@
+GUI _CPN5EWBEEe2RjrkbQARhdg {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "EditUserForm"
+  DataContext _CPTYoWBEEe2RjrkbQARhdg at 10,10 size 180,575 {
+  	dfViewWorkaround true
+  	ComplexVariable _N2L8MWBEEe2RjrkbQARhdg at 10,80 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput true
+  		name "currentUser"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  	
+  	PrimitiveVariable _RW6Q8WBEEe2RjrkbQARhdg at 20,280 size 140,25 {
+  		dataType Text
+  		isInput true
+  		name "lastName"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _FL33cWBEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _dis4YWBEEe2RjrkbQARhdg
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _FLv7w2BEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _e6kqQWBEEe2RjrkbQARhdg
+  		}
+  	}
+  	
+  	PrimitiveVariable _Rm8RAWBEEe2RjrkbQARhdg at 20,220 size 140,25 {
+  		dataType Text
+  		isInput true
+  		name "firstName"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _FL3QYGBEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _d50X4WBEEe2RjrkbQARhdg
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _FLv7w2BEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _eUJjcWBEEe2RjrkbQARhdg
+  		}
+  	}
+  	
+  	ComplexVariable _WapQkWBEEe2RjrkbQARhdg at 10,340 size 160,105 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  		isInput true
+  		name "userRoles"
+  		dfViewWorkaround true
+  		isList true
+  		ComplexListAttribute _YCwd4WBEEe2RjrkbQARhdg at 10,23 size 140,25 {
+  			attributeName last
+  			libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  			isLive false
+  		}
+  		
+  		ComplexListAttribute _YC0vUWBEEe2RjrkbQARhdg at 10,50 size 140,25 {
+  			attributeName first
+  			libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  			isLive false
+  		}
+  		
+  		PrimitiveListAttribute _YC5n0GBEEe2RjrkbQARhdg at 10,77 size 140,25 {
+  			attributeName size
+  			primitiveType Integer
+  			libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  			isLive false
+  		}
+  		-ComplexListAttributeConnector-> _Ygs-IWBEEe2RjrkbQARhdg  decorate "Ellipse" at (0,0) {
+  			id _Ygx2oWBEEe2RjrkbQARhdg
+  			attributeName current
+  		}
+  		
+  		-ComplexChoiceData-> _FL7h0WBEEe2RjrkbQARhdg  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _cRg9UWBEEe2RjrkbQARhdg
+  		}
+  	}
+  	
+  	ComplexVariable _Ygs-IWBEEe2RjrkbQARhdg at 10,470 size 160,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		-Display-> _FL7h0WBEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _cqv8sWBEEe2RjrkbQARhdg
+  		}
+  	}
+  	
+  	ComplexVariable _Z9QbsWBEEe2RjrkbQARhdg at 10,520 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_mSHlYFE3Ee2Vgcav4Znc_w"
+  		isInput true
+  		name "userRole"
+  		dfViewWorkaround true
+  		isList false
+  		-FormSubmit-> _FL7h0WBEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _dDU0wWBEEe2RjrkbQARhdg
+  		}
+  		
+  		-AddComplexToSubmission-> _FLv7w2BEEe2RjrkbQARhdg  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _fXlWYWBEEe2RjrkbQARhdg
+  		}
+  	}
+  }
+  
+  Template _CPT_sWBEEe2RjrkbQARhdg at 240,10 size 320,670 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _CPV04GBEEe2RjrkbQARhdg {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _CPWb8WBEEe2RjrkbQARhdg at 10,90 size 270,550 {
+  		generalStyle GeneralStyling _CPlFcGBEEe2RjrkbQARhdg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _CPXDAWBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _CPXqEWBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  		}
+  		
+  		Col _CPY4MWBEEe2RjrkbQARhdg at 10,30 size 240,500 {
+  			wideness Full
+  			layout Layout _CPkeYGBEEe2RjrkbQARhdg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _CPj3UGBEEe2RjrkbQARhdg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _CPZfQWBEEe2RjrkbQARhdg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _CPZfQ2BEEe2RjrkbQARhdg at 10,2 size 7,14 {
+  			}
+  			
+  			Form _FLvUkWBEEe2RjrkbQARhdg at 10,30 size 220,440 {
+  				inline false
+  				generalStyle GeneralStyling _FLv7u2BEEe2RjrkbQARhdg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _FLv7vWBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _FLv7wGBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  				}
+  				
+  				Button _FLv7w2BEEe2RjrkbQARhdg at 10,280 size 200,60 {
+  					label "Submit"
+  					styling ButtonStyling _FLv7ymBEEe2RjrkbQARhdg {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Green
+  						}
+  					options ButtonOptions _FLv7y2BEEe2RjrkbQARhdg {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _FLv7yWBEEe2RjrkbQARhdg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _FLv7yGBEEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _FLv7zWBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _FLv70GBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _FLv71GBEEe2RjrkbQARhdg at 10,350 size 200,60 {
+  					label "Cancel"
+  					styling ButtonStyling _FLv722BEEe2RjrkbQARhdg {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions _FLv73GBEEe2RjrkbQARhdg {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _FLv72mBEEe2RjrkbQARhdg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _FLv72WBEEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _FLv73mBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _FLv74WBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Field _FL3QYGBEEe2RjrkbQARhdg at 10,30 size 200,60 {
+  					maxMB 0
+  					inputType Text
+  					label "First Name"
+  					styling FormFieldStyling _FL3QaWBEEe2RjrkbQARhdg {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _FL3QZ2BEEe2RjrkbQARhdg {
+  							emptyValue "{{currentUser.firstName}}"
+  							readonly false
+  						}
+  					validation FormFieldValidation _FL3QaGBEEe2RjrkbQARhdg {
+  							min 0
+  							max -1
+  							required false
+  						}
+  					disabled false
+  					icon Icon _FL3QZmBEEe2RjrkbQARhdg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _FL3QZWBEEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _FL3Qa2BEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _FL3QbmBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Field _FL33cWBEEe2RjrkbQARhdg at 10,100 size 200,60 {
+  					maxMB 0
+  					inputType Text
+  					label "Last Name"
+  					styling FormFieldStyling _FL33emBEEe2RjrkbQARhdg {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _FL33eGBEEe2RjrkbQARhdg {
+  							emptyValue "{{currentUser.lastName}}"
+  							readonly false
+  						}
+  					validation FormFieldValidation _FL33eWBEEe2RjrkbQARhdg {
+  							min 0
+  							max -1
+  							required false
+  						}
+  					disabled false
+  					icon Icon _FL33d2BEEe2RjrkbQARhdg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _FL33dmBEEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _FL33fGBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _FL33f2BEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Radio _FL7h0WBEEe2RjrkbQARhdg at 10,170 size 200,100 {
+  					label "Role"
+  					styling SelectFormFieldStyling _FL7h2mBEEe2RjrkbQARhdg {
+  							inline false
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _FL7h2GBEEe2RjrkbQARhdg {
+  							readonly false
+  						}
+  					validation FormFieldValidation _FL7h2WBEEe2RjrkbQARhdg {
+  							min 0
+  							max -1
+  							required false
+  						}
+  					disabled false
+  					icon Icon _FL7h12BEEe2RjrkbQARhdg {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _FL7h1mBEEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _FL7h3GBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _FL7h32BEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  	
+  	Headline _HPdf0WBEEe2RjrkbQARhdg at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _HPpGAGBEEe2RjrkbQARhdg {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Edit User\n"
+  				styling TextStyling _HPriQGBEEe2RjrkbQARhdg {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _HPhxQGBEEe2RjrkbQARhdg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _HPet8WBEEe2RjrkbQARhdg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _HPgjIWBEEe2RjrkbQARhdg at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

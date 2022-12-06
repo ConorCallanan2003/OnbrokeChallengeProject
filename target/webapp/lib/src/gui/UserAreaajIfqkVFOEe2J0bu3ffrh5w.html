@@ -1,0 +1,139 @@
+<login-form 
+	*ngIf="currentUser==null && showLogin == true"
+	(signedin)="loadCurrentUser()"
+	[modal]="modalDialog"
+	></login-form>
+<template [ngIf]="currentUser!=null && showLogin == false">
+<div class="row">
+	<div class="col-sm-12">
+<dime-panel
+	
+	#dimea4AOR8FFPEe2J0bu3ffrh5wpanel
+	[styling]="{}"
+	[cincoId]="'_4AOR8FFPEe2J0bu3ffrh5w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="true"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Your Offers
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimea4AOR8FFPEe2J0bu3ffrh5wpanel.isCollapsed||dimea4AOR8FFPEe2J0bu3ffrh5wpanel.isLoaded" class="panel-body">
+<div 
+ [ngStyle]="{ 'margin-bottom':'15px' }"
+class="row">
+<div
+
+class="col-md-12 text-right"
+>
+<!-- beginn button Create offer -->
+<button 
+	data-cinco-id="_CGsWXFFREe2J0bu3ffrh5w"
+	tabindex="0" aria-label="Create offer"
+	[disabled]="isBusy()"
+type="button"
+(click)="actioncreateoffereventaCGsWXFFREe2J0bu3ffrh5wEventTrigger()
+"
+class="btn btn-success">
+<span aria-hidden="true" aria-label="icon plus" class="glyphicon glyphicon-plus" style="right:2px"></span>
+ Create new offer
+</button>
+<!-- end button Create offer -->
+</div>
+</div>
+	
+	<useroffertable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[offers]="currentUser?.offers"
+	  	
+	  	(actionshowofferevent)="actionshowofferevent.add($event)"
+	  	
+	  	
+	  	(actioneditofferevent)="actioneditofferevent.add($event)"
+	  	
+	  	
+	  	(actiondeleteofferevent)="actiondeleteofferevent.add($event)"
+	  	
+	  >
+	  </useroffertable-tag>
+	</div>
+</dime-panel>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<dime-panel
+	
+	#dimeaGSYI8VFQEe2J0bu3ffrh5wpanel
+	[styling]="{}"
+	[cincoId]="'_GSYI8VFQEe2J0bu3ffrh5w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="true"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Your Biddings
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeaGSYI8VFQEe2J0bu3ffrh5wpanel.isCollapsed||dimeaGSYI8VFQEe2J0bu3ffrh5wpanel.isLoaded" class="panel-body">
+<div 
+ [ngStyle]="{ 'margin-bottom':'15px' }"
+class="row">
+<div
+
+class="col-md-12 text-right"
+>
+<!-- beginn button Create bidding -->
+<button 
+	data-cinco-id="_EIl8nFFREe2J0bu3ffrh5w"
+	tabindex="0" aria-label="Create bidding"
+	[disabled]="isBusy()"
+type="button"
+(click)="actioncreatebiddingeventaEIl8nFFREe2J0bu3ffrh5wEventTrigger()
+"
+class="btn btn-success">
+<span aria-hidden="true" aria-label="icon plus" class="glyphicon glyphicon-plus" style="right:2px"></span>
+ Create new bidding
+</button>
+<!-- end button Create bidding -->
+</div>
+</div>
+	
+	<userbiddingtable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[biddings]="currentUser?.biddings"
+	  	
+	  	(actionshowbiddingevent)="actionshowbiddingevent.add($event)"
+	  	
+	  	
+	  	(actioneditbiddingevent)="actioneditbiddingevent.add($event)"
+	  	
+	  	
+	  	(actiondeletebiddingevent)="actiondeletebiddingevent.add($event)"
+	  	
+	  >
+	  </userbiddingtable-tag>
+	</div>
+</dime-panel>
+	</div>
+</div>
+</template>

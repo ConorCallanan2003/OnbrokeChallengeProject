@@ -1,0 +1,92 @@
+<dime-panel
+	
+	#dimea2WMcQVFTEe2J0bu3ffrh5wpanel
+	[styling]="{}"
+	[cincoId]="'_2WMcQVFTEe2J0bu3ffrh5w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="false"
+	[initial]="true"
+>
+<span dime-panel-heading-false>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Offers
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimea2WMcQVFTEe2J0bu3ffrh5wpanel.isCollapsed||dimea2WMcQVFTEe2J0bu3ffrh5wpanel.isLoaded" class="panel-body">
+	
+	<brokeroffertable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[offers]="offers"
+	  	
+	  	(actionshowofferevent)="actionshowofferevent.add($event)"
+	  	
+	  	
+	  	(actiondecideofferevent)="actiondecideofferevent.add($event)"
+	  	
+	  	
+	  	(actionreviewofferevent)="actionreviewofferevent.add($event)"
+	  	
+	  	
+	  	(actioneditreportevent)="actioneditreportevent.add($event)"
+	  	
+	  	
+	  	(actionrevokeofferevent)="actionrevokeofferevent.add($event)"
+	  	
+	  >
+	  </brokeroffertable-tag>
+	</div>
+</dime-panel>
+<dime-panel
+	
+	#dimeaED0_45_MVGGEe2J0bu3ffrh5wpanel
+	[styling]="{}"
+	[cincoId]="'_ED0-MVGGEe2J0bu3ffrh5w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="false"
+	[initial]="true"
+>
+<span dime-panel-heading-false>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Biddings
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeaED0_45_MVGGEe2J0bu3ffrh5wpanel.isCollapsed||dimeaED0_45_MVGGEe2J0bu3ffrh5wpanel.isLoaded" class="panel-body">
+	
+	<brokerbiddingtable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[biddings]="biddings"
+	  	
+	  	(actionshowbiddingevent)="actionshowbiddingevent.add($event)"
+	  	
+	  	
+	  	(actiondecidebiddingevent)="actiondecidebiddingevent.add($event)"
+	  	
+	  	
+	  	(actionreviewbiddingevent)="actionreviewbiddingevent.add($event)"
+	  	
+	  	
+	  	(actioneditreportevent)="actioneditreportevent.add($event)"
+	  	
+	  	
+	  	(actionrevokebiddingevent)="actionrevokebiddingevent.add($event)"
+	  	
+	  >
+	  </brokerbiddingtable-tag>
+	</div>
+</dime-panel>

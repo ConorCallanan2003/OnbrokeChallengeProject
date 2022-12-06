@@ -1,0 +1,256 @@
+	<table  [attr.id]="'table'+hashCode.toString()" class="table table-striped table-hover table-condensed">
+		<thead>
+			<tr>
+			<!-- table column Offer -->
+			<!-- sotring enabled for column Offer -->
+			<th 
+			 ><a href
+			data-cinco-id="_X1gZCVGGEe2J0bu3ffrh5w"
+			(click)="table_X1gZCVGGEe2J0bu3ffrh5wSort($event)"
+			>Offer <span
+			[ngClass]="table_X1fx61GGEe2J0bu3ffrh5wIsSorted('colId_X1gZCVGGEe2J0bu3ffrh5w')"
+			></span></a></th>
+			<!-- table column User -->
+			<!-- sotring enabled for column User -->
+			<th 
+			 ><a href
+			data-cinco-id="_Iebl0VHJEe2J0bu3ffrh5w"
+			(click)="table_Iebl0VHJEe2J0bu3ffrh5wSort($event)"
+			>User <span
+			[ngClass]="table_X1fx61GGEe2J0bu3ffrh5wIsSorted('colId_Iebl0VHJEe2J0bu3ffrh5w')"
+			></span></a></th>
+			<!-- table column Decision -->
+			<!-- sotring enabled for column Decision -->
+			<th 
+			 ><a href
+			data-cinco-id="_X1hnOFGGEe2J0bu3ffrh5w"
+			(click)="table_X1hnOFGGEe2J0bu3ffrh5wSort($event)"
+			>Decision <span
+			[ngClass]="table_X1fx61GGEe2J0bu3ffrh5wIsSorted('colId_X1hnOFGGEe2J0bu3ffrh5w')"
+			></span></a></th>
+			<!-- table column Actions -->
+			<!-- no sotring for column Actions -->
+			<th 
+			 >Actions</th>
+			</tr>
+		</thead>
+			<tbody>
+		<tr
+			class=""
+			data-table-id="_X1fx61GGEe2J0bu3ffrh5w"
+			*ngFor="let bidding of table_X1fx61GGEe2J0bu3ffrh5wgetElements(sourceaX1fx61GGEe2J0bu3ffrh5w); let _X1fx61GGEe2J0bu3ffrh5wNum = index; trackBy: trackSelective"
+			>
+			<!-- table column Offer-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{bidding?.offer?.title}}
+				</span>
+				</span>
+			</td>
+			<!-- table column User-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{bidding?.user?.lastName}}, {{bidding?.user?.firstName}}
+				</span>
+				</span>
+			</td>
+			<!-- table column Decision-->
+			<td 
+			 >
+					
+					<decisionstatebadge-tag
+						
+						[modalDialog]="false"
+					  	[currentbranch]="currentbranch"
+					  	[ismajorpage]="false"
+					  	[runtimeId]="runtimeId"
+					  	[guiId]="guiId"
+					  	[decisionState]="bidding?.decision?.state"
+					  >
+					  </decisionstatebadge-tag>
+			</td>
+			<!-- table column Actions-->
+			<td 
+			 >
+				<!-- beginn button group -->
+				<div 
+				 class=" btn-group" role="navigation" aria-label="button group">
+				<div class="btn-group" 
+				 role="navigation" aria-label="button group"><!-- beginn button Show bidding -->
+				<button 
+					data-cinco-id="_X1hAWlGGEe2J0bu3ffrh5w"
+					tabindex="0" aria-label="Show bidding"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionshowbiddingeventaX1hAWlGGEe2J0bu3ffrh5wEventTrigger(bidding)
+				"
+				class="btn btn-default btn-sm">
+				 Details
+				</button>
+				<!-- end button Show bidding -->
+				</div><div class="btn-group" *ngIf="				!(bidding?.report!=null)
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+				 role="navigation" aria-label="button group"><!-- beginn button Review bidding -->
+				<button *ngIf="				!(bidding?.report!=null)
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+					data-cinco-id="_X1hAfFGGEe2J0bu3ffrh5w"
+					tabindex="0" aria-label="Review bidding"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionreviewbiddingeventaX1hAfFGGEe2J0bu3ffrh5wEventTrigger(bidding)
+				"
+				class="btn btn-success btn-sm">
+				 Create report
+				</button>
+				<!-- end button Review bidding -->
+				</div><div class="btn-group" *ngIf="				bidding?.report!=null
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+				 role="navigation" aria-label="button group"><!-- beginn button Edit report -->
+				<button *ngIf="				bidding?.report!=null
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+					data-cinco-id="_X1hnFFGGEe2J0bu3ffrh5w"
+					tabindex="0" aria-label="Edit report"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actioneditreporteventaX1hnFFGGEe2J0bu3ffrh5wEventTrigger(bidding?.report)
+				"
+				class="btn btn-warning btn-sm">
+				 Edit report
+				</button>
+				<!-- end button Edit report -->
+				</div><div class="btn-group" *ngIf="				!(bidding?.decision!=null)
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+				 role="navigation" aria-label="button group"><!-- beginn button Decide bidding -->
+				<button *ngIf="				!(bidding?.decision!=null)
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+					data-cinco-id="_X1hAa1GGEe2J0bu3ffrh5w"
+					tabindex="0" aria-label="Decide bidding"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actiondecidebiddingeventaX1hAa1GGEe2J0bu3ffrh5wEventTrigger(bidding)
+				"
+				class="btn btn-info btn-sm">
+				 Decide
+				</button>
+				<!-- end button Decide bidding -->
+				</div><div class="btn-group" *ngIf="				bidding?.decision!=null
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+				 role="navigation" aria-label="button group"><!-- beginn button Revoke bidding -->
+				<button *ngIf="				bidding?.decision!=null
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+					data-cinco-id="_X1hnJVGGEe2J0bu3ffrh5w"
+					tabindex="0" aria-label="Revoke bidding"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionrevokebiddingeventaX1hnJVGGEe2J0bu3ffrh5wEventTrigger(bidding)
+				"
+				class="btn btn-danger btn-sm">
+				 Revoke
+				</button>
+				<!-- end button Revoke bidding -->
+				</div></div>
+				<!-- end button group -->
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+<!-- table pagination enabled -->
+<nav *ngIf="table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length>1">
+  <ul class="pagination">
+    
+    <li
+    	    [ngClass]="table_X1fx61GGEe2J0bu3ffrh5wCurrentPage<=0?'disabled':''"
+    	    >
+    	      <a href
+    		data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    		(click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage-1,$event)"
+    	      aria-label="Previous">
+    	        <span aria-hidden="true">&laquo;</span>
+    	      </a>
+    	    </li>
+    <template [ngIf]="table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length<5">
+	    <li 
+	    		*ngFor="let page_X1fx61GGEe2J0bu3ffrh5w of table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size)"
+	    		[class]="page_X1fx61GGEe2J0bu3ffrh5w==table_X1fx61GGEe2J0bu3ffrh5wCurrentPage?'active':''"
+	    	    >
+	    	    <a href
+	    	    data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+	    	    (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(page_X1fx61GGEe2J0bu3ffrh5w,$event)"
+	    	    >{{ page_X1fx61GGEe2J0bu3ffrh5w+1 }}</a>
+    	    </li>
+    	     
+    </template>
+    <template [ngIf]="table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length>=5">
+	    <li *ngIf="(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)>1">
+	    	    	<a href
+	    	    	data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    	    	    (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(0,$event)"
+        	    >1</a>
+        </li>
+        	<li class="disabled" *ngIf="(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)>3" ><a href="#">...</a></li>
+        	<li
+        		*ngIf="(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)>2"
+        	>
+    	    	<a href
+    	    		data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    	    	    (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage-1,$event)"
+        	    >{{ (table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)-1 }}</a>
+        </li>
+        	<li class="active">
+    	    	<a href
+    	    		data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    	    	    (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage,$event)"
+        	    >{{ table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1 }}</a>
+        </li>
+        <li
+        	    *ngIf="table_X1fx61GGEe2J0bu3ffrh5wCurrentPage<(table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length-2)"
+        	>
+    	    	<a href
+    	    		data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    	    	    (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1,$event)"
+        	    >{{ (table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)+1 }}</a>
+        </li>
+        <li class="disabled" *ngIf="(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)<(table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length-2)" ><a href="#">...</a></li>
+        	<li *ngIf="(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1)<(table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length)">
+    	    	<a href
+    	    		data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    	    	    (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length-1,$event)"
+        	    >{{ table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length }}</a>
+        </li>
+    	</template>
+    	<li
+    	    [ngClass]="table_X1fx61GGEe2J0bu3ffrh5wCurrentPage>=table_X1fx61GGEe2J0bu3ffrh5wgetPageCount(table_X1fx61GGEe2J0bu3ffrh5w_size).length-1?'disabled':''"
+    	    >
+    	      <a href
+    	      data-cinco-id="_X1fx61GGEe2J0bu3ffrh5w"
+    	      (click)="table_X1fx61GGEe2J0bu3ffrh5wchangePage(table_X1fx61GGEe2J0bu3ffrh5wCurrentPage+1,$event)"
+    	      aria-label="Next">
+    	        <span aria-hidden="true">&raquo;</span>
+    	      </a>
+    	    </li>
+  </ul>
+</nav>

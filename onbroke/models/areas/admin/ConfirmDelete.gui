@@ -1,0 +1,220 @@
+GUI _VDMMEVt7Ee20aa7PI0XDWg {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "DeleteFeature"
+  DataContext _VDNaMVt7Ee20aa7PI0XDWg at 10,10 size 180,80 {
+  	dfViewWorkaround true
+  }
+  
+  Template _VDOBQVt7Ee20aa7PI0XDWg at 240,10 size 780,340 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _VDOBQlt7Ee20aa7PI0XDWg {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _VDOBRFt7Ee20aa7PI0XDWg at 10,30 size 760,280 {
+  		generalStyle GeneralStyling _VDQdgVt7Ee20aa7PI0XDWg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _VDOoUVt7Ee20aa7PI0XDWg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _VDOoU1t7Ee20aa7PI0XDWg at 2,10 size 14,7 {
+  		}
+  		
+  		Col _9J1fYVt8Ee2nXJXMw4vrvg at 240,30 size 500,230 {
+  			wideness Full
+  			layout Layout _9J3UkFt8Ee2nXJXMw4vrvg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _9J2tgFt8Ee2nXJXMw4vrvg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _9J2GcVt8Ee2nXJXMw4vrvg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _9J2Gc1t8Ee2nXJXMw4vrvg at 10,2 size 7,14 {
+  			}
+  			
+  			Row _PyZNYWBIEe2RjrkbQARhdg at 10,30 size 480,170 {
+  				generalStyle GeneralStyling _PyhwQGBIEe2RjrkbQARhdg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _PyZ0cWBIEe2RjrkbQARhdg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _PyZ0c2BIEe2RjrkbQARhdg at 2,10 size 14,7 {
+  				}
+  				
+  				Col _PyabgWBIEe2RjrkbQARhdg at 10,30 size 220,120 {
+  					wideness Full
+  					layout Layout _PyeF4GBIEe2RjrkbQARhdg {
+  							size Default
+  							offset None
+  							alignment Left
+  						}
+  					generalStyle GeneralStyling _PybCkGBIEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _Pyabg2BIEe2RjrkbQARhdg at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _PyabhWBIEe2RjrkbQARhdg at 10,2 size 7,14 {
+  					}
+  					
+  					Button _MxvoYVt9Ee2nXJXMw4vrvg at 10,30 size 200,60 {
+  						displayLabel "Delete"
+  						label "Confirm Delete"
+  						styling ButtonStyling _Mx6AcFt9Ee2nXJXMw4vrvg {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Red
+  							}
+  						options ButtonOptions _Mx7OkFt9Ee2nXJXMw4vrvg {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _Mx3kMFt9Ee2nXJXMw4vrvg {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _Mx2WEFt9Ee2nXJXMw4vrvg {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _Mx1vAVt9Ee2nXJXMw4vrvg at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _Mx1vA1t9Ee2nXJXMw4vrvg at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  				
+  				Col _QgNVoWBIEe2RjrkbQARhdg at 240,30 size 220,120 {
+  					wideness Full
+  					layout Layout _QgS1MGBIEe2RjrkbQARhdg {
+  							size Default
+  							offset None
+  							alignment Right
+  						}
+  					generalStyle GeneralStyling _QgPK0GBIEe2RjrkbQARhdg {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _QgNVo2BIEe2RjrkbQARhdg at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _QgN8sWBIEe2RjrkbQARhdg at 10,2 size 7,14 {
+  					}
+  					
+  					Button _2jR6wVt_Ee2nXJXMw4vrvg at 10,30 size 200,60 {
+  						displayLabel "Cancel"
+  						label "Cancel"
+  						styling ButtonStyling _2jXaUFt_Ee2nXJXMw4vrvg {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Yellow
+  							}
+  						options ButtonOptions _2jYocFt_Ee2nXJXMw4vrvg {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _2jUXAFt_Ee2nXJXMw4vrvg {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _2jTv8Ft_Ee2nXJXMw4vrvg {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _2jTI4Vt_Ee2nXJXMw4vrvg at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _2jTI41t_Ee2nXJXMw4vrvg at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  		
+  		Col _7lJ5MVt_Ee2nXJXMw4vrvg at 10,30 size 220,120 {
+  			wideness Full
+  			layout Layout _7lM8gFt_Ee2nXJXMw4vrvg {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _7lLHUlt_Ee2nXJXMw4vrvg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _7lKgQVt_Ee2nXJXMw4vrvg at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _7lLHUVt_Ee2nXJXMw4vrvg at 10,2 size 7,14 {
+  			}
+  			
+  			Text _8nqfEVt_Ee2nXJXMw4vrvg at 10,30 size 200,60 {
+  				content [ StaticContent _8ntiYFt_Ee2nXJXMw4vrvg {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Are you sure you want to delete this data?"
+  						styling TextStyling _8ntiYVt_Ee2nXJXMw4vrvg {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold true
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _8nrtMFt_Ee2nXJXMw4vrvg {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _8nrGIVt_Ee2nXJXMw4vrvg at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _8nrGI1t_Ee2nXJXMw4vrvg at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}

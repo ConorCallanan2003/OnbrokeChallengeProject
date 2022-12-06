@@ -1,0 +1,85 @@
+<form
+ [ngFormModel]="form_afTeYFuaEe2CdvY0XUmpAForm"
+ [attr.id]="'form'+form_afTeYFuaEe2CdvY0XUmpAForm.hashCode.toString()"
+ data-cinco-id="_afTeYFuaEe2C-dvY0XUmpA"
+ *ngFor="let thisBidding of initOnDemandbidding().initOnDemandoffer().initOnDemandbiddings(); let index1 = index; trackBy: trackSelective"  
+ aria-live="polite" aria-atomic="true" 
+ 
+ >
+ <!-- beginn box -->
+ <div 
+  [ngStyle]="{ 'margin-bottom':'30px' }"
+  class="container page-content">
+ <div 
+  class="row">
+ <div
+ 
+ class="col-md-12 text-left"
+ >
+ <span 
+  [ngStyle]="{ 'overflow':'auto' , 'height':'33vh' , 'margin-bottom':'15px' }"
+ >
+ <span aria-live="polite" aria-atomic="true" class="text-left">
+ Bidding from {{thisBidding?.user?.firstName}} {{thisBidding?.user?.lastName}}  
+ </span>
+ </span>
+ </div>
+ <div
+ 
+ class="col-md-12 text-left"
+ >
+ <!-- beginn button Assign -->
+ <button 
+ 	data-cinco-id="_afXv0VuaEe2C-dvY0XUmpA"
+ 	tabindex="0" aria-label="Assign"
+ 	[disabled]="(!form_afTeYFuaEe2CdvY0XUmpAForm.valid)||isBusy()"
+ type="submit"
+ (click)="actionassigneventaafXv0VuaEe2C_45_dvY0XUmpAEventTrigger(form_afTeYFuaEe2CdvY0XUmpAForm.value,thisBidding)
+ "
+ class="btn btn-warning">
+  Assign
+ </button>
+ <!-- end button Assign -->
+ </div>
+ </div>
+ <div *ngIf="				thisBidding?.features?.length>0
+ " 
+ aria-live="polite" aria-atomic="true" 
+ 
+  class="row">
+ <div
+ 
+ class="col-md-12 text-left"
+ >
+ <span 
+  >
+ <span aria-live="polite" aria-atomic="true" class="text-left">
+ <strong>
+ <u>
+ Features:
+ </u>
+ </strong>
+ </span>
+ </span>
+ </div>
+ </div>
+ <div *ngFor="let thisFeature of thisBidding.initOnDemandfeatures(); let index2 = index; trackBy: trackSelective"  
+ aria-live="polite" aria-atomic="true" 
+ 
+  class="row">
+ <div
+ 
+  [dimeAttributes]="{ 'Finder':null }"
+ class="col-md-12 text-left"
+ >
+ <span 
+  >
+ <span aria-live="polite" aria-atomic="true" class="text-left">
+ {{thisFeature?.title}}
+ </span>
+ </span>
+ </div>
+ </div>
+ </div>
+ <!-- end box -->
+</form>

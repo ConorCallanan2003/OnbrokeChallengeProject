@@ -1,0 +1,196 @@
+	<table  [attr.id]="'table'+hashCode.toString()" class="table table-striped table-hover table-condensed">
+		<thead>
+			<tr>
+			<!-- table column Title -->
+			<!-- sotring enabled for column Title -->
+			<th 
+			 ><a href
+			data-cinco-id="_K8zk0lLlEe2djpkPxa2Z3Q"
+			(click)="table_K8zk0lLlEe2djpkPxa2Z3QSort($event)"
+			>Title <span
+			[ngClass]="table_K8y9oVLlEe2djpkPxa2Z3QIsSorted('colId_K8zk0lLlEe2djpkPxa2Z3Q')"
+			></span></a></th>
+			<!-- table column User -->
+			<!-- sotring enabled for column User -->
+			<th 
+			 ><a href
+			data-cinco-id="_exugsVLlEe2djpkPxa2Z3Q"
+			(click)="table_exugsVLlEe2djpkPxa2Z3QSort($event)"
+			>User <span
+			[ngClass]="table_K8y9oVLlEe2djpkPxa2Z3QIsSorted('colId_exugsVLlEe2djpkPxa2Z3Q')"
+			></span></a></th>
+			<!-- table column Status -->
+			<!-- no sotring for column Status -->
+			<th 
+			 >Status</th>
+			<!-- table column Actions -->
+			<!-- no sotring for column Actions -->
+			<th 
+			 >Actions</th>
+			</tr>
+		</thead>
+			<tbody>
+		<tr
+			class=""
+			data-table-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+			*ngFor="let offer of table_K8y9oVLlEe2djpkPxa2Z3QgetElements(sourceaK8y9oVLlEe2djpkPxa2Z3Q); let _K8y9oVLlEe2djpkPxa2Z3QNum = index; trackBy: trackSelective"
+			>
+			<!-- table column Title-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{offer?.title}}
+				</span>
+				</span>
+			</td>
+			<!-- table column User-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{offer?.user?.lastName}}, {{offer?.user?.firstName}}
+				</span>
+				</span>
+			</td>
+			<!-- table column Status-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{offer?.status}}
+				</span>
+				</span>
+			</td>
+			<!-- table column Actions-->
+			<td 
+			 >
+				<!-- beginn button group -->
+				<div 
+				 class=" btn-group" role="navigation" aria-label="button group">
+				<div class="btn-group" 
+				 role="navigation" aria-label="button group"><!-- beginn button Show offer -->
+				<button 
+					data-cinco-id="_K80y21LlEe2djpkPxa2Z3Q"
+					tabindex="0" aria-label="Show offer"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionshowoffereventaK80y21LlEe2djpkPxa2Z3QEventTrigger(offer)
+				"
+				class="btn btn-default btn-sm">
+				 Details
+				</button>
+				<!-- end button Show offer -->
+				</div><div class="btn-group" 
+				 role="navigation" aria-label="button group"><!-- beginn button Edit offer -->
+				<button 
+					data-cinco-id="_K80y7FLlEe2djpkPxa2Z3Q"
+					tabindex="0" aria-label="Edit offer"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actioneditoffereventaK80y7FLlEe2djpkPxa2Z3QEventTrigger(offer)
+				"
+				class="btn btn-warning btn-sm">
+				 Edit
+				</button>
+				<!-- end button Edit offer -->
+				</div><div class="btn-group" 
+				 role="navigation" aria-label="button group"><!-- beginn button Delete offer -->
+				<button 
+					data-cinco-id="_K80y_VLlEe2djpkPxa2Z3Q"
+					tabindex="0" aria-label="Delete offer"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actiondeleteoffereventaK80y_VLlEe2djpkPxa2Z3QEventTrigger(offer)
+				"
+				class="btn btn-danger btn-sm">
+				 Delete
+				</button>
+				<!-- end button Delete offer -->
+				</div></div>
+				<!-- end button group -->
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+<!-- table pagination enabled -->
+<nav *ngIf="table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length>1">
+  <ul class="pagination">
+    
+    <li
+    	    [ngClass]="table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage<=0?'disabled':''"
+    	    >
+    	      <a href
+    		data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    		(click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage-1,$event)"
+    	      aria-label="Previous">
+    	        <span aria-hidden="true">&laquo;</span>
+    	      </a>
+    	    </li>
+    <template [ngIf]="table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length<5">
+	    <li 
+	    		*ngFor="let page_K8y9oVLlEe2djpkPxa2Z3Q of table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size)"
+	    		[class]="page_K8y9oVLlEe2djpkPxa2Z3Q==table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage?'active':''"
+	    	    >
+	    	    <a href
+	    	    data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+	    	    (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(page_K8y9oVLlEe2djpkPxa2Z3Q,$event)"
+	    	    >{{ page_K8y9oVLlEe2djpkPxa2Z3Q+1 }}</a>
+    	    </li>
+    	     
+    </template>
+    <template [ngIf]="table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length>=5">
+	    <li *ngIf="(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)>1">
+	    	    	<a href
+	    	    	data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    	    	    (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(0,$event)"
+        	    >1</a>
+        </li>
+        	<li class="disabled" *ngIf="(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)>3" ><a href="#">...</a></li>
+        	<li
+        		*ngIf="(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)>2"
+        	>
+    	    	<a href
+    	    		data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    	    	    (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage-1,$event)"
+        	    >{{ (table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)-1 }}</a>
+        </li>
+        	<li class="active">
+    	    	<a href
+    	    		data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    	    	    (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage,$event)"
+        	    >{{ table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1 }}</a>
+        </li>
+        <li
+        	    *ngIf="table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage<(table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length-2)"
+        	>
+    	    	<a href
+    	    		data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    	    	    (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1,$event)"
+        	    >{{ (table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)+1 }}</a>
+        </li>
+        <li class="disabled" *ngIf="(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)<(table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length-2)" ><a href="#">...</a></li>
+        	<li *ngIf="(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1)<(table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length)">
+    	    	<a href
+    	    		data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    	    	    (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length-1,$event)"
+        	    >{{ table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length }}</a>
+        </li>
+    	</template>
+    	<li
+    	    [ngClass]="table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage>=table_K8y9oVLlEe2djpkPxa2Z3QgetPageCount(table_K8y9oVLlEe2djpkPxa2Z3Q_size).length-1?'disabled':''"
+    	    >
+    	      <a href
+    	      data-cinco-id="_K8y9oVLlEe2djpkPxa2Z3Q"
+    	      (click)="table_K8y9oVLlEe2djpkPxa2Z3QchangePage(table_K8y9oVLlEe2djpkPxa2Z3QCurrentPage+1,$event)"
+    	      aria-label="Next">
+    	        <span aria-hidden="true">&raquo;</span>
+    	      </a>
+    	    </li>
+  </ul>
+</nav>

@@ -1,0 +1,31 @@
+<span *ngIf="!(features?.length>0)
+" 
+aria-live="polite" aria-atomic="true" 
+
+ [ngStyle]="{ 'color':'grey' }"
+>
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<em>
+No feature templates yet
+</em>
+</span>
+</span>
+<table-_zZO2YVLIEe2djpkPxa2Z3Q-featureTemplateTable
+		*ngIf="				features?.length>0
+		" 
+		aria-live="polite" aria-atomic="true" 
+		
+		[modalDialog]="modalDialog"
+		[currentbranch]="currentbranch"
+		[ismajorpage]="false"
+		[runtimeId]="runtimeId"
+		[guiId]="guiId"
+		[features]="features"
+	
+		[sourceazZO2YVLIEe2djpkPxa2Z3Q]="features"
+	  	(source_update)="features.replaceAll($event)"
+		(actioneditfeatureevent) = "actioneditfeatureevent.add($event)"
+		(actiondeletefeatureevent) = "actiondeletefeatureevent.add($event)"
+		(actiondetailsevent) = "actiondetailsevent.add($event)"
+>
+</table-_zZO2YVLIEe2djpkPxa2Z3Q-featureTemplateTable>

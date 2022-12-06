@@ -1,0 +1,169 @@
+<div 
+ [ngStyle]="{ 'margin-bottom':'30px' }"
+class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<h4
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+Bidding for: {{bidding?.offer?.title}}
+</span>
+</h4>
+<!-- beginn button Back -->
+<button 
+	data-cinco-id="_8MBYQVOlEe2KQc5QIsW97w"
+	tabindex="0" aria-label="Back"
+	[disabled]="isBusy()"
+type="button"
+(click)="actionbackeventa8MBYQVOlEe2KQc5QIsW97wEventTrigger()
+"
+class="btn btn-default">
+<span aria-hidden="true" aria-label="icon arrow-left" class="glyphicon glyphicon-arrow-left" style="right:2px"></span>
+ Back
+</button>
+<!-- end button Back -->
+</div>
+</div>
+<dime-panel
+	
+	#dimeaB7wNIVOkEe2KQc5QIsW97wpanel
+	[styling]="{}"
+	[cincoId]="'_B7wNIVOkEe2KQc5QIsW97w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="false"
+	[initial]="true"
+>
+<span dime-panel-heading-false>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Features
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeaB7wNIVOkEe2KQc5QIsW97wpanel.isCollapsed||dimeaB7wNIVOkEe2KQc5QIsW97wpanel.isLoaded" class="panel-body">
+<span *ngIf="!(bidding?.features?.length>0)
+" 
+aria-live="polite" aria-atomic="true" 
+
+ [ngStyle]="{ 'color':'grey' }"
+>
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<em>
+None
+</em>
+</span>
+</span>
+<div *ngFor="let feature of initOnDemandbidding().initOnDemandfeatures(); let index = index; trackBy: trackSelective"  
+aria-live="polite" aria-atomic="true" 
+
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+ · {{feature?.title}}
+</span>
+</span>
+</div>
+</div>
+	</div>
+</dime-panel>
+<dime-panel
+	
+	#dimeaJSSV0VOkEe2KQc5QIsW97wpanel
+	[styling]="{}"
+	[cincoId]="'_JSSV0VOkEe2KQc5QIsW97w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="false"
+	[initial]="true"
+>
+<span dime-panel-heading-false>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Preferences
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeaJSSV0VOkEe2KQc5QIsW97wpanel.isCollapsed||dimeaJSSV0VOkEe2KQc5QIsW97wpanel.isLoaded" class="panel-body">
+<span *ngIf="!(bidding?.preferences?.length>0)
+" 
+aria-live="polite" aria-atomic="true" 
+
+ [ngStyle]="{ 'color':'grey' }"
+>
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<em>
+None
+</em>
+</span>
+</span>
+<div *ngFor="let preference of initOnDemandbidding().initOnDemandpreferences(); let index = index; trackBy: trackSelective"  
+aria-live="polite" aria-atomic="true" 
+
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+ · {{preference?.title}} ({{preference?.priority}})
+</span>
+</span>
+</div>
+</div>
+	</div>
+</dime-panel>
+<dime-panel
+	
+	#dimeaC18IAVOlEe2KQc5QIsW97wpanel
+	[styling]="{}"
+	[cincoId]="'_C18IAVOlEe2KQc5QIsW97w'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="false"
+	[initial]="true"
+>
+<span dime-panel-heading-false>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Discussion
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeaC18IAVOlEe2KQc5QIsW97wpanel.isCollapsed||dimeaC18IAVOlEe2KQc5QIsW97wpanel.isLoaded" class="panel-body">
+	
+	<discussionpanelcontent-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[submission]="Data.DataCastUtil.castToSubmission(bidding)"
+	  	[showResolveButtons]="false"
+	  	
+	  	(actionshowissueevent)="actionshowissueevent.add($event)"
+	  	
+	  	
+	  	(actionresolveissueevent)="actionresolveissueevent.add($event)"
+	  	
+	  	
+	  	(actionunresolveissueevent)="actionunresolveissueevent.add($event)"
+	  	
+	  	
+	  	(actioncreateissueevent)="actioncreateissueevent.add($event)"
+	  	
+	  >
+	  </discussionpanelcontent-tag>
+	</div>
+</dime-panel>

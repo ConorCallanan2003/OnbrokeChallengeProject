@@ -1,0 +1,53 @@
+<login-form 
+	*ngIf="currentUser==null && showLogin == true"
+	(signedin)="loadCurrentUser()"
+	[modal]="modalDialog"
+	></login-form>
+<template [ngIf]="currentUser!=null && showLogin == false">
+<div 
+ [ngStyle]="{ 'margin-bottom':'30px' }"
+class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<h1
+
+[ngStyle]="{ 'margin-top':'0' , 'font-variant':'small-caps' }"
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+Onbroke
+</span>
+</h1>
+<h4
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+User Area · Logged in as {{currentUser?.firstName}} {{currentUser?.lastName}}
+</span>
+</h4>
+<!-- beginn button Logout -->
+<button 
+ [ngStyle]="{ 'margin-top':'15px' }"
+	data-cinco-id="_z5a8AVFMEe2J0bu3ffrh5w"
+	tabindex="0" aria-label="Logout"
+	[disabled]="isBusy()"
+type="button"
+(click)="window.location.href=''+getLogoutURL.toString()+''"
+class="btn btn-primary">
+ Logout
+ <span aria-hidden="true" aria-label="icon log-out" class="glyphicon glyphicon-log-out" style="left:2px"></span>
+</button>
+<!-- end button Logout -->
+</div>
+</div>
+<root-ShowUserArea-acxB5kVFLEe2Vgcav4Znc_w-process
+	#processa1Wev4VFMEe2J0bu3ffrh5wSIB
+	
+		[startPointId]="'ac_45_ixIVFLEe2Vgcav4Znc_w'"
+		[sibId]="'_1Wev4VFMEe2J0bu3ffrh5w'"
+		[guiId]="guiId"
+		[parentRuntimeId]="runtimeId"
+>
+</root-ShowUserArea-acxB5kVFLEe2Vgcav4Znc_w-process>
+</template>

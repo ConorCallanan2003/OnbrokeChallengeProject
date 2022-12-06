@@ -1,0 +1,124 @@
+<dime-panel
+	
+	#dimeabWN5kVLZEe2djpkPxa2Z3Qpanel
+	[styling]="{}"
+	[cincoId]="'_bWN5kVLZEe2djpkPxa2Z3Q'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="false"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Offer Features
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeabWN5kVLZEe2djpkPxa2Z3Qpanel.isCollapsed||dimeabWN5kVLZEe2djpkPxa2Z3Qpanel.isLoaded" class="panel-body">
+<div 
+ [ngStyle]="{ 'margin-bottom':'15px' }"
+class="row">
+<div
+
+class="col-md-12 text-right"
+>
+<!-- beginn button Create offer feature -->
+<button 
+	data-cinco-id="_bWPu1FLZEe2djpkPxa2Z3Q"
+	tabindex="0" aria-label="Create offer feature"
+	[disabled]="isBusy()"
+type="button"
+(click)="actioncreateofferfeatureeventabWPu1FLZEe2djpkPxa2Z3QEventTrigger()
+"
+class="btn btn-success">
+<span aria-hidden="true" aria-label="icon plus" class="glyphicon glyphicon-plus" style="right:2px"></span>
+ Create new feature
+</button>
+<!-- end button Create offer feature -->
+</div>
+</div>
+	
+	<featuretemplatetable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[features]="featuresForOffer"
+	  	
+	  	(actioneditfeatureevent)="actioneditfeatureevent.add($event)"
+	  	
+	  	
+	  	(actiondeletefeatureevent)="actiondeletefeatureevent.add($event)"
+	  	
+	  	
+	  	(actiondetailsevent)="actiondetailsevent.add($event)"
+	  	
+	  >
+	  </featuretemplatetable-tag>
+	</div>
+</dime-panel>
+<dime-panel
+	
+	#dimeamSgA8VLZEe2djpkPxa2Z3Qpanel
+	[styling]="{}"
+	[cincoId]="'_mSgA8VLZEe2djpkPxa2Z3Q'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="false"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Bidding Features
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimeamSgA8VLZEe2djpkPxa2Z3Qpanel.isCollapsed||dimeamSgA8VLZEe2djpkPxa2Z3Qpanel.isLoaded" class="panel-body">
+<div 
+ [ngStyle]="{ 'margin-bottom':'15px' }"
+class="row">
+<div
+
+class="col-md-12 text-right"
+>
+<!-- beginn button Create bidding feature -->
+<button 
+	data-cinco-id="_mSh2L1LZEe2djpkPxa2Z3Q"
+	tabindex="0" aria-label="Create bidding feature"
+	[disabled]="isBusy()"
+type="button"
+(click)="actioncreatebiddingfeatureeventamSh2L1LZEe2djpkPxa2Z3QEventTrigger()
+"
+class="btn btn-success">
+<span aria-hidden="true" aria-label="icon plus" class="glyphicon glyphicon-plus" style="right:2px"></span>
+ Create new feature
+</button>
+<!-- end button Create bidding feature -->
+</div>
+</div>
+	
+	<featuretemplatetable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[features]="featuresForBidding"
+	  	
+	  	(actioneditfeatureevent)="actioneditfeatureevent.add($event)"
+	  	
+	  	
+	  	(actiondeletefeatureevent)="actiondeletefeatureevent.add($event)"
+	  	
+	  	
+	  	(actiondetailsevent)="actiondetailsevent.add($event)"
+	  	
+	  >
+	  </featuretemplatetable-tag>
+	</div>
+</dime-panel>
