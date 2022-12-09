@@ -32,7 +32,7 @@ offer1 = new data.Offer {
 		extend attrTmpl {
 			isTemplateForBidding = false
 			priority = "high"
-		
+		}
 	]
 	issues = [
 		new data.Issue {

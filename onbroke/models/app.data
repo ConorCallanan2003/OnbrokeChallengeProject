@@ -110,16 +110,16 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _DJ1LAVFNEe2J0bu3ffrh5w at 810,78 size 140,127 {
+  ConcreteType _DJ1LAVFNEe2J0bu3ffrh5w at 810,78 size 140,145 {
   	name "Offer"
-  	BidirectionalAttribute _STTrkVFNEe2J0bu3ffrh5w at 5,104 size 130,18 {
+  	BidirectionalAttribute _STTrkVFNEe2J0bu3ffrh5w at 5,122 size 130,18 {
   		oppositeAttribute _STDz8VFNEe2J0bu3ffrh5w
   		dataType _dh6BYMwNEeWZVvvwxpYu8A
   		name "user"
   		isList false
   	}
   	
-  	BidirectionalAttribute _xZISQVGIEe2J0bu3ffrh5w at 5,32 size 130,18 {
+  	BidirectionalAttribute _xZISQVGIEe2J0bu3ffrh5w at 5,50 size 130,18 {
   		oppositeAttribute _xY5BsVGIEe2J0bu3ffrh5w
   		dataType _FSL-oVFNEe2J0bu3ffrh5w
   		name "biddings"
@@ -138,9 +138,15 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList true
   	}
   	
-  	PrimitiveAttribute _rTRUMVuBEe24-NGcS7DsBA at 5,50 size 130,18 {
+  	PrimitiveAttribute _rTRUMVuBEe24-NGcS7DsBA at 5,32 size 130,18 {
   		dataType Boolean
   		name "assigned"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _3gXN8XVxEe2cLPYmNcZZ9A at 5,104 size 130,18 {
+  		dataType _oG2GQXVxEe2cLPYmNcZZ9A
+  		name "status"
   		isList false
   	}
   	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
@@ -158,18 +164,24 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isHidden false
   		sourceAttr _txofoVMTEe2KQc5QIsW97w
   	}
+  	
+  	-Association-> _oG2GQXVxEe2cLPYmNcZZ9A  decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _3gPSIHVxEe2cLPYmNcZZ9A
+  		isHidden false
+  		sourceAttr _3gXN8XVxEe2cLPYmNcZZ9A
+  	}
   }
   
-  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,472 size 140,127 {
+  ConcreteType _FSL-oVFNEe2J0bu3ffrh5w at 810,472 size 140,145 {
   	name "Bidding"
-  	BidirectionalAttribute _T0d8UVFNEe2J0bu3ffrh5w at 5,104 size 130,18 {
+  	BidirectionalAttribute _T0d8UVFNEe2J0bu3ffrh5w at 5,122 size 130,18 {
   		oppositeAttribute _T0OEsVFNEe2J0bu3ffrh5w
   		dataType _dh6BYMwNEeWZVvvwxpYu8A
   		name "user"
   		isList false
   	}
   	
-  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,68 size 130,18 {
+  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,86 size 130,18 {
   		oppositeAttribute _xZISQVGIEe2J0bu3ffrh5w
   		dataType _DJ1LAVFNEe2J0bu3ffrh5w
   		name "offer"
@@ -182,22 +194,28 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,50 size 130,18 {
+  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,68 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "features"
   		isList true
   	}
   	
-  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,86 size 130,18 {
+  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,104 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "preferences"
   		isList true
+  	}
+  	
+  	ComplexAttribute _6kjXsXVxEe2cLPYmNcZZ9A at 5,50 size 130,18 {
+  		dataType _oG2GQXVxEe2cLPYmNcZZ9A
+  		name "status"
+  		isList false
   	}
   	-Inheritance-> _V7iG8FGDEe2J0bu3ffrh5w  decorate "" at (0,0) {
   		id _h2jugVGDEe2J0bu3ffrh5w
   	}
   	
-  	-BidirectionalAssociation-> _DJ1LAVFNEe2J0bu3ffrh5w  decorate "Text" at (10,0) decorate "Text" at (10,-12) {
+  	-BidirectionalAssociation-> _DJ1LAVFNEe2J0bu3ffrh5w  decorate "Text" at (10,0) decorate "Text" at (-50,78) {
   		id _xYrmUVGIEe2J0bu3ffrh5w
   		targetAttr _xY5BsVGIEe2J0bu3ffrh5w
   		isHidden false
@@ -214,6 +232,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		id _0_o-cVMTEe2KQc5QIsW97w
   		isHidden false
   		sourceAttr _0_2Z0VMTEe2KQc5QIsW97w
+  	}
+  	
+  	-Association-> _oG2GQXVxEe2cLPYmNcZZ9A  decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _6kcC8XVxEe2cLPYmNcZZ9A
+  		isHidden false
+  		sourceAttr _6kjXsXVxEe2cLPYmNcZZ9A
   	}
   }
   
@@ -434,6 +458,21 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		id _t4AYgVrWEe2zsZyFB7dFOg
   		isHidden false
   		sourceAttr _t4NM0VrWEe2zsZyFB7dFOg
+  	}
+  }
+  
+  EnumType _oG2GQXVxEe2cLPYmNcZZ9A at 890,279 size 111,73 {
+  	name "Status"
+  	EnumLiteral _qnhTQXVxEe2cLPYmNcZZ9A at 5,50 size 101,18 {
+  		displayName ""
+  		name "open"
+  		isList false
+  	}
+  	
+  	EnumLiteral _thl3sXVxEe2cLPYmNcZZ9A at 5,32 size 101,18 {
+  		displayName ""
+  		name "closed"
+  		isList false
   	}
   }
 }
