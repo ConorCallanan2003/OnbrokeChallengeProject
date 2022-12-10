@@ -95,9 +95,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _NJM8cHfUEe2cGd7_OEEukw via (803,316) (803,492) decorate "" at (0,0) {
+  			id _OHXN0XfUEe2cGd7_OEEukw
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (873,450) (950,450) (950,172) decorate "" at (0,0) {
-  		id _h_J8kVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _NJDygXfUEe2cGd7_OEEukw  decorate "" at (0,0) {
+  		id _NnpzAXfUEe2cGd7_OEEukw
   		concurrent true
   	}
   }
@@ -175,9 +179,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   		isList false
   		name "currentUser"
+  		-ComplexDirectDataFlow-> _CsqikXfIEe20WYdcRLAoOw via (299,316) (299,458) decorate "" at (0,0) {
+  			id _DaGQUXfIEe20WYdcRLAoOw
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (369,450) (440,450) (440,172) decorate "" at (0,0) {
-  		id _cXIkIVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _-VMMAXfHEe20WYdcRLAoOw  decorate "" at (0,0) {
+  		id __XPe4XfHEe20WYdcRLAoOw
   		concurrent true
   	}
   }
@@ -318,6 +326,52 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	name "success"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1028,172) decorate "" at (0,0) {
   		id _N18ncWBLEe2Zz8LOII5r3g
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _-VMMAXfHEe20WYdcRLAoOw at 320,382 size 120,90 {
+  	libraryComponentUID "_1H0vcHfFEe20WYdcRLAoOw"
+  	label "newOfferProcess"
+  	ignoredBranch [  ]
+  	ComplexInputPort _CsqikXfIEe20WYdcRLAoOw at 5,67 size 110,18 {
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isList false
+  		name "user"
+  	}
+  	-BranchConnector-> _-VRrkXfHEe20WYdcRLAoOw   {
+  		id _-VSSoXfHEe20WYdcRLAoOw
+  		concurrent true
+  	}
+  }
+  
+  Branch _-VRrkXfHEe20WYdcRLAoOw at 309,504 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _D-OREXfIEe20WYdcRLAoOw
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _NJDygXfUEe2cGd7_OEEukw at 830,382 size 120,90 {
+  	libraryComponentUID "_tTP3gHfTEe2cGd7_OEEukw"
+  	label "deleteOffer"
+  	ignoredBranch [  ]
+  	ComplexInputPort _NJM8cHfUEe2cGd7_OEEukw at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _NJeCMXfUEe2cGd7_OEEukw   {
+  		id _NJepQXfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  Branch _NJeCMXfUEe2cGd7_OEEukw at 864,514 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _Pz8EYXfUEe2cGd7_OEEukw
   		concurrent true
   	}
   }

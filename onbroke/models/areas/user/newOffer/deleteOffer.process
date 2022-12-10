@@ -1,0 +1,97 @@
+Process _tTP3gHfTEe2cGd7_OEEukw {
+  modelName "deleteOffer"
+  description "deleteOffer"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _ti4O8XfTEe2cGd7_OEEukw at 20,20 size 210,545 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _ti5dEXfTEe2cGd7_OEEukw at 330,20 size 100,90 {
+  	ComplexOutputPort _HLnjsXfUEe2cGd7_OEEukw at 5,67 size 90,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  		-ComplexDirectDataFlow-> __vS8EXfTEe2cGd7_OEEukw via (280,96) (280,216) decorate "" at (0,0) {
+  			id _H258YXfUEe2cGd7_OEEukw
+  			dfViewWorkaround true
+  		}
+  		
+  		-ComplexDirectDataFlow-> _KBzGoXfUEe2cGd7_OEEukw via (320,96) (320,406) decorate "" at (0,0) {
+  			id _KenlgXfUEe2cGd7_OEEukw
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> __vHV4XfTEe2cGd7_OEEukw  decorate "" at (0,0) {
+  		id _BEud8XfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _ti8gYXfTEe2cGd7_OEEukw at 330,500 size 100,65 {
+  	branchName "success"
+  }
+  
+  GUISIB __vHV4XfTEe2cGd7_OEEukw at 290,140 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_ynZRsXfTEe2cGd7_OEEukw"
+  	name "deleteOfferConfirm"
+  	label "deleteOfferConfirm"
+  	ignoredBranch [  ]
+  	ComplexInputPort __vS8EXfTEe2cGd7_OEEukw at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> __vbe8XfTEe2cGd7_OEEukw   {
+  		id __vdUIXfTEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> __vhlkXfTEe2cGd7_OEEukw   {
+  		id __vizsXfTEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  Branch __vbe8XfTEe2cGd7_OEEukw at 270,260 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _ti8gYXfTEe2cGd7_OEEukw  decorate "" at (0,0) {
+  		id _B79n8XfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  Branch __vhlkXfTEe2cGd7_OEEukw at 427,271 size 120,25 {
+  	name "Confirm"
+  	-ControlFlow-> _CruQ8XfUEe2cGd7_OEEukw  decorate "" at (0,0) {
+  		id _D2-jIXfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  DeleteSIB _CruQ8XfUEe2cGd7_OEEukw at 420,330 size 120,90 {
+  	force true
+  	label "Delete"
+  	ignoredBranch [  ]
+  	ComplexInputPort _KBzGoXfUEe2cGd7_OEEukw at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _Crx7UXfUEe2cGd7_OEEukw   {
+  		id _CrzwgXfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  Branch _Crx7UXfUEe2cGd7_OEEukw at 409,440 size 120,25 {
+  	name "deleted"
+  	-ControlFlow-> _ti8gYXfTEe2cGd7_OEEukw  decorate "" at (0,0) {
+  		id _DkmZsXfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+}

@@ -6,7 +6,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   title "BiddingAreaEdit"
   DataContext _Go5DcVm_Ee2zbeoDKccEjg_INTERNAL at 40,140 size 180,1085 {
   	dfViewWorkaround true
-  	ComplexVariable _JJXtIV3mEe2HRMxwZL7uug_INTERNAL at 0,630 size 160,25 {
+  	ComplexVariable _JJXtIV3mEe2HRMxwZL7uug_INTERNAL at 10,680 size 160,25 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -23,7 +23,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		}
   	}
   	
-  	ComplexVariable _KK_rwV3yEe2HVMxwZL7uug at 10,450 size 160,25 index 4 {
+  	ComplexVariable _KK_rwV3yEe2HVMxwZL7uug at 10,320 size 160,25 index 4 {
   		expanded false
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
@@ -36,25 +36,40 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributeName current
   		}
   		
-  		-TableLoad-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL via (260,602) (260,635) decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _NVwBQV3WEe2FVevBlBmE3A_INTERNAL via (260,602) (260,494) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _MyZL0V3yEe2HVMxwZL7uug
   		}
   	}
   	
-  	ComplexVariable _MOl7MV3yEe2HVMxwZL7uug at 10,510 size 160,51 index 5 {
-  		expanded false
+  	ComplexVariable _MOl7MV3yEe2HVMxwZL7uug at 10,510 size 160,132 index 5 {
+  		expanded true
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isInput false
   		name "feature"
   		dfViewWorkaround true
   		isList false
-  		PrimitiveAttribute _MGNEsWDmEe2niNyWP4DbtA at 10,23 size 140,25 {
+  		PrimitiveAttribute _MGNEsWDmEe2niNyWP4DbtA at 10,104 size 140,25 {
   			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
   			isLive false
   			-TableColumnLoad-> _N6ftEV3WEe2FVevBlBmE3A_INTERNAL via (260,685) (260,640) decorate "" at (0,0) decorate "Text" at (0,0) {
   				id _WkzEcWHsEe2qD5qkkJmaRQ
   			}
+  		}
+  		
+  		ComplexAttribute _TAqCkXfVEe2cGd7_OEEukw at 10,77 size 140,25 {
+  			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _TAqpoXfVEe2cGd7_OEEukw at 10,50 size 140,25 {
+  			libraryComponentUID "_czYfMVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _TArQsXfVEe2cGd7_OEEukw at 10,23 size 140,25 {
+  			libraryComponentUID "_r5kYIVLOEe2djpkPxa2Z3Q"
+  			isLive false
   		}
   	}
   	
@@ -88,7 +103,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributeName current
   		}
   		
-  		-TableLoad-> _a_RZAV7pEe2MjMOCwlD7jg via (265,1072) (265,1055) decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-TableLoad-> _a_RZAV7pEe2MjMOCwlD7jg via (214,998) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _5eqCQV9aEe2NEczcaLyZmg
   		}
   	}

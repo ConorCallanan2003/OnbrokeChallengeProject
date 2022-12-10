@@ -4,7 +4,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "NewBiddingArea"
-  DataContext _ZI9JkWBHEe2Zz8LOII5r3g at 10,40 size 180,785 {
+  DataContext _ZI9JkWBHEe2Zz8LOII5r3g at 10,40 size 180,892 {
   	dfViewWorkaround true
   	ComplexVariable _D43aoGBIEe2Zz8LOII5r3g at 10,480 size 160,25 {
   		expanded false
@@ -52,14 +52,33 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   		isList false
   	}
   	
-  	ComplexVariable _MSpJAWBIEe2Zz8LOII5r3g at 10,730 size 160,25 {
-  		expanded false
+  	ComplexVariable _MSpJAWBIEe2Zz8LOII5r3g at 10,730 size 160,132 {
+  		expanded true
   		isLive false
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isInput false
   		name "preference"
   		dfViewWorkaround true
   		isList false
+  		ComplexAttribute _IcmO8XfKEe20WYdcRLAoOw at 10,77 size 140,25 {
+  			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _Icm2AXfKEe20WYdcRLAoOw at 10,50 size 140,25 {
+  			libraryComponentUID "_czYfMVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _Icm2A3fKEe20WYdcRLAoOw at 10,104 size 140,25 {
+  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _IcndEXfKEe20WYdcRLAoOw at 10,23 size 140,25 {
+  			libraryComponentUID "_r5kYIVLOEe2djpkPxa2Z3Q"
+  			isLive false
+  		}
   	}
   	
   	PrimitiveVariable _TVrt8WBIEe2Zz8LOII5r3g at 20,240 size 140,25 {
