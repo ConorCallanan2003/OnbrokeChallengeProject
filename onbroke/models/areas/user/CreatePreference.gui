@@ -1,0 +1,178 @@
+GUI _Bn2jcWAKEe2YNpeIwSxEfw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "CreatePreference"
+  DataContext _BoAUcGAKEe2YNpeIwSxEfw at 10,10 size 180,155 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _ddZG8WAKEe2YNpeIwSxEfw at 30,100 size 140,25 {
+  		dataType Text
+  		isInput false
+  		name "title"
+  		dfViewWorkaround true
+  		isList false
+  		-FormLoadSubmit-> _OaAAQWAKEe2YNpeIwSxEfw  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _eHZtQWAKEe2YNpeIwSxEfw
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _NviG8WAKEe2YNpeIwSxEfw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _eglCQWAKEe2YNpeIwSxEfw
+  		}
+  	}
+  }
+  
+  Template _BoCwsGAKEe2YNpeIwSxEfw at 240,10 size 290,430 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _BoJeYGAKEe2YNpeIwSxEfw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _BoLTkWAKEe2YNpeIwSxEfw at 10,30 size 270,370 {
+  		generalStyle GeneralStyling _BpPqkGAKEe2YNpeIwSxEfw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _BoOW4WAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _BoPlAWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
+  		}
+  		
+  		Col _BpHuwGAKEe2YNpeIwSxEfw at 10,30 size 240,320 {
+  			wideness Full
+  			layout Layout _BpPDgGAKEe2YNpeIwSxEfw {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _BpN1YGAKEe2YNpeIwSxEfw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _BpKLAGAKEe2YNpeIwSxEfw at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _BpKyEWAKEe2YNpeIwSxEfw at 10,2 size 7,14 {
+  			}
+  			
+  			Form _NvcnYWAKEe2YNpeIwSxEfw at 10,30 size 220,120 {
+  				inline false
+  				generalStyle GeneralStyling _Nv1o8GAKEe2YNpeIwSxEfw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _NvfqsWAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _NvgRwWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
+  				}
+  				
+  				Field _OaAAQWAKEe2YNpeIwSxEfw at 10,30 size 200,60 {
+  					maxMB 0
+  					inputType Text
+  					label "Preference Name"
+  					styling FormFieldStyling _OaZB0GAKEe2YNpeIwSxEfw {
+  							size Default
+  							disabled false
+  							color Default
+  						}
+  					additionalOptions FormFieldAdditionalOptions _OaVXcGAKEe2YNpeIwSxEfw {
+  							readonly false
+  						}
+  					validation FormFieldValidation _OaRGAGAKEe2YNpeIwSxEfw {
+  							min 0
+  							max -1
+  							required false
+  						}
+  					disabled false
+  					icon Icon _OaOCsGAKEe2YNpeIwSxEfw {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _OaK_YGAKEe2YNpeIwSxEfw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _OaHVAGAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _OaH8EGAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  			
+  			Button _iyZcwWAKEe2YNpeIwSxEfw at 10,230 size 200,60 {
+  				label "Cancel"
+  				styling ButtonStyling _izBu4GAKEe2YNpeIwSxEfw {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Red
+  					}
+  				options ButtonOptions _izGAUGAKEe2YNpeIwSxEfw {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _iylqAGAKEe2YNpeIwSxEfw {
+  						postIcon None
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _iyduMGAKEe2YNpeIwSxEfw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _iycgEWAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _iydHIWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			Button _NviG8WAKEe2YNpeIwSxEfw at 10,160 size 200,60 {
+  				label "Submit"
+  				styling ButtonStyling _NvwJYGAKEe2YNpeIwSxEfw {
+  						fullWidth false
+  						size Default
+  						disabled false
+  						color Green
+  					}
+  				options ButtonOptions _NvyloGAKEe2YNpeIwSxEfw {
+  						isLink false
+  						submitsForm true
+  					}
+  				disabled false
+  				icon Icon _NvsfAGAKEe2YNpeIwSxEfw {
+  						postIcon Check
+  						preIcon None
+  					}
+  				generalStyle GeneralStyling _NvrQ4GAKEe2YNpeIwSxEfw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _NvpbsWAKEe2YNpeIwSxEfw at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _NvqCwWAKEe2YNpeIwSxEfw at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  	}
+  }
+}

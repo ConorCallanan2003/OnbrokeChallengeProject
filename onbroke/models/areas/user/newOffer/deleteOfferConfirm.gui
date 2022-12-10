@@ -1,0 +1,209 @@
+GUI _ynZRsXfTEe2cGd7_OEEukw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "deleteOfferConfirm"
+  DataContext _yncVAXfTEe2cGd7_OEEukw at 10,10 size 180,408 {
+  	dfViewWorkaround true
+  	ComplexVariable _39J1cXfTEe2cGd7_OEEukw at 10,30 size 160,348 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offer"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute __k-zUXigEe2wscJU9aUJ3A at 10,320 size 140,25 {
+  			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __k_aYXigEe2wscJU9aUJ3A at 10,77 size 140,25 {
+  			libraryComponentUID "_xZISQVGIEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __k_aY3igEe2wscJU9aUJ3A at 10,212 size 140,25 {
+  			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __lABcXigEe2wscJU9aUJ3A at 10,158 size 140,25 {
+  			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __lABc3igEe2wscJU9aUJ3A at 10,266 size 140,25 {
+  			libraryComponentUID "_3gXN8XVxEe2cLPYmNcZZ9A"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __lAogXigEe2wscJU9aUJ3A at 10,239 size 140,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __lAog3igEe2wscJU9aUJ3A at 10,104 size 140,25 {
+  			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute __lBPkXigEe2wscJU9aUJ3A at 10,185 size 140,25 {
+  			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute __lB2oXigEe2wscJU9aUJ3A at 10,50 size 140,25 {
+  			libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute __lCdsXigEe2wscJU9aUJ3A at 10,293 size 140,25 {
+  			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute __lCds3igEe2wscJU9aUJ3A at 10,131 size 140,25 {
+  			libraryComponentUID "_sr08AXigEe2n6qlSkDlEsw"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute __lDEwXigEe2wscJU9aUJ3A at 10,23 size 140,25 {
+  			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
+  			isLive false
+  		}
+  	}
+  }
+  
+  Template _yneKMXfTEe2cGd7_OEEukw at 240,10 size 320,320 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _yngmcHfTEe2cGd7_OEEukw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Text _2LfqkXfTEe2cGd7_OEEukw at 55,90 size 200,60 {
+  		content [ StaticContent _2Lfql3fTEe2cGd7_OEEukw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Are you sure you want to delete {{offer.title}}?"
+  				styling TextStyling _2LfqmHfTEe2cGd7_OEEukw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _2LfqlnfTEe2cGd7_OEEukw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2LfqmnfTEe2cGd7_OEEukw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2LfqnXfTEe2cGd7_OEEukw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _2Lg4sXfTEe2cGd7_OEEukw at 55,230 size 200,60 {
+  		label "Back"
+  		styling ButtonStyling _2Lg4uHfTEe2cGd7_OEEukw {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Default
+  			}
+  		options ButtonOptions _2Lg4uXfTEe2cGd7_OEEukw {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _2Lg4t3fTEe2cGd7_OEEukw {
+  				postIcon None
+  				preIcon ArrowLeft
+  			}
+  		generalStyle GeneralStyling _2Lg4tnfTEe2cGd7_OEEukw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2Lg4u3fTEe2cGd7_OEEukw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2Lg4vnfTEe2cGd7_OEEukw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _2LhfxXfTEe2cGd7_OEEukw at 55,160 size 200,60 {
+  		label "Confirm"
+  		styling ButtonStyling _2LhfzHfTEe2cGd7_OEEukw {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Green
+  			}
+  		options ButtonOptions _2LhfzXfTEe2cGd7_OEEukw {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _2Lhfy3fTEe2cGd7_OEEukw {
+  				postIcon Check
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _2LhfynfTEe2cGd7_OEEukw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2Lhfz3fTEe2cGd7_OEEukw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2Lhf0nfTEe2cGd7_OEEukw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Headline _2LlKInfTEe2cGd7_OEEukw at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _2LlKKHfTEe2cGd7_OEEukw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "{{offer.title}}"
+  				styling TextStyling _2LlKKXfTEe2cGd7_OEEukw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _2LlKJ3fTEe2cGd7_OEEukw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2LlKK3fTEe2cGd7_OEEukw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2LlKLnfTEe2cGd7_OEEukw at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}

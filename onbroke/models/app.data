@@ -181,7 +181,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,86 size 130,18 {
+  	BidirectionalAttribute _xY5BsVGIEe2J0bu3ffrh5w at 5,68 size 130,18 {
   		oppositeAttribute _xZISQVGIEe2J0bu3ffrh5w
   		dataType _DJ1LAVFNEe2J0bu3ffrh5w
   		name "offer"
@@ -194,19 +194,19 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,68 size 130,18 {
+  	ComplexAttribute _xMbLgVMTEe2KQc5QIsW97w at 5,50 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "features"
   		isList true
   	}
   	
-  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,104 size 130,18 {
+  	ComplexAttribute _0_2Z0VMTEe2KQc5QIsW97w at 5,86 size 130,18 {
   		dataType _A6uWQVHpEe2J0bu3ffrh5w
   		name "preferences"
   		isList true
   	}
   	
-  	ComplexAttribute _6kjXsXVxEe2cLPYmNcZZ9A at 5,50 size 130,18 {
+  	ComplexAttribute _6kjXsXVxEe2cLPYmNcZZ9A at 5,104 size 130,18 {
   		dataType _oG2GQXVxEe2cLPYmNcZZ9A
   		name "status"
   		isList false
@@ -274,37 +274,43 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  AbstractType _V7iG8FGDEe2J0bu3ffrh5w at 1010,191 size 140,127 {
+  AbstractType _V7iG8FGDEe2J0bu3ffrh5w at 1010,191 size 140,145 {
   	name "Submission"
-  	ComplexAttribute _nEaTcVGDEe2J0bu3ffrh5w at 5,68 size 130,18 {
+  	ComplexAttribute _nEaTcVGDEe2J0bu3ffrh5w at 5,86 size 130,18 {
   		dataType _eC67EVFSEe2J0bu3ffrh5w
   		name "report"
   		isList false
   	}
   	
-  	ComplexAttribute _nrhWwVGDEe2J0bu3ffrh5w at 5,32 size 130,18 {
+  	ComplexAttribute _nrhWwVGDEe2J0bu3ffrh5w at 5,50 size 130,18 {
   		dataType _BtX2cVGBEe2J0bu3ffrh5w
   		name "decision"
   		isList false
   	}
   	
-  	PrimitiveAttribute _z9pPsVGDEe2J0bu3ffrh5w at 5,86 size 130,18 {
+  	PrimitiveAttribute _z9pPsVGDEe2J0bu3ffrh5w at 5,104 size 130,18 {
   		dataType Text
   		name "title"
   		isList false
   	}
   	
-  	ComplexAttribute _3M1ooVN9Ee2KQc5QIsW97w at 5,50 size 130,18 {
+  	ComplexAttribute _3M1ooVN9Ee2KQc5QIsW97w at 5,68 size 130,18 {
   		dataType _psj6gVN9Ee2KQc5QIsW97w
   		name "issues"
   		isList true
   	}
   	
-  	ExtensionAttribute _2bMl8FOhEe2KQc5QIsW97w at 5,104 size 130,18 {
+  	ExtensionAttribute _2bMl8FOhEe2KQc5QIsW97w at 5,122 size 130,18 {
   		dataType "Boolean"
   		libraryComponentUID "_rUELYFOfEe2KQc5QIsW97w"
   		documentation "tests whether the current user is allowed to see the discussion"
   		name "userCanDiscuss"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _sr08AXigEe2n6qlSkDlEsw at 5,32 size 130,18 {
+  		dataType Text
+  		name "description"
   		isList false
   	}
   	-Association-> _eC67EVFSEe2J0bu3ffrh5w  decorate "Text" at (8,-3) decorate "" at (0,0) {

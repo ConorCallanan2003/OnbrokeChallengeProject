@@ -1,0 +1,166 @@
+Process _FKNy4GD6Ee2s0c0hOvkCRg {
+  modelName "GetFeatureData"
+  description "GetFeatureData"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _FWmCAWD6Ee2s0c0hOvkCRg at 20,20 size 210,725 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _FWmpEWD6Ee2s0c0hOvkCRg at 340,20 size 100,65 {
+  	-ControlFlow-> _IIHHYWD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _WhGmMWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _FWn3MWD6Ee2s0c0hOvkCRg at 330,680 size 100,126 {
+  	branchName "success"
+  	ComplexInputPort _OVsD8GD6Ee2s0c0hOvkCRg at 5,67 size 90,18 {
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "priority"
+  	}
+  	
+  	ComplexInputPort _O2WhAGD6Ee2s0c0hOvkCRg at 5,85 size 90,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "feature"
+  	}
+  	
+  	ComplexInputPort _PGzX0WD6Ee2s0c0hOvkCRg at 5,103 size 90,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "preferences"
+  	}
+  }
+  
+  RetrieveOfTypeSIB _IIHHYWD6Ee2s0c0hOvkCRg at 330,100 size 120,90 {
+  	libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  	label "Retrieve from Feature"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _V1ePQWD6Ee2s0c0hOvkCRg at 5,67 size 110,18 {
+  		value true
+  		name "isTemplateForOffer"
+  	}
+  	-BranchConnector-> _IIQRUWD6Ee2s0c0hOvkCRg   {
+  		id _IIRfcWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _IIUiwWD6Ee2s0c0hOvkCRg   {
+  		id _IIWX8WD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  Branch _IIQRUWD6Ee2s0c0hOvkCRg at 285,211 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _IISGgWD6Ee2s0c0hOvkCRg at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "retrieved"
+  		-ComplexDirectDataFlow-> _PGzX0WD6Ee2s0c0hOvkCRg via (275,247) (275,792) decorate "" at (0,0) {
+  			id _Tj-GsWD6Ee2s0c0hOvkCRg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _JGI14WD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _MvEEYWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  Branch _IIUiwWD6Ee2s0c0hOvkCRg at 445,211 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _JGI14WD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _M4iJcWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  RetrieveOfTypeSIB _JGI14WD6Ee2s0c0hOvkCRg at 330,280 size 120,90 {
+  	libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  	label "Retrieve from Feature"
+  	ignoredBranch [  ]
+  	BooleanInputStatic _U048AWD6Ee2s0c0hOvkCRg at 5,67 size 110,18 {
+  		value true
+  		name "isTemplateForBidding"
+  	}
+  	-BranchConnector-> _JGKrEWD6Ee2s0c0hOvkCRg   {
+  		id _JGL5MWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _JGXfYWD6Ee2s0c0hOvkCRg   {
+  		id _JGaisWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  Branch _JGKrEWD6Ee2s0c0hOvkCRg at 282,379 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _JGNHUWD6Ee2s0c0hOvkCRg at 5,27 size 110,18 {
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "retrieved"
+  		-ComplexDirectDataFlow-> _O2WhAGD6Ee2s0c0hOvkCRg via (272,415) (272,774) decorate "" at (0,0) {
+  			id _S7z6gWD6Ee2s0c0hOvkCRg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _MP8fcGD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _NPjiUWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  Branch _JGXfYWD6Ee2s0c0hOvkCRg at 442,379 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _MP8fcGD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _NYpM4GD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  RetrieveOfTypeSIB _MP8fcGD6Ee2s0c0hOvkCRg at 355,464 size 120,65 {
+  	libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  	label "Retrieve from Priority"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _MP9tkWD6Ee2s0c0hOvkCRg   {
+  		id _MQDNIWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _MQJTwWD6Ee2s0c0hOvkCRg   {
+  		id _MQLI8GD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  Branch _MP9tkWD6Ee2s0c0hOvkCRg at 275,539 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _MQD0MWD6Ee2s0c0hOvkCRg at 5,27 size 110,18 {
+  		libraryComponentUID "_j0KaUVHpEe2J0bu3ffrh5w"
+  		isList true
+  		name "retrieved"
+  		-ComplexDirectDataFlow-> _OVsD8GD6Ee2s0c0hOvkCRg via (265,575) (265,756) decorate "" at (0,0) {
+  			id _Qgz3sWD6Ee2s0c0hOvkCRg
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _FWn3MWD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _NxB3sWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+  
+  Branch _MQJTwWD6Ee2s0c0hOvkCRg at 435,539 size 120,25 {
+  	name "none found"
+  	-ControlFlow-> _FWn3MWD6Ee2s0c0hOvkCRg  decorate "" at (0,0) {
+  		id _N7YtkWD6Ee2s0c0hOvkCRg
+  		concurrent true
+  	}
+  }
+}

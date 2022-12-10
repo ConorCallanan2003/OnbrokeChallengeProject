@@ -1,0 +1,635 @@
+GUI _kAL7QXfUEe2cGd7_OEEukw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "OfferAeraEdit"
+  DataContext _kANJYXfUEe2cGd7_OEEukw at 10,10 size 180,1125 {
+  	dfViewWorkaround true
+  	ComplexVariable _zu8TIXfUEe2cGd7_OEEukw at 10,390 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "features"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexListAttributeConnector-> _0npcwXfUEe2cGd7_OEEukw  decorate "Ellipse" at (0,0) {
+  			id _0nxYkXfUEe2cGd7_OEEukw
+  			attributeName current
+  		}
+  		
+  		-TableLoad-> _oFfj9XfUEe2cGd7_OEEukw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _K-T8wXfVEe2cGd7_OEEukw
+  		}
+  	}
+  	
+  	ComplexVariable _0npcwXfUEe2cGd7_OEEukw at 10,510 size 160,132 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		ComplexAttribute _OY6bYXfVEe2cGd7_OEEukw at 10,77 size 140,25 {
+  			libraryComponentUID "_pse4kVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _OY7pgXfVEe2cGd7_OEEukw at 10,50 size 140,25 {
+  			libraryComponentUID "_czYfMVHpEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _OY8QkXfVEe2cGd7_OEEukw at 10,104 size 140,25 {
+  			libraryComponentUID "_JgCw0VHqEe2J0bu3ffrh5w"
+  			isLive false
+  			-TableColumnLoad-> _oFfkEnfUEe2cGd7_OEEukw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  				id _b9CHsXfVEe2cGd7_OEEukw
+  			}
+  		}
+  		
+  		PrimitiveAttribute _OY83oXfVEe2cGd7_OEEukw at 10,23 size 140,25 {
+  			libraryComponentUID "_r5kYIVLOEe2djpkPxa2Z3Q"
+  			isLive false
+  		}
+  	}
+  	
+  	ComplexVariable _dicvcXhbEe2mVL2cgUAW0A at 10,740 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "selectedFeatures"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexDataTarget-> _oFfj9XfUEe2cGd7_OEEukw  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _ft6hcHhbEe2mVL2cgUAW0A
+  		}
+  		
+  		-AddComplexToSubmission-> _zo1-03hbEe2mVL2cgUAW0A  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _4cHgkXhbEe2mVL2cgUAW0A
+  		}
+  	}
+  	
+  	ComplexVariable _hXrUkXhbEe2mVL2cgUAW0A at 10,780 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput true
+  		name "preferences"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexListAttributeConnector-> _iwsV8XhbEe2mVL2cgUAW0A  decorate "Ellipse" at (0,0) {
+  			id _ixBGEXhbEe2mVL2cgUAW0A
+  			attributeName current
+  		}
+  		
+  		-TableLoad-> _oFgLG3fUEe2cGd7_OEEukw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _rBd5UXhbEe2mVL2cgUAW0A
+  		}
+  	}
+  	
+  	ComplexVariable _iwsV8XhbEe2mVL2cgUAW0A at 10,930 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  		-TableColumnLoad-> _oFgLOHfUEe2cGd7_OEEukw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _saBnsXhbEe2mVL2cgUAW0A
+  		}
+  	}
+  	
+  	ComplexVariable _vHlaIXhbEe2mVL2cgUAW0A at 0,1070 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
+  		isInput false
+  		name "selectedPreferences"
+  		dfViewWorkaround true
+  		isList true
+  		-AddComplexToSubmission-> _zo1-03hbEe2mVL2cgUAW0A  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _13iD8HhbEe2mVL2cgUAW0A
+  		}
+  		
+  		-ComplexDataTarget-> _oFgLG3fUEe2cGd7_OEEukw  decorate "Text" at (0,0) decorate "" at (0,0) decorate "" at (0,0) {
+  			id _kDovEXhcEe2mVL2cgUAW0A
+  		}
+  	}
+  	
+  	ComplexVariable _uUFEIXhcEe2mVL2cgUAW0A at 10,70 size 160,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isInput true
+  		name "offer"
+  		dfViewWorkaround true
+  		isList true
+  	}
+  }
+  
+  Template _kANwcXfUEe2cGd7_OEEukw at 240,10 size 490,1520 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _kAOXgHfUEe2cGd7_OEEukw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Form _oFb5YXfUEe2cGd7_OEEukw at 10,90 size 470,1260 {
+  		inline false
+  		generalStyle GeneralStyling _oFdHkHfUEe2cGd7_OEEukw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _oFdHknfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _oFdHlXfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  		}
+  		
+  		Row _oFdHmHfUEe2cGd7_OEEukw at 10,30 size 450,1200 {
+  			generalStyle GeneralStyling _oFduzXfUEe2cGd7_OEEukw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _oFduz3fUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _oFdu0nfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  			}
+  			
+  			Col _oFdu1XfUEe2cGd7_OEEukw at 10,30 size 420,1150 {
+  				wideness Full
+  				layout Layout _oFe8snfUEe2cGd7_OEEukw {
+  						size Default
+  						offset None
+  						alignment Left
+  					}
+  				generalStyle GeneralStyling _oFe8sXfUEe2cGd7_OEEukw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _oFe8tHfUEe2cGd7_OEEukw at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _oFe8t3fUEe2cGd7_OEEukw at 10,2 size 7,14 {
+  				}
+  				
+  				Panel _oFe8unfUEe2cGd7_OEEukw at 10,90 size 400,410 {
+  					collapsable false
+  					defaultOpen "true"
+  					coloring ComponentColoring _oFfj3HfUEe2cGd7_OEEukw {
+  							color Default
+  						}
+  					generalStyle GeneralStyling _oFfj23fUEe2cGd7_OEEukw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _oFfj3nfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _oFfj4XfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  					}
+  					
+  					Button _oFfj5HfUEe2cGd7_OEEukw at 10,30 size 200,60 {
+  						label "Create new feature"
+  						styling ButtonStyling _oFfj63fUEe2cGd7_OEEukw {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Lightblue
+  							}
+  						options ButtonOptions _oFfj7HfUEe2cGd7_OEEukw {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _oFfj6nfUEe2cGd7_OEEukw {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _oFfj6XfUEe2cGd7_OEEukw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _oFfj7nfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _oFfj8XfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  						}
+  					}
+  					
+  					Table _oFfj9XfUEe2cGd7_OEEukw at 10,100 size 380,170 {
+  						striped true
+  						numbering false
+  						pagination 0
+  						autoSorted true
+  						condensed true
+  						reSortable false
+  						bordered true
+  						hover false
+  						responsive true
+  						name "table"
+  						choices MULTIPLE
+  						dropTargets [  ]
+  						generalStyle GeneralStyling _oFfkCnfUEe2cGd7_OEEukw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _oFfkDHfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _oFfkD3fUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  						}
+  						
+  						TableEntry _oFfkEnfUEe2cGd7_OEEukw at 10,30 size 220,120 {
+  							filterUpperHint ""
+  							fullTextSearch false
+  							filterLowerHint ""
+  							defaultSorting NONE
+  							label "Features"
+  							sortable false
+  							generalStyle GeneralStyling _oFfkIHfUEe2cGd7_OEEukw {
+  									tallness Fitting
+  									marginBottom Double
+  									attributes [  ]
+  									marginTop Single
+  									rawContent ""
+  								}
+  							MoveLeft _oFfkInfUEe2cGd7_OEEukw at 2,2 size 7,14 {
+  							}
+  							
+  							MoveRight _oFfkJXfUEe2cGd7_OEEukw at 10,2 size 7,14 {
+  							}
+  							
+  							Text _oFfkKHfUEe2cGd7_OEEukw at 10,30 size 200,60 {
+  								content [ StaticContent _oFfkLnfUEe2cGd7_OEEukw {
+  										renderMarkdown false
+  										maxChars 0
+  										html false
+  										rawContent "{{current.title}}"
+  										styling TextStyling _oFfkL3fUEe2cGd7_OEEukw {
+  												small false
+  												highlight false
+  												deleted false
+  												underline false
+  												bold false
+  												alignment Left
+  												italic false
+  												color Default
+  											}
+  									} ]
+  								generalStyle GeneralStyling _oFfkLXfUEe2cGd7_OEEukw {
+  										tallness Fitting
+  										marginBottom None
+  										attributes [  ]
+  										marginTop None
+  									}
+  								MoveUp _oFgK0XfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  								}
+  								
+  								MoveDown _oFgK1HfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  								}
+  							}
+  						}
+  					}
+  				}
+  				
+  				Panel _oFgK23fUEe2cGd7_OEEukw at 10,510 size 400,410 {
+  					collapsable false
+  					defaultOpen "true"
+  					coloring ComponentColoring _oFgLAnfUEe2cGd7_OEEukw {
+  							color Default
+  						}
+  					generalStyle GeneralStyling _oFgLAXfUEe2cGd7_OEEukw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _oFgLBHfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _oFgLB3fUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  					}
+  					
+  					Button _oFgLCnfUEe2cGd7_OEEukw at 10,30 size 200,60 {
+  						label "Create new preference"
+  						styling ButtonStyling _oFgLEXfUEe2cGd7_OEEukw {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Lightblue
+  							}
+  						options ButtonOptions _oFgLEnfUEe2cGd7_OEEukw {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _oFgLEHfUEe2cGd7_OEEukw {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _oFgLD3fUEe2cGd7_OEEukw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _oFgLFHfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _oFgLF3fUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  						}
+  					}
+  					
+  					Table _oFgLG3fUEe2cGd7_OEEukw at 10,100 size 380,170 {
+  						striped true
+  						numbering false
+  						pagination 0
+  						autoSorted true
+  						condensed true
+  						reSortable false
+  						bordered true
+  						hover false
+  						responsive true
+  						name "table"
+  						choices MULTIPLE
+  						dropTargets [  ]
+  						generalStyle GeneralStyling _oFgLMHfUEe2cGd7_OEEukw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _oFgLMnfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _oFgLNXfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  						}
+  						
+  						TableEntry _oFgLOHfUEe2cGd7_OEEukw at 10,30 size 220,120 {
+  							fullTextSearch false
+  							defaultSorting NONE
+  							label "Preferences"
+  							sortable false
+  							generalStyle GeneralStyling _oFgLRnfUEe2cGd7_OEEukw {
+  									tallness Fitting
+  									marginBottom None
+  									attributes [  ]
+  									marginTop None
+  								}
+  							MoveLeft _oFgx4XfUEe2cGd7_OEEukw at 2,2 size 7,14 {
+  							}
+  							
+  							MoveRight _oFgx5HfUEe2cGd7_OEEukw at 10,2 size 7,14 {
+  							}
+  							
+  							Text _oFgx53fUEe2cGd7_OEEukw at 10,30 size 200,60 {
+  								content [ StaticContent _oFgx7XfUEe2cGd7_OEEukw {
+  										renderMarkdown false
+  										maxChars 0
+  										html false
+  										rawContent "{{current.title}}"
+  										styling TextStyling _oFgx7nfUEe2cGd7_OEEukw {
+  												small false
+  												highlight false
+  												deleted false
+  												underline false
+  												bold false
+  												alignment Left
+  												italic false
+  												color Default
+  											}
+  									} ]
+  								generalStyle GeneralStyling _oFgx7HfUEe2cGd7_OEEukw {
+  										tallness Fitting
+  										marginBottom None
+  										attributes [  ]
+  										marginTop None
+  									}
+  								MoveUp _oFgx8HfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  								}
+  								
+  								MoveDown _oFgx83fUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  								}
+  							}
+  						}
+  					}
+  				}
+  				
+  				Panel _oFgx-nfUEe2cGd7_OEEukw at 10,930 size 220,190 {
+  					collapsable false
+  					defaultOpen "true"
+  					coloring ComponentColoring _oFgyFHfUEe2cGd7_OEEukw {
+  							color Default
+  						}
+  					generalStyle GeneralStyling _oFgyE3fUEe2cGd7_OEEukw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _oFgyFnfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _oFgyGXfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  					}
+  					
+  					Field _oFgyHHfUEe2cGd7_OEEukw at 10,100 size 200,60 {
+  						maxMB 0
+  						inputType Text
+  						label "Desription"
+  						styling FormFieldStyling _oFgyJXfUEe2cGd7_OEEukw {
+  								size Large
+  								disabled false
+  								color Default
+  							}
+  						additionalOptions FormFieldAdditionalOptions _oFgyI3fUEe2cGd7_OEEukw {
+  								readonly false
+  							}
+  						validation FormFieldValidation _oFgyJHfUEe2cGd7_OEEukw {
+  								min 0
+  								max -1
+  								required false
+  							}
+  						disabled false
+  						icon Icon _oFgyInfUEe2cGd7_OEEukw {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _oFgyIXfUEe2cGd7_OEEukw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _oFgyJ3fUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _oFgyKnfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  						}
+  					}
+  					
+  					Text _oFhY8XfUEe2cGd7_OEEukw at 10,30 size 200,60 {
+  						content [ StaticContent _oFhY93fUEe2cGd7_OEEukw {
+  								renderMarkdown false
+  								maxChars 0
+  								html false
+  								rawContent "Current Desription\n{{offer.description}}"
+  								styling TextStyling _oFhY-HfUEe2cGd7_OEEukw {
+  										small false
+  										highlight false
+  										deleted false
+  										underline false
+  										bold false
+  										alignment Left
+  										italic false
+  										color Default
+  									}
+  							} ]
+  						generalStyle GeneralStyling _oFhY9nfUEe2cGd7_OEEukw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _oFhY-nfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _oFhY_XfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  	
+  	Headline _poEw0XfUEe2cGd7_OEEukw at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _poEw13fUEe2cGd7_OEEukw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "{{offer.title}}"
+  				styling TextStyling _poEw2HfUEe2cGd7_OEEukw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _poEw1nfUEe2cGd7_OEEukw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop Single
+  			}
+  		MoveUp _poEw2nfUEe2cGd7_OEEukw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _poEw3XfUEe2cGd7_OEEukw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _zo0wsXhbEe2mVL2cgUAW0A at 10,1430 size 200,60 {
+  		label "Cancel"
+  		styling ButtonStyling _zo1XwnhbEe2mVL2cgUAW0A {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Red
+  			}
+  		options ButtonOptions _zo1Xw3hbEe2mVL2cgUAW0A {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _zo1XwXhbEe2mVL2cgUAW0A {
+  				postIcon Remove
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _zo1XwHhbEe2mVL2cgUAW0A {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _zo1XxXhbEe2mVL2cgUAW0A at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _zo1XyHhbEe2mVL2cgUAW0A at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _zo1-03hbEe2mVL2cgUAW0A at 10,1360 size 200,60 {
+  		label "Submit"
+  		styling ButtonStyling _zo1-2nhbEe2mVL2cgUAW0A {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Green
+  			}
+  		options ButtonOptions _zo1-23hbEe2mVL2cgUAW0A {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _zo1-2XhbEe2mVL2cgUAW0A {
+  				postIcon Check
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _zo1-2HhbEe2mVL2cgUAW0A {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _zo1-3XhbEe2mVL2cgUAW0A at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _zo1-4HhbEe2mVL2cgUAW0A at 2,10 size 14,7 {
+  		}
+  	}
+  }
+  
+  DataContext _74ruEXhbEe2mVL2cgUAW0A at 816,1312 size 269,105 {
+  	dfViewWorkaround true
+  	PrimitiveVariable _74ruFXhbEe2mVL2cgUAW0A at 60,50 size 140,25 {
+  		dataType Text
+  		isInput false
+  		name "description"
+  		dfViewWorkaround true
+  		isList false
+  		-FormLoadSubmit-> _oFgyHHfUEe2cGd7_OEEukw  decorate "" at (0,0) decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _94jUEHhbEe2mVL2cgUAW0A
+  		}
+  		
+  		-AddPrimitiveToSubmission-> _zo1-03hbEe2mVL2cgUAW0A  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _AVpooHhcEe2mVL2cgUAW0A
+  		}
+  	}
+  }
+}
