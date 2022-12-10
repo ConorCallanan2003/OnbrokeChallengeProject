@@ -82,9 +82,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _7YsfEXheEe2mVL2cgUAW0A via (638,316) (638,467) decorate "" at (0,0) {
+  			id _CAFCwXhfEe2mVL2cgUAW0A
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (708,450) (780,450) (780,172) decorate "" at (0,0) {
-  		id _ecoRAVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _7YkjQXheEe2mVL2cgUAW0A  decorate "" at (0,0) {
+  		id _8-ms8XheEe2mVL2cgUAW0A
   		concurrent true
   	}
   }
@@ -372,6 +376,29 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	name "success"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w  decorate "" at (0,0) {
   		id _Pz8EYXfUEe2cGd7_OEEukw
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _7YkjQXheEe2mVL2cgUAW0A at 648,391 size 120,90 {
+  	libraryComponentUID "_at4CYXfUEe2cGd7_OEEukw"
+  	label "OfferEditProcess"
+  	ignoredBranch [  ]
+  	ComplexInputPort _7YsfEXheEe2mVL2cgUAW0A at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _7Y6hgXheEe2mVL2cgUAW0A   {
+  		id _7Y7IkXheEe2mVL2cgUAW0A
+  		concurrent true
+  	}
+  }
+  
+  Branch _7Y6hgXheEe2mVL2cgUAW0A at 648,514 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _-5kk0XheEe2mVL2cgUAW0A
   		concurrent true
   	}
   }

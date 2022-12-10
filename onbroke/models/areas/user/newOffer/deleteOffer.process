@@ -33,14 +33,14 @@ Process _tTP3gHfTEe2cGd7_OEEukw {
   	branchName "success"
   }
   
-  GUISIB __vHV4XfTEe2cGd7_OEEukw at 290,140 size 120,90 {
+  GUISIB __vHV4XfTEe2cGd7_OEEukw at 290,140 size 171,90 {
   	cacheGUI false
   	majorPage true
   	libraryComponentUID "_ynZRsXfTEe2cGd7_OEEukw"
   	name "deleteOfferConfirm"
   	label "deleteOfferConfirm"
   	ignoredBranch [  ]
-  	ComplexInputPort __vS8EXfTEe2cGd7_OEEukw at 5,67 size 110,18 {
+  	ComplexInputPort __vS8EXfTEe2cGd7_OEEukw at 5,67 size 161,18 {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"

@@ -8,8 +8,8 @@ Process _cXeOkWD4Ee2s0c0hOvkCRg {
   	dfViewWorkaround true
   }
   
-  StartSIB _cwl5MWD4Ee2s0c0hOvkCRg at 317,-10 size 100,162 {
-  	PrimitiveOutputPort _kFWOUWD6Ee2s0c0hOvkCRg at 5,67 size 90,18 {
+  StartSIB _cwl5MWD4Ee2s0c0hOvkCRg at 317,-10 size 124,162 {
+  	PrimitiveOutputPort _kFWOUWD6Ee2s0c0hOvkCRg at 5,67 size 114,18 {
   		dataType Text
   		isList false
   		name "Description"
@@ -19,13 +19,13 @@ Process _cXeOkWD4Ee2s0c0hOvkCRg {
   		}
   	}
   	
-  	PrimitiveOutputPort _kRxgwWD6Ee2s0c0hOvkCRg at 5,85 size 90,18 {
+  	PrimitiveOutputPort _kRxgwWD6Ee2s0c0hOvkCRg at 5,85 size 114,18 {
   		dataType Text
   		isList false
   		name "title"
   	}
   	
-  	ComplexOutputPort _oJ5B0WD6Ee2s0c0hOvkCRg at 5,103 size 90,18 {
+  	ComplexOutputPort _oJ5B0WD6Ee2s0c0hOvkCRg at 5,103 size 114,18 {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "selectedFeatures"
@@ -35,7 +35,7 @@ Process _cXeOkWD4Ee2s0c0hOvkCRg {
   		}
   	}
   	
-  	ComplexOutputPort _obP3kWD6Ee2s0c0hOvkCRg at 5,121 size 90,18 {
+  	ComplexOutputPort _obP3kWD6Ee2s0c0hOvkCRg at 5,121 size 114,18 {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "selectedPreferences"
@@ -45,7 +45,7 @@ Process _cXeOkWD4Ee2s0c0hOvkCRg {
   		}
   	}
   	
-  	ComplexOutputPort _4Yjo0WD6Ee2s0c0hOvkCRg at 5,139 size 90,18 {
+  	ComplexOutputPort _4Yjo0WD6Ee2s0c0hOvkCRg at 5,139 size 114,18 {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"

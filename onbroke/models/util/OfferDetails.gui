@@ -102,7 +102,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   	}
   }
   
-  Template _fcSaAVN8Ee2KQc5QIsW97w at 300,10 size 370,1335 {
+  Template _fcSaAVN8Ee2KQc5QIsW97w at 300,10 size 370,1465 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _fcToIFN8Ee2KQc5QIsW97w {
@@ -459,7 +459,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _Ueh-EVOfEe2KQc5QIsW97w at 10,890 size 170,415 {
+  	Panel _Ueh-EVOfEe2KQc5QIsW97w at 10,1020 size 170,415 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _UeilLlOfEe2KQc5QIsW97w {
@@ -549,6 +549,62 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   			BooleanInputStatic _zlh5AVOkEe2KQc5QIsW97w at 5,85 size 90,18 {
   				value false
   				name "showResolveButtons"
+  			}
+  		}
+  	}
+  	
+  	Panel _jf0LUXiTEe28PNRt5Nv8Tw at 10,890 size 220,120 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _jf0LYHiTEe28PNRt5Nv8Tw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Description"
+  			}
+  		coloring ComponentColoring _jf0LYXiTEe28PNRt5Nv8Tw {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _jf0LX3iTEe28PNRt5Nv8Tw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop Triple
+  				rawContent ""
+  			}
+  		MoveUp _jf0LY3iTEe28PNRt5Nv8Tw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _jf0LZniTEe28PNRt5Nv8Tw at 2,10 size 14,7 {
+  		}
+  		
+  		Text _jf0LaXiTEe28PNRt5Nv8Tw at 10,30 size 200,60 {
+  			content [ StaticContent _jf0Lb3iTEe28PNRt5Nv8Tw {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "{{offer.description}}"
+  					styling TextStyling _jf0LcHiTEe28PNRt5Nv8Tw {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic false
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _jf0LbniTEe28PNRt5Nv8Tw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _jf0yYHiTEe28PNRt5Nv8Tw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _jf0yY3iTEe28PNRt5Nv8Tw at 2,10 size 14,7 {
   			}
   		}
   	}
