@@ -1,0 +1,32 @@
+<span *ngIf="!(offer?.biddings?.length>0)
+" 
+aria-live="polite" aria-atomic="true" 
+
+ [ngStyle]="{ 'color':'grey' }"
+>
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<em>
+No biddings yet
+</em>
+</span>
+</span>
+<table-_kOPI0VGJEe2J0bu3ffrh5w-brokerAssignBiddingsTable
+		*ngIf="				offer?.biddings?.length>0
+		" 
+		aria-live="polite" aria-atomic="true" 
+		
+		[modalDialog]="modalDialog"
+		[currentbranch]="currentbranch"
+		[ismajorpage]="false"
+		[runtimeId]="runtimeId"
+		[guiId]="guiId"
+		[offer]="offer"
+	
+		[sourceakOPI0VGJEe2J0bu3ffrh5w]="offer?.biddings"
+	  	(source_update)="offer?.biddings.replaceAll($event)"
+		(actionshowbiddingevent) = "actionshowbiddingevent.add($event)"
+		(actionassignevent) = "actionassignevent.add($event)"
+		(actionunassignevent) = "actionunassignevent.add($event)"
+		(actioneditevent) = "actioneditevent.add($event)"
+>
+</table-_kOPI0VGJEe2J0bu3ffrh5w-brokerAssignBiddingsTable>

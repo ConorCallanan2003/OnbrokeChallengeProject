@@ -1,0 +1,31 @@
+<span *ngIf="!(offers?.length>0)
+" 
+aria-live="polite" aria-atomic="true" 
+
+ [ngStyle]="{ 'color':'grey' }"
+>
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<em>
+No offers yet
+</em>
+</span>
+</span>
+<table-_lv1VsFFNEe2J0bu3ffrh5w-userOfferTable
+		*ngIf="				offers?.length>0
+		" 
+		aria-live="polite" aria-atomic="true" 
+		
+		[modalDialog]="modalDialog"
+		[currentbranch]="currentbranch"
+		[ismajorpage]="false"
+		[runtimeId]="runtimeId"
+		[guiId]="guiId"
+		[offers]="offers"
+	
+		[sourcealv1VsFFNEe2J0bu3ffrh5w]="offers"
+	  	(source_update)="offers.replaceAll($event)"
+		(actionshowofferevent) = "actionshowofferevent.add($event)"
+		(actioneditofferevent) = "actioneditofferevent.add($event)"
+		(actiondeleteofferevent) = "actiondeleteofferevent.add($event)"
+>
+</table-_lv1VsFFNEe2J0bu3ffrh5w-userOfferTable>

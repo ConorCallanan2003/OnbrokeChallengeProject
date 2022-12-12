@@ -1,0 +1,53 @@
+<div class="row">
+	<div class="col-sm-12">
+<h1
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+{{offer?.title}}
+</span>
+</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+Are you sure you want to delete {{offer?.title}}?
+</span>
+</span>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<!-- beginn button Confirm -->
+<button 
+	data-cinco-id="_2LhfxXfTEe2cGd7_OEEukw"
+	tabindex="0" aria-label="Confirm"
+	[disabled]="isBusy()"
+type="button"
+(click)="actionconfirmeventa2LhfxXfTEe2cGd7_OEEukwEventTrigger()
+"
+class="btn btn-success">
+  <span aria-hidden="true" aria-label="icon check" class="glyphicon glyphicon-check" style="left:0px"></span>
+</button>
+<!-- end button Confirm -->
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<!-- beginn button Back -->
+<button 
+	data-cinco-id="_2Lg4sXfTEe2cGd7_OEEukw"
+	tabindex="0" aria-label="Back"
+	[disabled]="isBusy()"
+type="button"
+(click)="actionbackeventa2Lg4sXfTEe2cGd7_OEEukwEventTrigger()
+"
+class="btn btn-default">
+<span aria-hidden="true" aria-label="icon arrow-left" class="glyphicon glyphicon-arrow-left" style="right:0px"></span>
+</button>
+<!-- end button Back -->
+	</div>
+</div>

@@ -17,6 +17,11 @@ Process _at4CYXfUEe2cGd7_OEEukw {
   			id _wkRTMXheEe2mVL2cgUAW0A
   			dfViewWorkaround true
   		}
+  		
+  		-ComplexDirectDataFlow-> _LGNywXhdEe2mVL2cgUAW0A via (320,96) (320,462) decorate "" at (0,0) {
+  			id _vn8lcXl9Ee2Bb9t6ovoR_Q
+  			dfViewWorkaround true
+  		}
   	}
   	-ControlFlow-> _cq5IsXfUEe2cGd7_OEEukw  decorate "" at (0,0) {
   		id _JitYoXhdEe2mVL2cgUAW0A
@@ -50,12 +55,20 @@ Process _at4CYXfUEe2cGd7_OEEukw {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "feature"
+  		-ComplexDirectDataFlow-> _LF1YQHhdEe2mVL2cgUAW0A via (360,291) (360,426) decorate "" at (0,0) {
+  			id _tvSasXl9Ee2Bb9t6ovoR_Q
+  			dfViewWorkaround true
+  		}
   	}
   	
   	ComplexOutputPort _crDgwXfUEe2cGd7_OEEukw at 5,63 size 110,18 {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "preferences"
+  		-ComplexDirectDataFlow-> _LGHsIXhdEe2mVL2cgUAW0A via (360,309) (360,444) decorate "" at (0,0) {
+  			id _uquvQXl9Ee2Bb9t6ovoR_Q
+  			dfViewWorkaround true
+  		}
   	}
   	-ControlFlow-> _LFbIkHhdEe2mVL2cgUAW0A  decorate "" at (0,0) {
   		id _MI7M8XhdEe2mVL2cgUAW0A
@@ -84,7 +97,7 @@ Process _at4CYXfUEe2cGd7_OEEukw {
   	
   	ComplexInputPort _LGNywXhdEe2mVL2cgUAW0A at 5,103 size 110,18 {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
-  		isList true
+  		isList false
   		name "offer"
   	}
   	-BranchConnector-> _LGYK0HhdEe2mVL2cgUAW0A   {
@@ -116,13 +129,13 @@ Process _at4CYXfUEe2cGd7_OEEukw {
   	}
   }
   
-  Branch _LGm0UXhdEe2mVL2cgUAW0A at 680,440 size 120,86 {
+  Branch _LGm0UXhdEe2mVL2cgUAW0A at 690,460 size 120,86 {
   	name "Submit"
   	ComplexOutputPort _LGuwIXhdEe2mVL2cgUAW0A at 5,27 size 110,18 {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "selectedFeatures"
-  		-ComplexDirectDataFlow-> _kACWkXheEe2mVL2cgUAW0A via (670,476) (670,713) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _kACWkXheEe2mVL2cgUAW0A via (680,496) (670,713) decorate "" at (0,0) {
   			id _pxQHQXheEe2mVL2cgUAW0A
   			dfViewWorkaround true
   		}
@@ -132,7 +145,7 @@ Process _at4CYXfUEe2cGd7_OEEukw {
   		libraryComponentUID "_A6uWQVHpEe2J0bu3ffrh5w"
   		isList true
   		name "selectedPreferences"
-  		-ComplexDirectDataFlow-> _kAK5cXheEe2mVL2cgUAW0A via (670,494) (670,731) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _kAK5cXheEe2mVL2cgUAW0A via (680,514) (670,731) decorate "" at (0,0) {
   			id _qlluQXheEe2mVL2cgUAW0A
   			dfViewWorkaround true
   		}
@@ -142,7 +155,7 @@ Process _at4CYXfUEe2cGd7_OEEukw {
   		dataType Text
   		isList false
   		name "description"
-  		-PrimitiveDirectDataFlow-> _pDgVAXihEe2wscJU9aUJ3A via (670,512) (670,677) decorate "" at (0,0) {
+  		-PrimitiveDirectDataFlow-> _pDgVAXihEe2wscJU9aUJ3A via (680,532) (670,677) decorate "" at (0,0) {
   			id _pbZ3oXihEe2wscJU9aUJ3A
   			dfViewWorkaround true
   		}

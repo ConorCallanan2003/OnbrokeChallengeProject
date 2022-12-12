@@ -72,7 +72,7 @@ GUI _cA-CgVOkEe2KQc5QIsW97w {
   			attributes [  ]
   			marginTop None
   		}
-  	Badge _h9uU2lOkEe2KQc5QIsW97w at 10,30 size 200,48 {
+  	Badge _h9uU2lOkEe2KQc5QIsW97w at 10,30 size 200,56 {
   		color Default
   		content [ StaticContent _h9uU4FOkEe2KQc5QIsW97w {
   				renderMarkdown false

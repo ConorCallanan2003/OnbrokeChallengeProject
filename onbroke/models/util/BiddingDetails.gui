@@ -4,7 +4,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "BiddingDetails"
-  DataContext _zSA8kVOjEe2KQc5QIsW97w at 20,10 size 221,1335 {
+  DataContext _zSA8kVOjEe2KQc5QIsW97w at 20,10 size 221,1065 {
   	dfViewWorkaround true
   	ComplexVariable _4e2N0VOjEe2KQc5QIsW97w at 10,90 size 201,51 {
   		expanded false
@@ -28,7 +28,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   			associationName "preferences"
   		}
   		
-  		-ComplexRead-> _C18vRVOlEe2KQc5QIsW97w via (270,125) (270,1006) decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _NOaJoXmiEe2ix_xiis0jnw via (270,125) (270,1006) decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _FYlD4VOlEe2KQc5QIsW97w
   		}
   	}
@@ -99,6 +99,17 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		name "preference"
   		dfViewWorkaround true
   		isList false
+  	}
+  	
+  	PrimitiveVariable _30AdkXmhEe2ix_xiis0jnw at 21,1010 size 180,25 {
+  		dataType Boolean
+  		isInput true
+  		name "showResolveButtons"
+  		dfViewWorkaround true
+  		isList false
+  		-PrimitiveRead-> _NOd0AXmiEe2ix_xiis0jnw  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _Nkj_0XmiEe2ix_xiis0jnw
+  		}
   	}
   }
   
@@ -494,7 +505,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		MoveDown _C18vKVOlEe2KQc5QIsW97w at 2,10 size 14,7 {
   		}
   		
-  		GUISIB _C18vLFOlEe2KQc5QIsW97w at 10,30 size 150,355 {
+  		GUISIB _NOUqEXmiEe2ix_xiis0jnw at 10,30 size 150,355 {
   			libraryComponentUID "_cA-CgVOkEe2KQc5QIsW97w"
   			label "DiscussionPanelContent"
   			generalStyle GeneralStyling _C18vQ1OlEe2KQc5QIsW97w {
@@ -503,52 +514,53 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   					attributes [  ]
   					marginTop None
   				}
-  			ComplexInputPort _C18vRVOlEe2KQc5QIsW97w at 5,67 size 90,18 {
+  			ComplexInputPort _NOaJoXmiEe2ix_xiis0jnw at 5,67 size 90,18 {
   				libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
   				isList false
   				name "submission"
   			}
   			
-  			Branch _C18vSFOlEe2KQc5QIsW97w at 5,108 size 100,50 {
+  			PrimitiveInputPort _NOd0AXmiEe2ix_xiis0jnw at 5,85 size 90,18 {
+  				dataType Boolean
+  				isList false
+  				name "showResolveButtons"
+  			}
+  			
+  			Branch _NOkhsXmiEe2ix_xiis0jnw at 5,108 size 100,50 {
   				name "Show issue"
-  				ComplexOutputPort _C18vTFOlEe2KQc5QIsW97w at 5,27 size 90,18 {
+  				ComplexOutputPort _NOmW4XmiEe2ix_xiis0jnw at 5,27 size 90,18 {
   					libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
   					name "issue"
   					isList false
   				}
   			}
   			
-  			Branch _C18vUFOlEe2KQc5QIsW97w at 5,176 size 100,50 {
+  			Branch _NOqoUXmiEe2ix_xiis0jnw at 5,176 size 100,50 {
   				name "Resolve issue"
-  				ComplexOutputPort _C18vVFOlEe2KQc5QIsW97w at 5,27 size 90,18 {
+  				ComplexOutputPort _NOtEkXmiEe2ix_xiis0jnw at 5,27 size 90,18 {
   					libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
   					name "issue"
   					isList false
   				}
   			}
   			
-  			Branch _C18vWFOlEe2KQc5QIsW97w at 5,244 size 100,50 {
+  			Branch _NOxWAXmiEe2ix_xiis0jnw at 5,244 size 100,50 {
   				name "Unresolve issue"
-  				ComplexOutputPort _C19WIVOlEe2KQc5QIsW97w at 5,27 size 90,18 {
+  				ComplexOutputPort _NOzyQXmiEe2ix_xiis0jnw at 5,27 size 90,18 {
   					libraryComponentUID "_psj6gVN9Ee2KQc5QIsW97w"
   					name "issue"
   					isList false
   				}
   			}
   			
-  			Branch _C19WJVOlEe2KQc5QIsW97w at 5,312 size 100,25 {
+  			Branch _NO5R0XmiEe2ix_xiis0jnw at 5,312 size 100,25 {
   				name "Create issue"
   			}
   			
-  			MoveUp _C19WKFOlEe2KQc5QIsW97w at 2,2 size 14,7 {
+  			MoveUp _NO7uEXmiEe2ix_xiis0jnw at 2,2 size 14,7 {
   			}
   			
-  			MoveDown _C19WK1OlEe2KQc5QIsW97w at 2,10 size 14,7 {
-  			}
-  			
-  			BooleanInputStatic _C19WLlOlEe2KQc5QIsW97w at 5,85 size 90,18 {
-  				value false
-  				name "showResolveButtons"
+  			MoveDown _NO7uE3miEe2ix_xiis0jnw at 2,10 size 14,7 {
   			}
   		}
   	}

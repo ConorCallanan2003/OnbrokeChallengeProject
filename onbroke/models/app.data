@@ -1,6 +1,6 @@
 Data _tH3fEMwMEeWZVvvwxpYu8A {
   modelName "Data"
-  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 186,175 size 121,145 {
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 186,175 size 121,163 {
   	name "User"
   	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 111,18 {
   		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
@@ -9,25 +9,25 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	PrimitiveAttribute _KAc-cUIAEe26p7mBymqW2w at 5,68 size 111,18 {
+  	PrimitiveAttribute _KAc-cUIAEe26p7mBymqW2w at 5,86 size 111,18 {
   		dataType Text
   		name "firstName"
   		isList false
   	}
   	
-  	PrimitiveAttribute _Ljih0UIAEe26p7mBymqW2w at 5,86 size 111,18 {
+  	PrimitiveAttribute _Ljih0UIAEe26p7mBymqW2w at 5,104 size 111,18 {
   		dataType Text
   		name "lastName"
   		isList false
   	}
   	
-  	ComplexAttribute _vk0f0FE3Ee2Vgcav4Znc_w at 5,122 size 111,18 {
+  	ComplexAttribute _vk0f0FE3Ee2Vgcav4Znc_w at 5,140 size 111,18 {
   		dataType _mSHlYFE3Ee2Vgcav4Znc_w
   		name "role"
   		isList false
   	}
   	
-  	BidirectionalAttribute _STDz8VFNEe2J0bu3ffrh5w at 5,104 size 111,18 {
+  	BidirectionalAttribute _STDz8VFNEe2J0bu3ffrh5w at 5,122 size 111,18 {
   		oppositeAttribute _STTrkVFNEe2J0bu3ffrh5w
   		dataType _DJ1LAVFNEe2J0bu3ffrh5w
   		name "offers"
@@ -39,6 +39,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		dataType _FSL-oVFNEe2J0bu3ffrh5w
   		name "biddings"
   		isList true
+  	}
+  	
+  	ComplexAttribute _VhJc4XmXEe2yL_RKKzoxiA at 5,68 size 111,18 {
+  		dataType _uaBIIVN9Ee2KQc5QIsW97w
+  		name "comment"
+  		isList false
   	}
   	-Association-> _mSHlYFE3Ee2Vgcav4Znc_w  decorate "Text" at (-19,-25) decorate "" at (0,0) {
   		id _vkhk4FE3Ee2Vgcav4Znc_w
@@ -58,6 +64,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		targetAttr _T0OEsVFNEe2J0bu3ffrh5w
   		isHidden false
   		sourceAttr _T0d8UVFNEe2J0bu3ffrh5w
+  	}
+  	
+  	-Association-> _uaBIIVN9Ee2KQc5QIsW97w via (246,23) (1277,23) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _VhCvMXmXEe2yL_RKKzoxiA
+  		isHidden false
+  		sourceAttr _VhJc4XmXEe2yL_RKKzoxiA
   	}
   }
   
@@ -153,7 +165,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		id _hIpfoFGDEe2J0bu3ffrh5w
   	}
   	
-  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w via (609,132) decorate "Text" at (-97,-27) decorate "" at (0,0) {
+  	-Association-> _A6uWQVHpEe2J0bu3ffrh5w via (609,150) decorate "Text" at (-97,-27) decorate "" at (0,0) {
   		id _mFYloVMTEe2KQc5QIsW97w
   		isHidden false
   		sourceAttr _mFmoEVMTEe2KQc5QIsW97w
@@ -282,7 +294,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	ComplexAttribute _nrhWwVGDEe2J0bu3ffrh5w at 5,50 size 130,18 {
+  	ComplexAttribute _nrhWwVGDEe2J0bu3ffrh5w at 5,32 size 130,18 {
   		dataType _BtX2cVGBEe2J0bu3ffrh5w
   		name "decision"
   		isList false
@@ -308,7 +320,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		isList false
   	}
   	
-  	PrimitiveAttribute _sr08AXigEe2n6qlSkDlEsw at 5,32 size 130,18 {
+  	PrimitiveAttribute _sr08AXigEe2n6qlSkDlEsw at 5,50 size 130,18 {
   		dataType Text
   		name "description"
   		isList false
@@ -385,7 +397,7 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _psj6gVN9Ee2KQc5QIsW97w at 1208,209 size 140,91 {
+  ConcreteType _psj6gVN9Ee2KQc5QIsW97w at 1208,218 size 140,91 {
   	name "Issue"
   	PrimitiveAttribute _rYOyIVN9Ee2KQc5QIsW97w at 5,68 size 130,18 {
   		dataType Text
@@ -417,11 +429,23 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _uaBIIVN9Ee2KQc5QIsW97w at 1208,62 size 140,55 {
+  ConcreteType _uaBIIVN9Ee2KQc5QIsW97w at 1208,91 size 140,91 {
   	name "Comment"
-  	PrimitiveAttribute _vzWSkVN9Ee2KQc5QIsW97w at 5,32 size 130,18 {
+  	PrimitiveAttribute _vzWSkVN9Ee2KQc5QIsW97w at 5,68 size 130,18 {
   		dataType Text
   		name "text"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _QDYzsXmXEe2yL_RKKzoxiA at 5,32 size 130,18 {
+  		dataType Text
+  		name "commentFirstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _SEAnoXmXEe2yL_RKKzoxiA at 5,50 size 130,18 {
+  		dataType Text
+  		name "commentLastName"
   		isList false
   	}
   }

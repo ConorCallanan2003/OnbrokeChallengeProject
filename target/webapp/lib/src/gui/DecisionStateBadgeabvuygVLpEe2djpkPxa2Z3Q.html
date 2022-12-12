@@ -1,0 +1,45 @@
+<div class="row">
+	<div class="col-sm-12">
+<!-- beginn badge -->
+<span *ngIf="				!(decisionState!=null)
+" 
+aria-live="polite" aria-atomic="true" 
+
+  class="label label-default">
+<span aria-live="polite" aria-atomic="true" class="text-left">
+none
+</span>
+</span>
+<!-- end badge -->
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<!-- beginn badge -->
+<span *ngIf="decisionState?.dywa_name=='approved' 
+" 
+aria-live="polite" aria-atomic="true" 
+
+  class="label label-success">
+<span aria-live="polite" aria-atomic="true" class="text-left">
+approved
+</span>
+</span>
+<!-- end badge -->
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<!-- beginn badge -->
+<span *ngIf="decisionState?.dywa_name=='rejected' 
+" 
+aria-live="polite" aria-atomic="true" 
+
+  class="label label-danger">
+<span aria-live="polite" aria-atomic="true" class="text-left">
+rejected
+</span>
+</span>
+<!-- end badge -->
+	</div>
+</div>

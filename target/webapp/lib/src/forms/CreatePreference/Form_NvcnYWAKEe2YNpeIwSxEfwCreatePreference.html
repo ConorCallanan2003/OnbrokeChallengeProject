@@ -1,0 +1,29 @@
+<form
+ [ngFormModel]="form_NvcnYWAKEe2YNpeIwSxEfwForm"
+ [attr.id]="'form'+form_NvcnYWAKEe2YNpeIwSxEfwForm.hashCode.toString()"
+ data-cinco-id="_NvcnYWAKEe2YNpeIwSxEfw"
+ 
+ >
+ <div
+ 	#formaOaAAQWAKEe2YNpeIwSxEfwfield
+ 	
+ [class.has-error]="!form_NvcnYWAKEe2YNpeIwSxEfwForm.find('input__OaAAQWAKEe2YNpeIwSxEfw').valid && !form_NvcnYWAKEe2YNpeIwSxEfwForm.find('input__OaAAQWAKEe2YNpeIwSxEfw').pristine"
+ 	class="form-group"
+ 	>
+     		<label [attr.for]="formaOaAAQWAKEe2YNpeIwSxEfwfield.hashCode.toString()" >Preference Name</label>	
+ 		<input
+ 		data-cinco-id="_OaAAQWAKEe2YNpeIwSxEfw"
+ 		[attr.aria-invalid]="!form_NvcnYWAKEe2YNpeIwSxEfwForm.find('input__OaAAQWAKEe2YNpeIwSxEfw').valid && !form_NvcnYWAKEe2YNpeIwSxEfwForm.find('input__OaAAQWAKEe2YNpeIwSxEfw').pristine"
+ 		[attr.id]="formaOaAAQWAKEe2YNpeIwSxEfwfield.hashCode.toString()"
+ 			ngControl="input__OaAAQWAKEe2YNpeIwSxEfw"
+ 				[ngModel]="title"
+ 				(ngModelChange)="setValuetitle(propagatetitlePrimitives($event))"
+ 			type="text"
+ 			class="form-control "
+ 			 [disabled]="isBusy()"
+ 			placeholder=""
+ 			>
+ 
+ </div>
+ 
+</form>

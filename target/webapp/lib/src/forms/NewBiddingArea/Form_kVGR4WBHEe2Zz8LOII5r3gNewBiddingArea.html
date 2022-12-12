@@ -1,0 +1,200 @@
+<form
+ [ngFormModel]="form_kVGR4WBHEe2Zz8LOII5r3gForm"
+ [attr.id]="'form'+form_kVGR4WBHEe2Zz8LOII5r3gForm.hashCode.toString()"
+ data-cinco-id="_kVGR4WBHEe2Zz8LOII5r3g"
+ 
+ >
+ <dime-panel
+ 	
+ 	#dimeaqKUVYWDiEe2niNyWP4DbtApanel
+ 	[styling]="{}"
+ 	[cincoId]="'_qKUVYWDiEe2niNyWP4DbtA'"
+ 	[coloring]="'default'"
+ 	[hasHeading]="true"
+ 	[collapsable]="false"
+ 	[initial]="true"
+ >
+ <span dime-panel-heading-false>
+ 	<span aria-live="polite" aria-atomic="true" class="text-left">
+ 	Title
+ 	</span>
+ </span>
+ 	<div *ngIf="!dimeaqKUVYWDiEe2niNyWP4DbtApanel.isCollapsed||dimeaqKUVYWDiEe2niNyWP4DbtApanel.isLoaded" class="panel-body">
+ <div
+ 	#formakwsBsWBHEe2Zz8LOII5r3gfield
+ 	
+ [class.has-error]="!form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__kwsBsWBHEe2Zz8LOII5r3g').valid && !form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__kwsBsWBHEe2Zz8LOII5r3g').pristine"
+ 	class="form-group"
+ 	>
+     		<label [attr.for]="formakwsBsWBHEe2Zz8LOII5r3gfield.hashCode.toString()" >Title</label>	
+ 		<input
+ 		data-cinco-id="_kwsBsWBHEe2Zz8LOII5r3g"
+ 		[attr.aria-invalid]="!form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__kwsBsWBHEe2Zz8LOII5r3g').valid && !form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__kwsBsWBHEe2Zz8LOII5r3g').pristine"
+ 		[attr.id]="formakwsBsWBHEe2Zz8LOII5r3gfield.hashCode.toString()"
+ 			ngControl="input__kwsBsWBHEe2Zz8LOII5r3g"
+ 				[ngModel]="input__kwsBsWBHEe2Zz8LOII5r3g"
+ 				(ngModelChange)="input__kwsBsWBHEe2Zz8LOII5r3g = $event"
+ 			type="text"
+ 			class="form-control "
+ 			 [disabled]="isBusy()"
+ 			placeholder=""
+ 			>
+ 
+ </div>
+ 
+ 	</div>
+ </dime-panel>
+ <dime-panel
+ 	
+ 	#dimean3QxEWBHEe2Zz8LOII5r3gpanel
+ 	[styling]="{}"
+ 	[cincoId]="'_n3QxEWBHEe2Zz8LOII5r3g'"
+ 	[coloring]="'default'"
+ 	[hasHeading]="false"
+ 	[collapsable]="false"
+ 	[initial]="true"
+ >
+ 	<div *ngIf="!dimean3QxEWBHEe2Zz8LOII5r3gpanel.isCollapsed||dimean3QxEWBHEe2Zz8LOII5r3gpanel.isLoaded" class="panel-body">
+ <!-- beginn button Create New Feature -->
+ <button 
+ 	data-cinco-id="_shOl0WBHEe2Zz8LOII5r3g"
+ 	tabindex="0" aria-label="Create New Feature"
+ 	[disabled]="(!form_kVGR4WBHEe2Zz8LOII5r3gForm.valid)||isBusy()"
+ type="button"
+ (click)="actioncreatenewfeatureeventashOl0WBHEe2Zz8LOII5r3gEventTrigger(form_kVGR4WBHEe2Zz8LOII5r3gForm.value)
+ "
+ class="btn btn-info">
+  Create New Feature
+ </button>
+ <!-- end button Create New Feature -->
+ <table-_p7ZzEWBHEe2Zz8LOII5r3g-newBiddingArea
+ 		
+ 		[modalDialog]="modalDialog"
+ 		[currentbranch]="currentbranch"
+ 		[ismajorpage]="false"
+ 		[runtimeId]="runtimeId"
+ 		[guiId]="guiId"
+ 		[features]="features"
+ 		[preferences]="preferences"
+ 		[title]="title"
+ 		[selectedFeature]="selectedFeature"
+ 		[selectedPreferences]="selectedPreferences"
+ 		[description]="description"
+ 	
+ 		[sourceap7ZzEWBHEe2Zz8LOII5r3g]="features"
+ 	  	(source_update)="features.replaceAll($event)"
+ >
+ </table-_p7ZzEWBHEe2Zz8LOII5r3g-newBiddingArea>
+ 	</div>
+ </dime-panel>
+ <dime-panel
+ 	
+ 	#dimeaorfDUWBHEe2Zz8LOII5r3gpanel
+ 	[styling]="{}"
+ 	[cincoId]="'_orfDUWBHEe2Zz8LOII5r3g'"
+ 	[coloring]="'default'"
+ 	[hasHeading]="false"
+ 	[collapsable]="false"
+ 	[initial]="true"
+ >
+ 	<div *ngIf="!dimeaorfDUWBHEe2Zz8LOII5r3gpanel.isCollapsed||dimeaorfDUWBHEe2Zz8LOII5r3gpanel.isLoaded" class="panel-body">
+ <!-- beginn button Create New Preference -->
+ <button 
+ 	data-cinco-id="_s9JFwWBHEe2Zz8LOII5r3g"
+ 	tabindex="0" aria-label="Create New Preference"
+ 	[disabled]="(!form_kVGR4WBHEe2Zz8LOII5r3gForm.valid)||isBusy()"
+ type="button"
+ (click)="actioncreatenewpreferenceeventas9JFwWBHEe2Zz8LOII5r3gEventTrigger(form_kVGR4WBHEe2Zz8LOII5r3gForm.value)
+ "
+ class="btn btn-info">
+  Create New Preference
+ </button>
+ <!-- end button Create New Preference -->
+ <table-_qKoh4WBHEe2Zz8LOII5r3g-newBiddingArea
+ 		
+ 		[modalDialog]="modalDialog"
+ 		[currentbranch]="currentbranch"
+ 		[ismajorpage]="false"
+ 		[runtimeId]="runtimeId"
+ 		[guiId]="guiId"
+ 		[features]="features"
+ 		[preferences]="preferences"
+ 		[title]="title"
+ 		[selectedFeature]="selectedFeature"
+ 		[selectedPreferences]="selectedPreferences"
+ 		[description]="description"
+ 	
+ 		[sourceaqKoh4WBHEe2Zz8LOII5r3g]="preferences"
+ 	  	(source_update)="preferences.replaceAll($event)"
+ >
+ </table-_qKoh4WBHEe2Zz8LOII5r3g-newBiddingArea>
+ 	</div>
+ </dime-panel>
+ <dime-panel
+ 	
+ 	#dimeaI_3K0WBiEe2zFOcETdlBwQpanel
+ 	[styling]="{}"
+ 	[cincoId]="'_I_3K0WBiEe2zFOcETdlBwQ'"
+ 	[coloring]="'default'"
+ 	[hasHeading]="false"
+ 	[collapsable]="false"
+ 	[initial]="true"
+ >
+ 	<div *ngIf="!dimeaI_3K0WBiEe2zFOcETdlBwQpanel.isCollapsed||dimeaI_3K0WBiEe2zFOcETdlBwQpanel.isLoaded" class="panel-body">
+ <div
+ 	#formaJpxDcWBiEe2zFOcETdlBwQfield
+ 	
+ [class.has-error]="!form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__JpxDcWBiEe2zFOcETdlBwQ').valid && !form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__JpxDcWBiEe2zFOcETdlBwQ').pristine"
+ 	class="form-group"
+ 	>
+     		<label [attr.for]="formaJpxDcWBiEe2zFOcETdlBwQfield.hashCode.toString()" >Desription</label>	
+ 		<input
+ 		data-cinco-id="_JpxDcWBiEe2zFOcETdlBwQ"
+ 		[attr.aria-invalid]="!form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__JpxDcWBiEe2zFOcETdlBwQ').valid && !form_kVGR4WBHEe2Zz8LOII5r3gForm.find('input__JpxDcWBiEe2zFOcETdlBwQ').pristine"
+ 		[attr.id]="formaJpxDcWBiEe2zFOcETdlBwQfield.hashCode.toString()"
+ 			ngControl="input__JpxDcWBiEe2zFOcETdlBwQ"
+ 				[ngModel]="input__JpxDcWBiEe2zFOcETdlBwQ"
+ 				(ngModelChange)="input__JpxDcWBiEe2zFOcETdlBwQ = $event"
+ 			type="text"
+ 			class="form-control "
+ 			 [disabled]="isBusy()"
+ 			placeholder=""
+ 			>
+ 
+ </div>
+ 
+ 	</div>
+ </dime-panel>
+ <div 
+  class="row">
+ <div
+ 
+ class="col-md-12 text-left"
+ >
+ <!-- beginn button Submit -->
+ <button 
+ 	data-cinco-id="_wqqgYWBHEe2Zz8LOII5r3g"
+ 	tabindex="0" aria-label="Submit"
+ 	[disabled]="(!form_kVGR4WBHEe2Zz8LOII5r3gForm.valid)||isBusy()"
+ type="button"
+ (click)="actionsubmiteventawqqgYWBHEe2Zz8LOII5r3gEventTrigger(form_kVGR4WBHEe2Zz8LOII5r3gForm.value)
+ "
+ class="btn btn-success">
+   <span aria-hidden="true" aria-label="icon check" class="glyphicon glyphicon-check" style="left:0px"></span>
+ </button>
+ <!-- end button Submit -->
+ <!-- beginn button Cancel -->
+ <button 
+ 	data-cinco-id="_xCUycWBHEe2Zz8LOII5r3g"
+ 	tabindex="0" aria-label="Cancel"
+ 	[disabled]="(!form_kVGR4WBHEe2Zz8LOII5r3gForm.valid)||isBusy()"
+ type="button"
+ (click)="actioncanceleventaxCUycWBHEe2Zz8LOII5r3gEventTrigger(form_kVGR4WBHEe2Zz8LOII5r3gForm.value)
+ "
+ class="btn btn-danger">
+   <span aria-hidden="true" aria-label="icon remove" class="glyphicon glyphicon-remove" style="left:0px"></span>
+ </button>
+ <!-- end button Cancel -->
+ </div>
+ </div>
+</form>

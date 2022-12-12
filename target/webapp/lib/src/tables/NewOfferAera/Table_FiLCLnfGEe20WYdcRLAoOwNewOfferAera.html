@@ -1,0 +1,43 @@
+	<table  [attr.id]="'table'+hashCode.toString()" class="table table-striped table-bordered table-condensed">
+		<thead>
+			<tr>
+		<!-- table choices is enabled -->
+		<th></th>
+			<!-- table column Preferences -->
+			<!-- no sotring for column Preferences -->
+			<th 
+			 >Preferences</th>
+			</tr>
+		</thead>
+			<tbody>
+		<tr
+			class=""
+			data-table-id="_FiLCLnfGEe20WYdcRLAoOw"
+			*ngFor="let current of table_FiLCLnfGEe20WYdcRLAoOwgetElements(sourceaFiLCLnfGEe20WYdcRLAoOw); let _FiLCLnfGEe20WYdcRLAoOwNum = index; trackBy: trackSelective"
+			>
+			<!-- table choice column -->
+			<td>
+				<input
+				data-cinco-id="_FiLCLnfGEe20WYdcRLAoOw"
+				[value]="current"
+				(click)="choiceClicked(current)"
+				name="table_FiLCLnfGEe20WYdcRLAoOw"
+				type="checkbox"
+				[checked]="initOnDemandselectedPreferences().indexOf(current)>-1"
+					>
+			</td>
+			<!-- table column Preferences-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{current?.title}}
+				</span>
+				</span>
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+

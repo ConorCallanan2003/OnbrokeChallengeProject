@@ -1,0 +1,120 @@
+<ul 
+  role="tablist" class="nav nav-tabs">
+<li role="presentation"
+[class.active]="getActive_2Kw6IVLZEe2djpkPxa2Z3QTab('')"
+
+>
+	<a href
+	[class.disabled]="isBusy()"
+	data-cinco-id="_2Kw6IVLZEe2djpkPxa2Z3Q"
+	(click)="click_2Kw6IVLZEe2djpkPxa2Z3QTab($event,'')"
+	>Overview
+	</a>
+</li>
+<li role="presentation"
+[class.active]="getActive_2Kxh1lLZEe2djpkPxa2Z3QTab('')"
+
+>
+	<a href
+	[class.disabled]="isBusy()"
+	data-cinco-id="_2Kxh1lLZEe2djpkPxa2Z3Q"
+	(click)="click_2Kxh1lLZEe2djpkPxa2Z3QTab($event,'')"
+	>Feature Templates
+	</a>
+</li>
+</ul>
+<div class="tab-content">
+<div
+	*ngIf="getActive_2Kw6IVLZEe2djpkPxa2Z3QTab('')"
+	>
+	<div 
+	 [ngStyle]="{ 'margin-top':'15px' , 'margin-bottom':'15px' }"
+	class="row">
+	<div
+	
+	class="col-md-12 text-left"
+	>
+		
+		<adminoverviewtab-tag
+			
+			[modalDialog]="false"
+		  	[currentbranch]="currentbranch"
+		  	[ismajorpage]="false"
+		  	[runtimeId]="runtimeId"
+		  	[guiId]="guiId"
+		  	[users]="users"
+		  	[offers]="offers"
+		  	[biddings]="biddings"
+		  	
+		  	(actionedituserevent)="actionedituserevent.add($event)"
+		  	
+		  	
+		  	(actiondeleteuserevent)="actiondeleteuserevent.add($event)"
+		  	
+		  	
+		  	(actioncreateuserevent)="actioncreateuserevent.add($event)"
+		  	
+		  	
+		  	(actionshowofferevent)="actionshowofferevent.add($event)"
+		  	
+		  	
+		  	(actioneditofferevent)="actioneditofferevent.add($event)"
+		  	
+		  	
+		  	(actiondeleteofferevent)="actiondeleteofferevent.add($event)"
+		  	
+		  	
+		  	(actionshowbiddingevent)="actionshowbiddingevent.add($event)"
+		  	
+		  	
+		  	(actioneditbiddingevent)="actioneditbiddingevent.add($event)"
+		  	
+		  	
+		  	(actiondeletebiddingevent)="actiondeletebiddingevent.add($event)"
+		  	
+		  >
+		  </adminoverviewtab-tag>
+	</div>
+	</div>
+</div>
+<div
+	*ngIf="getActive_2Kxh1lLZEe2djpkPxa2Z3QTab('')"
+	>
+	<div 
+	 [ngStyle]="{ 'margin-top':'15px' , 'margin-bottom':'15px' }"
+	class="row">
+	<div
+	
+	class="col-md-12 text-left"
+	>
+		
+		<admintemplatestab-tag
+			
+			[modalDialog]="false"
+		  	[currentbranch]="currentbranch"
+		  	[ismajorpage]="false"
+		  	[runtimeId]="runtimeId"
+		  	[guiId]="guiId"
+		  	[featuresForOffer]="featuresForOffer"
+		  	[featuresForBidding]="featuresForBidding"
+		  	
+		  	(actioneditfeatureevent)="actioneditfeatureevent.add($event)"
+		  	
+		  	
+		  	(actiondeletefeatureevent)="actiondeletefeatureevent.add($event)"
+		  	
+		  	
+		  	(actiondetailsevent)="actiondetailsevent.add($event)"
+		  	
+		  	
+		  	(actioncreateofferfeatureevent)="actioncreateofferfeatureevent.add($event)"
+		  	
+		  	
+		  	(actioncreatebiddingfeatureevent)="actioncreatebiddingfeatureevent.add($event)"
+		  	
+		  >
+		  </admintemplatestab-tag>
+	</div>
+	</div>
+</div>
+</div>

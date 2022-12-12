@@ -1,0 +1,22 @@
+<!-- beginn badge -->
+<span *ngIf="issueState?.dywa_name=='unresolved' 
+" 
+aria-live="polite" aria-atomic="true" 
+
+  class="label label-warning">
+<span aria-live="polite" aria-atomic="true" class="text-left">
+unresolved
+</span>
+</span>
+<!-- end badge -->
+<!-- beginn badge -->
+<span *ngIf="issueState?.dywa_name=='resolved' 
+" 
+aria-live="polite" aria-atomic="true" 
+
+  class="label label-success">
+<span aria-live="polite" aria-atomic="true" class="text-left">
+resolved
+</span>
+</span>
+<!-- end badge -->

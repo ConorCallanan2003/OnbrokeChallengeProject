@@ -1,0 +1,152 @@
+<ul 
+  role="tablist" class="nav nav-tabs">
+<li role="presentation"
+[class.active]="getActive_hhQ0wFFTEe2J0bu3ffrh5wTab('')"
+
+>
+	<a href
+	[class.disabled]="isBusy()"
+	data-cinco-id="_hhQ0wFFTEe2J0bu3ffrh5w"
+	(click)="click_hhQ0wFFTEe2J0bu3ffrh5wTab($event,'')"
+	>Approval
+	</a>
+</li>
+<li role="presentation"
+[class.active]="getActive_iUpZgVFTEe2J0bu3ffrh5wTab('')"
+
+>
+	<a href
+	[class.disabled]="isBusy()"
+	data-cinco-id="_iUpZgVFTEe2J0bu3ffrh5w"
+	(click)="click_iUpZgVFTEe2J0bu3ffrh5wTab($event,'')"
+	>Assignments
+	</a>
+</li>
+</ul>
+<div class="tab-content">
+<div
+	*ngIf="getActive_hhQ0wFFTEe2J0bu3ffrh5wTab('')"
+	>
+	<div 
+	 [ngStyle]="{ 'margin-top':'15px' , 'margin-bottom':'15px' }"
+	class="row">
+	<div
+	
+	class="col-md-12 text-left"
+	>
+		
+		<brokerapprovaltab-tag
+			
+			[modalDialog]="false"
+		  	[currentbranch]="currentbranch"
+		  	[ismajorpage]="false"
+		  	[runtimeId]="runtimeId"
+		  	[guiId]="guiId"
+		  	[offers]="offers"
+		  	[biddings]="biddings"
+		  	
+		  	(actionshowofferevent)="actionshowofferevent.add($event)"
+		  	
+		  	
+		  	(actiondecideofferevent)="actiondecideofferevent.add($event)"
+		  	
+		  	
+		  	(actionreviewofferevent)="actionreviewofferevent.add($event)"
+		  	
+		  	
+		  	(actioneditreportevent)="actioneditreportevent.add($event)"
+		  	
+		  	
+		  	(actionrevokeofferevent)="actionrevokeofferevent.add($event)"
+		  	
+		  	
+		  	(actionshowbiddingevent)="actionshowbiddingevent.add($event)"
+		  	
+		  	
+		  	(actiondecidebiddingevent)="actiondecidebiddingevent.add($event)"
+		  	
+		  	
+		  	(actionreviewbiddingevent)="actionreviewbiddingevent.add($event)"
+		  	
+		  	
+		  	(actionrevokebiddingevent)="actionrevokebiddingevent.add($event)"
+		  	
+		  >
+		  </brokerapprovaltab-tag>
+	</div>
+	</div>
+</div>
+<div
+	*ngIf="getActive_iUpZgVFTEe2J0bu3ffrh5wTab('')"
+	>
+	<div 
+	 class="row">
+	<div
+	
+	class="col-md-12 text-left"
+	>
+	<!-- beginn alert -->
+	<div 
+	[ngStyle]="{ 'margin-top':'15px' }"
+	 class="alert alert-warning" role="alert">
+		<span 
+		 >
+		<span aria-live="polite" aria-atomic="true" class="text-left">
+		Only approved offers get listed here.
+		</span>
+		</span>
+	</div>
+	<!-- end alert -->
+	</div>
+	<div
+	
+	class="col-md-12 text-left"
+	>
+	<!-- beginn button Auto Assign -->
+	<button 
+		data-cinco-id="_oi368V94Ee2pr7wspri7ww"
+		tabindex="0" aria-label="Auto Assign"
+		[disabled]="isBusy()"
+	type="button"
+	(click)="actionautoassigneventaoi368V94Ee2pr7wspri7wwEventTrigger()
+	"
+	class="btn btn-primary">
+	 Auto Assign
+	</button>
+	<!-- end button Auto Assign -->
+	</div>
+	</div>
+	<div 
+	 [ngStyle]="{ 'margin-top':'15px' , 'margin-bottom':'15px' }"
+	class="row">
+	<div
+	
+	class="col-md-12 text-left"
+	>
+		
+		<brokerassignmenttab-tag
+			
+			[modalDialog]="false"
+		  	[currentbranch]="currentbranch"
+		  	[ismajorpage]="false"
+		  	[runtimeId]="runtimeId"
+		  	[guiId]="guiId"
+		  	[offers]="approvedOffers"
+		  	
+		  	(actionshowbiddingevent)="actionshowbiddingevent.add($event)"
+		  	
+		  	
+		  	(actionassignevent)="actionassignevent.add($event)"
+		  	
+		  	
+		  	(actionunassignevent)="actionunassignevent.add($event)"
+		  	
+		  	
+		  	(actioneditevent)="actioneditevent.add($event)"
+		  	
+		  >
+		  </brokerassignmenttab-tag>
+	</div>
+	</div>
+</div>
+</div>

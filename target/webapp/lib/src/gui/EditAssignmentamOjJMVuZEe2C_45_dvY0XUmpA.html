@@ -1,0 +1,129 @@
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<h1
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+Edit Assignment for {{bidding?.offer?.title}}
+</span>
+</h1>
+<!-- beginn button Cancel Edit -->
+<button 
+	data-cinco-id="_ka-Z4Vw1Ee2gxcFkjyzH4g"
+	tabindex="0" aria-label="Cancel Edit"
+	[disabled]="isBusy()"
+type="button"
+(click)="actioncancelediteventaka_45_Z4Vw1Ee2gxcFkjyzH4gEventTrigger()
+"
+class="btn btn-danger">
+ Cancel Edit
+</button>
+<!-- end button Cancel Edit -->
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<h1
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+Issues
+</span>
+</h1>
+<div *ngFor="let thisIssue of initOnDemandbidding().initOnDemandoffer().initOnDemandissues(); let index3 = index; trackBy: trackSelective"  
+aria-live="polite" aria-atomic="true" 
+
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+{{thisIssue?.title}}
+</span>
+</span>
+</div>
+</div>
+<div *ngIf="				thisIssue?.comments?.length>0
+" 
+aria-live="polite" aria-atomic="true" 
+
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+<u>
+Comments
+</u>
+</strong>
+</span>
+</span>
+</div>
+</div>
+<ul 
+  >
+<li	*ngFor="let thisComment of thisIssue.initOnDemandcomments(); let index4 = index; trackBy: trackSelective"  
+aria-live="polite" aria-atomic="true" 
+
+>
+<span aria-live="polite" aria-atomic="true" class="text-left">
+{{thisComment?.text}}
+</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<h1
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+Biddings
+</span>
+</h1>
+<form-_afTeYFuaEe2CdvY0XUmpA-editAssignment
+	*ngFor="let thisBidding of initOnDemandbidding().initOnDemandoffer().initOnDemandbiddings(); let index1 = index; trackBy: trackSelective"  
+	aria-live="polite" aria-atomic="true" 
+	
+	[modalDialog]="modalDialog"
+	[currentbranch]="currentbranch"
+	[ismajorpage]="false"
+	[runtimeId]="runtimeId"
+	[guiId]="guiId"
+	[bidding]="bidding"
+	[thisBidding]="thisBidding"
+  	(actionassignevent) = "actionassignevent.add($event)"
+  	(complex_bidding_update)="bidding = $event"
+  	role="form"
+>
+</form-_afTeYFuaEe2CdvY0XUmpA-editAssignment>
+</div>
+</div>

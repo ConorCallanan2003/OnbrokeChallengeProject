@@ -128,7 +128,7 @@ GUI _kAL7QXfUEe2cGd7_OEEukw {
   		isInput true
   		name "offer"
   		dfViewWorkaround true
-  		isList true
+  		isList false
   	}
   }
   

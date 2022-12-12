@@ -1,0 +1,240 @@
+	<table  [attr.id]="'table'+hashCode.toString()" class="table table-striped table-hover table-condensed">
+		<thead>
+			<tr>
+			<!-- table column Title -->
+			<!-- sotring enabled for column Title -->
+			<th 
+			 ><a href
+			data-cinco-id="_bJvxZVN9Ee2KQc5QIsW97w"
+			(click)="table_bJvxZVN9Ee2KQc5QIsW97wSort($event)"
+			>Title <span
+			[ngClass]="table_bJt8IVN9Ee2KQc5QIsW97wIsSorted('colId_bJvxZVN9Ee2KQc5QIsW97w')"
+			></span></a></th>
+			<!-- table column State -->
+			<!-- sotring enabled for column State -->
+			<th 
+			 ><a href
+			data-cinco-id="_bJy0q1N9Ee2KQc5QIsW97w"
+			(click)="table_bJy0q1N9Ee2KQc5QIsW97wSort($event)"
+			>State <span
+			[ngClass]="table_bJt8IVN9Ee2KQc5QIsW97wIsSorted('colId_bJy0q1N9Ee2KQc5QIsW97w')"
+			></span></a></th>
+			<!-- table column Actions -->
+			<!-- no sotring for column Actions -->
+			<th 
+			 >Actions</th>
+			</tr>
+		</thead>
+			<tbody>
+			<!-- table filtering is enabled -->
+			<tr>
+			<!-- table filter for column Title -->
+			<td
+				
+			>
+				<input type="search" class="form-control filter-input" placeholder="🔍 Search..."
+					data-cinco-id="_bJvxZVN9Ee2KQc5QIsW97w"
+					(keyup)="columnFilter_bJvxZVN9Ee2KQc5QIsW97wSubmit($event.target.value)"
+					(click)="columnFilter_bJvxZVN9Ee2KQc5QIsW97wSubmit($event.target.value)"
+					(search)="columnFilter_bJvxZVN9Ee2KQc5QIsW97wSubmit($event.target.value)"
+					(input)="columnFilter_bJvxZVN9Ee2KQc5QIsW97wSubmit($event.target.value)"
+					/>
+			</td>
+			<!-- table filter for column State -->
+			<td
+				
+			>
+				<select
+					class="form-control"
+					data-cinco-id="_bJy0q1N9Ee2KQc5QIsW97w"
+					(change)="columnFilter_bJy0q1N9Ee2KQc5QIsW97wSubmit($event.target.value)"
+				>
+					<option value="" selected></option>
+					<option value="resolved">resolved</option>
+					<option value="unresolved">unresolved</option>
+				</select>
+			</td>
+			<!-- table filter for column Actions -->
+			<td
+				
+			></td>
+			</tr>
+		<tr
+			class=""
+			data-table-id="_bJt8IVN9Ee2KQc5QIsW97w"
+			*ngFor="let issue of table_bJt8IVN9Ee2KQc5QIsW97wgetElements(sourceabJt8IVN9Ee2KQc5QIsW97w); let _bJt8IVN9Ee2KQc5QIsW97wNum = index; trackBy: trackSelective"
+			>
+			<!-- table column Title-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{issue?.title}}
+				</span>
+				</span>
+			</td>
+			<!-- table column State-->
+			<td 
+			 >
+					
+					<issuestatebadge-tag
+						
+						[modalDialog]="false"
+					  	[currentbranch]="currentbranch"
+					  	[ismajorpage]="false"
+					  	[runtimeId]="runtimeId"
+					  	[guiId]="guiId"
+					  	[issueState]="issue?.state"
+					  >
+					  </issuestatebadge-tag>
+			</td>
+			<!-- table column Actions-->
+			<td 
+			 >
+				<!-- beginn button group -->
+				<div 
+				 class=" btn-group" role="navigation" aria-label="button group">
+				<div class="btn-group" 
+				 role="navigation" aria-label="button group"><!-- beginn button Show issue -->
+				<button 
+					data-cinco-id="_bJxmsVN9Ee2KQc5QIsW97w"
+					tabindex="0" aria-label="Show issue"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionshowissueeventabJxmsVN9Ee2KQc5QIsW97wEventTrigger(issue)
+				"
+				class="btn btn-default btn-sm">
+				 Details
+				</button>
+				<!-- end button Show issue -->
+				</div><div class="btn-group" *ngIf="issue?.state?.dywa_name=='unresolved' 
+								&&
+								showResolveButtons==true
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+				 role="navigation" aria-label="button group"><!-- beginn button Resolve issue -->
+				<button *ngIf="issue?.state?.dywa_name=='unresolved' 
+								&&
+								showResolveButtons==true
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+					data-cinco-id="_V3lGkVOdEe2KQc5QIsW97w"
+					tabindex="0" aria-label="Resolve issue"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionresolveissueeventaV3lGkVOdEe2KQc5QIsW97wEventTrigger(issue)
+				"
+				class="btn btn-success btn-sm">
+				 Mark resolved
+				</button>
+				<!-- end button Resolve issue -->
+				</div><div class="btn-group" *ngIf="issue?.state?.dywa_name=='resolved' 
+								&&
+								showResolveButtons==true
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+				 role="navigation" aria-label="button group"><!-- beginn button Unresolve issue -->
+				<button *ngIf="issue?.state?.dywa_name=='resolved' 
+								&&
+								showResolveButtons==true
+				" 
+				aria-live="polite" aria-atomic="true" 
+				
+					data-cinco-id="_dDPcAVOdEe2KQc5QIsW97w"
+					tabindex="0" aria-label="Unresolve issue"
+					[disabled]="isBusy()"
+				type="button"
+				(click)="actionunresolveissueeventadDPcAVOdEe2KQc5QIsW97wEventTrigger(issue)
+				"
+				class="btn btn-danger btn-sm">
+				 Mark unresolved
+				</button>
+				<!-- end button Unresolve issue -->
+				</div></div>
+				<!-- end button group -->
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+
+<!-- table pagination enabled -->
+<nav *ngIf="table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length>1">
+  <ul class="pagination">
+    
+    <li
+    	    [ngClass]="table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage<=0?'disabled':''"
+    	    >
+    	      <a href
+    		data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    		(click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage-1,$event)"
+    	      aria-label="Previous">
+    	        <span aria-hidden="true">&laquo;</span>
+    	      </a>
+    	    </li>
+    <template [ngIf]="table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length<5">
+	    <li 
+	    		*ngFor="let page_bJt8IVN9Ee2KQc5QIsW97w of table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size)"
+	    		[class]="page_bJt8IVN9Ee2KQc5QIsW97w==table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage?'active':''"
+	    	    >
+	    	    <a href
+	    	    data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+	    	    (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(page_bJt8IVN9Ee2KQc5QIsW97w,$event)"
+	    	    >{{ page_bJt8IVN9Ee2KQc5QIsW97w+1 }}</a>
+    	    </li>
+    	     
+    </template>
+    <template [ngIf]="table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length>=5">
+	    <li *ngIf="(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)>1">
+	    	    	<a href
+	    	    	data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    	    	    (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(0,$event)"
+        	    >1</a>
+        </li>
+        	<li class="disabled" *ngIf="(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)>3" ><a href="#">...</a></li>
+        	<li
+        		*ngIf="(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)>2"
+        	>
+    	    	<a href
+    	    		data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    	    	    (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage-1,$event)"
+        	    >{{ (table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)-1 }}</a>
+        </li>
+        	<li class="active">
+    	    	<a href
+    	    		data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    	    	    (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage,$event)"
+        	    >{{ table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1 }}</a>
+        </li>
+        <li
+        	    *ngIf="table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage<(table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length-2)"
+        	>
+    	    	<a href
+    	    		data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    	    	    (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1,$event)"
+        	    >{{ (table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)+1 }}</a>
+        </li>
+        <li class="disabled" *ngIf="(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)<(table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length-2)" ><a href="#">...</a></li>
+        	<li *ngIf="(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1)<(table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length)">
+    	    	<a href
+    	    		data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    	    	    (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length-1,$event)"
+        	    >{{ table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length }}</a>
+        </li>
+    	</template>
+    	<li
+    	    [ngClass]="table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage>=table_bJt8IVN9Ee2KQc5QIsW97wgetPageCount(table_bJt8IVN9Ee2KQc5QIsW97w_size).length-1?'disabled':''"
+    	    >
+    	      <a href
+    	      data-cinco-id="_bJt8IVN9Ee2KQc5QIsW97w"
+    	      (click)="table_bJt8IVN9Ee2KQc5QIsW97wchangePage(table_bJt8IVN9Ee2KQc5QIsW97wCurrentPage+1,$event)"
+    	      aria-label="Next">
+    	        <span aria-hidden="true">&raquo;</span>
+    	      </a>
+    	    </li>
+  </ul>
+</nav>

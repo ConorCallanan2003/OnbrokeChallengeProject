@@ -82,9 +82,13 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _eCYc8Xl9Ee2Bb9t6ovoR_Q via (638,316) (638,426) decorate "" at (0,0) {
+  			id _jnENgXl9Ee2Bb9t6ovoR_Q
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (708,450) (780,450) (780,172) decorate "" at (0,0) {
-  		id _ecoRAVFREe2J0bu3ffrh5w
+  	-ControlFlow-> _eCHXMXl9Ee2Bb9t6ovoR_Q  decorate "" at (0,0) {
+  		id _jHBbgXl9Ee2Bb9t6ovoR_Q
   		concurrent true
   	}
   }
@@ -157,10 +161,6 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Documentation _8kEbIVFQEe2J0bu3ffrh5w at 648,340 size 52,40 {
-  	content "TODO"
-  }
-  
   Branch _MeLucVFREe2J0bu3ffrh5w at 309,280 size 120,50 {
   	name "Create offer"
   	ComplexOutputPort _MeQm8VFREe2J0bu3ffrh5w at 5,27 size 110,18 {
@@ -195,7 +195,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _bB8JoXifEe2n6qlSkDlEsw at 309,350 size 120,90 index 15 {
+  ProcessSIB _bB8JoXifEe2n6qlSkDlEsw at 309,350 size 120,90 index 14 {
   	libraryComponentUID "_1H0vcHfFEe20WYdcRLAoOw"
   	label "newOfferProcess"
   	ignoredBranch [  ]
@@ -210,7 +210,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _6J3BUVOnEe2KQc5QIsW97w at 478,350 size 120,90 index 11 {
+  ProcessSIB _6J3BUVOnEe2KQc5QIsW97w at 478,350 size 120,90 index 10 {
   	libraryComponentUID "_-tSigVOiEe2KQc5QIsW97w"
   	label "ShowOfferDetails"
   	ignoredBranch [  ]
@@ -225,7 +225,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _bCPEkXifEe2n6qlSkDlEsw at 309,470 size 120,25 index 16 {
+  Branch _bCPEkXifEe2n6qlSkDlEsw at 309,470 size 120,25 index 15 {
   	name "success"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (250,481) decorate "" at (0,0) {
   		id _eJgXgXifEe2n6qlSkDlEsw
@@ -233,7 +233,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _6KIuIVOnEe2KQc5QIsW97w at 478,470 size 120,25 index 12 {
+  Branch _6KIuIVOnEe2KQc5QIsW97w at 478,470 size 120,25 index 11 {
   	name "back"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (620,483) (620,172) decorate "" at (0,0) {
   		id _760ooVOnEe2KQc5QIsW97w
@@ -241,7 +241,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _of8m4HifEe2n6qlSkDlEsw at 813,350 size 120,90 index 17 {
+  ProcessSIB _of8m4HifEe2n6qlSkDlEsw at 813,350 size 120,90 index 16 {
   	libraryComponentUID "_tTP3gHfTEe2cGd7_OEEukw"
   	label "deleteOffer"
   	ignoredBranch [  ]
@@ -256,7 +256,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB __FTAkVOnEe2KQc5QIsW97w at 1129,350 size 120,90 index 13 {
+  ProcessSIB __FTAkVOnEe2KQc5QIsW97w at 1129,350 size 120,90 index 12 {
   	libraryComponentUID "_U_pfYVOlEe2KQc5QIsW97w"
   	label "ShowBiddingDetails"
   	ignoredBranch [  ]
@@ -271,7 +271,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _ogBfYXifEe2n6qlSkDlEsw at 813,459 size 120,25 index 18 {
+  Branch _ogBfYXifEe2n6qlSkDlEsw at 813,459 size 120,25 index 17 {
   	name "success"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (872,529) (250,529) decorate "" at (0,0) {
   		id _r4vHoXifEe2n6qlSkDlEsw
@@ -279,7 +279,7 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch __Fl7gVOnEe2KQc5QIsW97w at 1129,459 size 120,25 index 14 {
+  Branch __Fl7gVOnEe2KQc5QIsW97w at 1129,459 size 120,25 index 13 {
   	name "back"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (1270,473) (1270,172) decorate "" at (0,0) {
   		id _Bz9mQFOoEe2KQc5QIsW97w
@@ -352,6 +352,29 @@ Process _cxB5kVFLEe2Vgcav4Znc_w {
   	name "success"
   	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (250,542) decorate "" at (0,0) {
   		id _HEB0QXigEe2n6qlSkDlEsw
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _eCHXMXl9Ee2Bb9t6ovoR_Q at 648,350 size 120,90 {
+  	libraryComponentUID "_at4CYXfUEe2cGd7_OEEukw"
+  	label "OfferEditProcess"
+  	ignoredBranch [  ]
+  	ComplexInputPort _eCYc8Xl9Ee2Bb9t6ovoR_Q at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _eCoUkXl9Ee2Bb9t6ovoR_Q   {
+  		id _eCqJwXl9Ee2Bb9t6ovoR_Q
+  		concurrent true
+  	}
+  }
+  
+  Branch _eCoUkXl9Ee2Bb9t6ovoR_Q at 648,470 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _lsPHwVFQEe2J0bu3ffrh5w via (784,480) (784,172) decorate "" at (0,0) {
+  		id _g_aOwXl9Ee2Bb9t6ovoR_Q
   		concurrent true
   	}
   }

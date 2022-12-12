@@ -1,0 +1,41 @@
+<form
+ [ngFormModel]="form_vA7YsWAWEe2S6JM4Hx8SJwForm"
+ [attr.id]="'form'+form_vA7YsWAWEe2S6JM4Hx8SJwForm.hashCode.toString()"
+ data-cinco-id="_vA7YsWAWEe2S6JM4Hx8SJw"
+ 
+ >
+ <div
+ 	#formaxEhoIWAWEe2S6JM4Hx8SJwfield
+ 	
+ [class.has-error]="!form_vA7YsWAWEe2S6JM4Hx8SJwForm.find('input__xEhoIWAWEe2S6JM4Hx8SJw').valid && !form_vA7YsWAWEe2S6JM4Hx8SJwForm.find('input__xEhoIWAWEe2S6JM4Hx8SJw').pristine"
+ 	class="form-group"
+ 	>
+     		<label [attr.for]="formaxEhoIWAWEe2S6JM4Hx8SJwfield.hashCode.toString()" >Comment</label>	
+ 		<input
+ 		data-cinco-id="_xEhoIWAWEe2S6JM4Hx8SJw"
+ 		[attr.aria-invalid]="!form_vA7YsWAWEe2S6JM4Hx8SJwForm.find('input__xEhoIWAWEe2S6JM4Hx8SJw').valid && !form_vA7YsWAWEe2S6JM4Hx8SJwForm.find('input__xEhoIWAWEe2S6JM4Hx8SJw').pristine"
+ 		[attr.id]="formaxEhoIWAWEe2S6JM4Hx8SJwfield.hashCode.toString()"
+ 			ngControl="input__xEhoIWAWEe2S6JM4Hx8SJw"
+ 				[ngModel]="input__xEhoIWAWEe2S6JM4Hx8SJw"
+ 				(ngModelChange)="input__xEhoIWAWEe2S6JM4Hx8SJw = $event"
+ 			type="text"
+ 			class="form-control "
+ 			 [disabled]="isBusy()"
+ 			placeholder=""
+ 			>
+ 
+ </div>
+ 
+ <!-- beginn button Submit -->
+ <button 
+ 	data-cinco-id="_vA9082AWEe2S6JM4Hx8SJw"
+ 	tabindex="0" aria-label="Submit"
+ 	[disabled]="(!form_vA7YsWAWEe2S6JM4Hx8SJwForm.valid)||isBusy()"
+ type="submit"
+ (click)="actionsubmiteventavA9082AWEe2S6JM4Hx8SJwEventTrigger(form_vA7YsWAWEe2S6JM4Hx8SJwForm.value)
+ "
+ class="btn btn-success">
+  Submit
+ </button>
+ <!-- end button Submit -->
+</form>

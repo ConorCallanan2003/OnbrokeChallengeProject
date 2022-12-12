@@ -1,0 +1,139 @@
+<dime-panel
+	
+	#dimea0U2q8VLlEe2djpkPxa2Z3Qpanel
+	[styling]="{}"
+	[cincoId]="'_0U2q8VLlEe2djpkPxa2Z3Q'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="false"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Users
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimea0U2q8VLlEe2djpkPxa2Z3Qpanel.isCollapsed||dimea0U2q8VLlEe2djpkPxa2Z3Qpanel.isLoaded" class="panel-body">
+<div 
+ [ngStyle]="{ 'margin-bottom':'15px' }"
+class="row">
+<div
+
+class="col-md-12 text-right"
+>
+<!-- beginn button Create user -->
+<button 
+	data-cinco-id="_0U35P1LlEe2djpkPxa2Z3Q"
+	tabindex="0" aria-label="Create user"
+	[disabled]="isBusy()"
+type="button"
+(click)="actioncreateusereventa0U35P1LlEe2djpkPxa2Z3QEventTrigger()
+"
+class="btn btn-success">
+<span aria-hidden="true" aria-label="icon plus" class="glyphicon glyphicon-plus" style="right:2px"></span>
+ Create new user
+</button>
+<!-- end button Create user -->
+</div>
+</div>
+	
+	<adminuserstable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[users]="users"
+	  	
+	  	(actionedituserevent)="actionedituserevent.add($event)"
+	  	
+	  	
+	  	(actiondeleteuserevent)="actiondeleteuserevent.add($event)"
+	  	
+	  >
+	  </adminuserstable-tag>
+	</div>
+</dime-panel>
+<dime-panel
+	
+	#dimea8Gs2oVLlEe2djpkPxa2Z3Qpanel
+	[styling]="{}"
+	[cincoId]="'_8Gs2oVLlEe2djpkPxa2Z3Q'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="false"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Offers
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimea8Gs2oVLlEe2djpkPxa2Z3Qpanel.isCollapsed||dimea8Gs2oVLlEe2djpkPxa2Z3Qpanel.isLoaded" class="panel-body">
+	
+	<adminoffertable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[offers]="offers"
+	  	
+	  	(actionshowofferevent)="actionshowofferevent.add($event)"
+	  	
+	  	
+	  	(actioneditofferevent)="actioneditofferevent.add($event)"
+	  	
+	  	
+	  	(actiondeleteofferevent)="actiondeleteofferevent.add($event)"
+	  	
+	  >
+	  </adminoffertable-tag>
+	</div>
+</dime-panel>
+<dime-panel
+	
+	#dimea_45_X6rUVLlEe2djpkPxa2Z3Qpanel
+	[styling]="{}"
+	[cincoId]="'_-X6rUVLlEe2djpkPxa2Z3Q'"
+	[coloring]="'default'"
+	[hasHeading]="true"
+	[collapsable]="true"
+	[initial]="false"
+>
+<span dime-panel-heading>
+	<span aria-live="polite" aria-atomic="true" class="text-left">
+	<strong>
+	Biddings
+	</strong>
+	</span>
+</span>
+	<div *ngIf="!dimea_45_X6rUVLlEe2djpkPxa2Z3Qpanel.isCollapsed||dimea_45_X6rUVLlEe2djpkPxa2Z3Qpanel.isLoaded" class="panel-body">
+	
+	<adminbiddingtable-tag
+		
+		[modalDialog]="false"
+	  	[currentbranch]="currentbranch"
+	  	[ismajorpage]="false"
+	  	[runtimeId]="runtimeId"
+	  	[guiId]="guiId"
+	  	[biddings]="biddings"
+	  	
+	  	(actionshowbiddingevent)="actionshowbiddingevent.add($event)"
+	  	
+	  	
+	  	(actioneditbiddingevent)="actioneditbiddingevent.add($event)"
+	  	
+	  	
+	  	(actiondeletebiddingevent)="actiondeletebiddingevent.add($event)"
+	  	
+	  >
+	  </adminbiddingtable-tag>
+	</div>
+</dime-panel>

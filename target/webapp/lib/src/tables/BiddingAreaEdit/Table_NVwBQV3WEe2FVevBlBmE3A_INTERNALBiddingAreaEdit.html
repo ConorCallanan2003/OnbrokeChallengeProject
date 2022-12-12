@@ -1,0 +1,45 @@
+	<table  [attr.id]="'table'+hashCode.toString()" class="table table-striped table-bordered table-condensed">
+		<thead>
+			<tr>
+		<!-- table choices is enabled -->
+		<th></th>
+			<!-- table column Features -->
+			<!-- no sotring for column Features -->
+			<th 
+			 [ngStyle]="{ 'margin-top':'15px' , 'margin-bottom':'30px' }"
+			>Features</th>
+			</tr>
+		</thead>
+			<tbody>
+		<tr
+			class=""
+			data-table-id="_NVwBQV3WEe2FVevBlBmE3A_INTERNAL"
+			*ngFor="let feature of table_NVwBQV3WEe2FVevBlBmE3A_INTERNALgetElements(sourceaNVwBQV3WEe2FVevBlBmE3A_INTERNAL); let _NVwBQV3WEe2FVevBlBmE3A_INTERNALNum = index; trackBy: trackSelective"
+			>
+			<!-- table choice column -->
+			<td>
+				<input
+				data-cinco-id="_NVwBQV3WEe2FVevBlBmE3A_INTERNAL"
+				[value]="feature"
+				(click)="choiceClicked(feature)"
+				name="table_NVwBQV3WEe2FVevBlBmE3A_INTERNAL"
+				type="checkbox"
+				[checked]="initOnDemandselectedFeatures().indexOf(feature)>-1"
+					>
+			</td>
+			<!-- table column Features-->
+			<td 
+			 [ngStyle]="{ 'margin-top':'15px' , 'margin-bottom':'30px' }"
+			>
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{feature?.title}}
+				</span>
+				</span>
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+

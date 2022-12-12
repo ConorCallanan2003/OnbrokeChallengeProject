@@ -1,0 +1,43 @@
+	<table  [attr.id]="'table'+hashCode.toString()" class="table table-striped table-bordered table-condensed">
+		<thead>
+			<tr>
+		<!-- table choices is enabled -->
+		<th></th>
+			<!-- table column Preferences -->
+			<!-- no sotring for column Preferences -->
+			<th 
+			 >Preferences</th>
+			</tr>
+		</thead>
+			<tbody>
+		<tr
+			class=""
+			data-table-id="_a_RZAV7pEe2MjMOCwlD7jg"
+			*ngFor="let preference of table_a_RZAV7pEe2MjMOCwlD7jggetElements(sourceaa_RZAV7pEe2MjMOCwlD7jg); let _a_RZAV7pEe2MjMOCwlD7jgNum = index; trackBy: trackSelective"
+			>
+			<!-- table choice column -->
+			<td>
+				<input
+				data-cinco-id="_a_RZAV7pEe2MjMOCwlD7jg"
+				[value]="preference"
+				(click)="choiceClicked(preference)"
+				name="table_a_RZAV7pEe2MjMOCwlD7jg"
+				type="checkbox"
+				[checked]="initOnDemandselectedPreferences().indexOf(preference)>-1"
+					>
+			</td>
+			<!-- table column Preferences-->
+			<td 
+			 >
+				<span 
+				 >
+				<span aria-live="polite" aria-atomic="true" class="text-left">
+				{{preference?.title}}
+				</span>
+				</span>
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+

@@ -107,7 +107,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
-  		-ComplexDirectDataFlow-> _NBNzwVOmEe2KQc5QIsW97w via (470,556) (470,686) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _NBNzwVOmEe2KQc5QIsW97w via (470,556) (470,666) decorate "" at (0,0) {
   			id _Oqrr8VOmEe2KQc5QIsW97w
   			dfViewWorkaround true
   		}
@@ -150,7 +150,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
-  		-ComplexDirectDataFlow-> _1eCdUVOlEe2KQc5QIsW97w via (299,556) (299,686) decorate "" at (0,0) {
+  		-ComplexDirectDataFlow-> _1eCdUVOlEe2KQc5QIsW97w via (299,556) (299,666) decorate "" at (0,0) {
   			id _3xJvcVOlEe2KQc5QIsW97w
   			dfViewWorkaround true
   		}
@@ -335,7 +335,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	content "TODO"
   }
   
-  ProcessSIB _1d5TYVOlEe2KQc5QIsW97w at 309,610 size 120,90 {
+  ProcessSIB _1d5TYVOlEe2KQc5QIsW97w at 309,590 size 120,90 {
   	libraryComponentUID "_U_pfYVOlEe2KQc5QIsW97w"
   	label "ShowBiddingDetails"
   	ignoredBranch [  ]
@@ -358,7 +358,7 @@ Process _zgnP4FFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _NBECwVOmEe2KQc5QIsW97w at 480,610 size 120,90 {
+  ProcessSIB _NBECwVOmEe2KQc5QIsW97w at 480,590 size 120,90 {
   	libraryComponentUID "_-tSigVOiEe2KQc5QIsW97w"
   	label "ShowOfferDetails"
   	ignoredBranch [  ]

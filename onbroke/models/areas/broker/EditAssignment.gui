@@ -6,7 +6,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   title "EditAssignment"
   DataContext _mOnaoVuZEe2C-dvY0XUmpA at -40,10 size 941,1412 {
   	dfViewWorkaround true
-  	ComplexVariable _zxwPgVuZEe2C-dvY0XUmpA at 10,70 size 160,267 {
+  	ComplexVariable _zxwPgVuZEe2C-dvY0XUmpA at 10,30 size 160,321 {
   		expanded true
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
@@ -14,47 +14,57 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		name "bidding"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _0WFroVuZEe2C-dvY0XUmpA at 10,23 size 140,25 {
+  		ComplexAttribute _1ug7EXl9Ee2Bb9t6ovoR_Q at 10,293 size 140,25 {
   			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _0WG5w1uZEe2C-dvY0XUmpA at 10,50 size 140,25 {
+  		ComplexAttribute _1uhiIHl9Ee2Bb9t6ovoR_Q at 10,131 size 140,25 {
   			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _0WG5xVuZEe2C-dvY0XUmpA at 10,77 size 140,25 {
+  		ComplexAttribute _1uhiInl9Ee2Bb9t6ovoR_Q at 10,185 size 140,25 {
   			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _0WHg0VuZEe2C-dvY0XUmpA at 10,104 size 140,25 {
+  		ComplexAttribute _1uhiJHl9Ee2Bb9t6ovoR_Q at 10,239 size 140,25 {
+  			libraryComponentUID "_6kjXsXVxEe2cLPYmNcZZ9A"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _1uiJMXl9Ee2Bb9t6ovoR_Q at 10,212 size 140,25 {
   			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _0WIH4VuZEe2C-dvY0XUmpA at 10,131 size 140,25 {
+  		ComplexAttribute _1uiJM3l9Ee2Bb9t6ovoR_Q at 10,77 size 140,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _0WIH41uZEe2C-dvY0XUmpA at 10,158 size 140,25 {
+  		ComplexAttribute _1uiJNXl9Ee2Bb9t6ovoR_Q at 10,158 size 140,25 {
   			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _0WIu8VuZEe2C-dvY0XUmpA at 10,185 size 140,25 {
+  		PrimitiveAttribute _1uiwQXl9Ee2Bb9t6ovoR_Q at 10,50 size 140,25 {
   			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _0WIu81uZEe2C-dvY0XUmpA at 10,212 size 140,25 {
+  		PrimitiveAttribute _1uiwQ3l9Ee2Bb9t6ovoR_Q at 10,266 size 140,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveExtensionAttribute _0WJWAVuZEe2C-dvY0XUmpA at 10,239 size 140,25 {
+  		PrimitiveAttribute _1ujXUXl9Ee2Bb9t6ovoR_Q at 10,104 size 140,25 {
+  			libraryComponentUID "_sr08AXigEe2n6qlSkDlEsw"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _1ujXU3l9Ee2Bb9t6ovoR_Q at 10,23 size 140,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}
@@ -64,7 +74,7 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		}
   	}
   	
-  	ComplexVariable _1TaPgFuZEe2C-dvY0XUmpA at 10,370 size 301,240 {
+  	ComplexVariable _1TaPgFuZEe2C-dvY0XUmpA at 10,370 size 301,213 {
   		expanded true
   		isLive false
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
@@ -72,43 +82,38 @@ GUI _mOjJMVuZEe2C-dvY0XUmpA {
   		name "offer"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _1TmcwFuZEe2C-dvY0XUmpA at 10,23 size 281,25 {
+  		ComplexAttribute _38wUQXl9Ee2Bb9t6ovoR_Q at 10,185 size 281,25 {
   			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _1TnD0VuZEe2C-dvY0XUmpA at 10,50 size 281,25 {
+  		ComplexAttribute _38w7UXl9Ee2Bb9t6ovoR_Q at 10,104 size 281,25 {
   			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _1TnD01uZEe2C-dvY0XUmpA at 10,77 size 281,25 {
+  		ComplexAttribute _38w7U3l9Ee2Bb9t6ovoR_Q at 10,77 size 281,25 {
   			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _1To5AVuZEe2C-dvY0XUmpA at 10,104 size 281,25 {
+  		ComplexAttribute _38w7VXl9Ee2Bb9t6ovoR_Q at 10,131 size 281,25 {
+  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  			isLive false
+  		}
+  		
+  		ComplexAttribute _38xiYXl9Ee2Bb9t6ovoR_Q at 10,50 size 281,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _1TpgE1uZEe2C-dvY0XUmpA at 10,131 size 281,25 {
-  			libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
-  			isLive false
-  		}
-  		
-  		PrimitiveAttribute _1TqHIVuZEe2C-dvY0XUmpA at 10,158 size 281,25 {
+  		PrimitiveAttribute _38xiY3l9Ee2Bb9t6ovoR_Q at 10,158 size 281,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveExtensionAttribute _1TqHI1uZEe2C-dvY0XUmpA at 10,185 size 281,25 {
+  		PrimitiveExtensionAttribute _38xiZXl9Ee2Bb9t6ovoR_Q at 10,23 size 281,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
-  			isLive false
-  		}
-  		
-  		ComplexAttribute _aOYioVz8Ee2u-Pvg-aLylw at 10,212 size 281,25 {
-  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		-ComplexAttributeConnector-> _Td9KAVwzEe2gxcFkjyzH4g  decorate "Ellipse" at (0,0) {

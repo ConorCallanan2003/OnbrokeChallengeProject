@@ -1,0 +1,97 @@
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<!-- beginn button Back -->
+<button 
+	data-cinco-id="_QYSNsWAREe2S6JM4Hx8SJw"
+	tabindex="0" aria-label="Back"
+	[disabled]="isBusy()"
+type="button"
+(click)="actionbackeventaQYSNsWAREe2S6JM4Hx8SJwEventTrigger()
+"
+class="btn btn-default">
+ Back
+</button>
+<!-- end button Back -->
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<h1
+
+> 
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{issue?.title}}
+</strong>
+</span>
+</h1>
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<!-- beginn button Add new Comment -->
+<button 
+	data-cinco-id="_hG3q4GAREe2S6JM4Hx8SJw"
+	tabindex="0" aria-label="Add new Comment"
+	[disabled]="isBusy()"
+type="button"
+(click)="actionaddnewcommenteventahG3q4GAREe2S6JM4Hx8SJwEventTrigger()
+"
+class="btn btn-success">
+<span aria-hidden="true" aria-label="icon plus" class="glyphicon glyphicon-plus" style="right:2px"></span>
+ Add new comment
+</button>
+<!-- end button Add new Comment -->
+</div>
+</div>
+<div *ngIf="				!(issue?.comments?.length>0)
+" 
+aria-live="polite" aria-atomic="true" 
+
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+No comments yet
+</span>
+</span>
+</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+<table-_fr5MkWAPEe2S6JM4Hx8SJw-detailsPage
+		*ngIf="				issue?.comments?.length>0
+		" 
+		aria-live="polite" aria-atomic="true" 
+		
+		[modalDialog]="modalDialog"
+		[currentbranch]="currentbranch"
+		[ismajorpage]="false"
+		[runtimeId]="runtimeId"
+		[guiId]="guiId"
+		[issue]="issue"
+	
+		[sourceafr5MkWAPEe2S6JM4Hx8SJw]="issue?.comments"
+	  	(source_update)="issue?.comments.replaceAll($event)"
+		(actioneditevent) = "actioneditevent.add($event)"
+		(actiondeleteevent) = "actiondeleteevent.add($event)"
+>
+</table-_fr5MkWAPEe2S6JM4Hx8SJw-detailsPage>
+	</div>
+</div>
