@@ -113,7 +113,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   	}
   }
   
-  Template _zSCKsVOjEe2KQc5QIsW97w at 300,10 size 370,1335 {
+  Template _zSCKsVOjEe2KQc5QIsW97w at 300,10 size 370,1465 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _zSCKslOjEe2KQc5QIsW97w {
@@ -470,7 +470,7 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _C18IAVOlEe2KQc5QIsW97w at 10,890 size 170,415 {
+  	Panel _C18IAVOlEe2KQc5QIsW97w at 10,1020 size 170,415 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _C18vIlOlEe2KQc5QIsW97w {
@@ -561,6 +561,72 @@ GUI _zSAVgVOjEe2KQc5QIsW97w {
   			}
   			
   			MoveDown _NO7uE3miEe2ix_xiis0jnw at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Panel _Vi050XpFEe2L4roCShBYJg at 10,890 size 220,120 {
+  		collapsable false
+  		defaultOpen "true"
+  		heading StaticContent _Vi05-HpFEe2L4roCShBYJg {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Description"
+  				styling TextStyling _Vi05-XpFEe2L4roCShBYJg {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold true
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			}
+  		coloring ComponentColoring _Vi05-npFEe2L4roCShBYJg {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _Vi0593pFEe2L4roCShBYJg {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  				rawContent ""
+  			}
+  		MoveUp _Vi05_HpFEe2L4roCShBYJg at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _Vi05_3pFEe2L4roCShBYJg at 2,10 size 14,7 {
+  		}
+  		
+  		Text _asIV8XpFEe2L4roCShBYJg at 10,30 size 200,60 {
+  			content [ StaticContent _asJkEXpFEe2L4roCShBYJg {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "{{bidding.description}}"
+  					styling TextStyling _asJkEnpFEe2L4roCShBYJg {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic false
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _asJkEHpFEe2L4roCShBYJg {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _asI9AXpFEe2L4roCShBYJg at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _asI9A3pFEe2L4roCShBYJg at 2,10 size 14,7 {
   			}
   		}
   	}
