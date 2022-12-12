@@ -4,20 +4,15 @@ Process _eckUQVuREe2C-dvY0XUmpA {
   dataFlowView true
   processType Basic
   isStateful false
-  DataContext _ez9gkVuREe2C-dvY0XUmpA at 20,20 size 210,373 {
+  DataContext _ez9gkVuREe2C-dvY0XUmpA at 20,20 size 210,436 {
   	dfViewWorkaround true
-  	ComplexVariable _C3CGMVuSEe2C-dvY0XUmpA at 10,58 size 190,294 {
+  	ComplexVariable _C3CGMVuSEe2C-dvY0XUmpA at 10,58 size 190,348 {
   		expanded true
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		name "bidding"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _DH83EVuSEe2C-dvY0XUmpA at 10,266 size 170,25 {
-  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
-  			dfViewWorkaround true
-  		}
-  		
-  		ComplexAttribute _DH9eIVuSEe2C-dvY0XUmpA at 10,158 size 170,25 {
+  		ComplexAttribute _DH9eIVuSEe2C-dvY0XUmpA at 10,185 size 170,25 {
   			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   			-ComplexRead-> _Hs63EVuSEe2C-dvY0XUmpA  decorate "" at (0,0) {
@@ -26,42 +21,57 @@ Process _eckUQVuREe2C-dvY0XUmpA {
   			}
   		}
   		
-  		ComplexAttribute _DH_TUVuSEe2C-dvY0XUmpA at 10,104 size 170,25 {
+  		ComplexAttribute _INdkYHoHEe20HKs7-gjpHQ at 10,320 size 170,25 {
+  			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
+  			dfViewWorkaround true
+  		}
+  		
+  		ComplexAttribute _INdkYnoHEe20HKs7-gjpHQ at 10,131 size 170,25 {
   			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _DIAhcVuSEe2C-dvY0XUmpA at 10,185 size 170,25 {
+  		ComplexAttribute _INeLcXoHEe20HKs7-gjpHQ at 10,212 size 170,25 {
   			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _DIBvkVuSEe2C-dvY0XUmpA at 10,212 size 170,25 {
-  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  		ComplexAttribute _INeLc3oHEe20HKs7-gjpHQ at 10,266 size 170,25 {
+  			libraryComponentUID "_6kjXsXVxEe2cLPYmNcZZ9A"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _DICWoVuSEe2C-dvY0XUmpA at 10,77 size 170,25 {
+  		ComplexAttribute _INeLdXoHEe20HKs7-gjpHQ at 10,77 size 170,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		ComplexAttribute _DIC9sVuSEe2C-dvY0XUmpA at 10,131 size 170,25 {
+  		ComplexAttribute _INeygXoHEe20HKs7-gjpHQ at 10,158 size 170,25 {
   			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveAttribute _DIDkwVuSEe2C-dvY0XUmpA at 10,50 size 170,25 {
+  		ComplexAttribute _INeyg3oHEe20HKs7-gjpHQ at 10,239 size 170,25 {
+  			libraryComponentUID "_KESK0XoBEe20HKs7-gjpHQ"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveAttribute _INeyhXoHEe20HKs7-gjpHQ at 10,50 size 170,25 {
   			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveAttribute _DIEL0VuSEe2C-dvY0XUmpA at 10,239 size 170,25 {
+  		PrimitiveAttribute _INfZkXoHEe20HKs7-gjpHQ at 10,293 size 170,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			dfViewWorkaround true
   		}
   		
-  		PrimitiveExtensionAttribute _DIEy4VuSEe2C-dvY0XUmpA at 10,23 size 170,25 {
+  		PrimitiveAttribute _INfZk3oHEe20HKs7-gjpHQ at 10,104 size 170,25 {
+  			libraryComponentUID "_sr08AXigEe2n6qlSkDlEsw"
+  			dfViewWorkaround true
+  		}
+  		
+  		PrimitiveExtensionAttribute _INfZlXoHEe20HKs7-gjpHQ at 10,23 size 170,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			dfViewWorkaround true
   		}

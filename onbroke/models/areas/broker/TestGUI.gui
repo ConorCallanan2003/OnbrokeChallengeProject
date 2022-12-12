@@ -4,7 +4,7 @@ GUI _D--CsV-EEe2pr7wspri7ww {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "TestGUI"
-  DataContext _D_GlkV-EEe2pr7wspri7ww at 10,10 size 180,524 {
+  DataContext _D_GlkV-EEe2pr7wspri7ww at 10,10 size 180,578 {
   	dfViewWorkaround true
   	ComplexVariable _ODI2UV-EEe2pr7wspri7ww at 10,60 size 160,105 {
   		expanded true
@@ -43,7 +43,7 @@ GUI _D--CsV-EEe2pr7wspri7ww {
   		}
   	}
   	
-  	ComplexVariable _Tn77oV-EEe2pr7wspri7ww at 10,200 size 160,294 {
+  	ComplexVariable _Tn77oV-EEe2pr7wspri7ww at 10,200 size 160,348 {
   		expanded true
   		isLive false
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
@@ -51,52 +51,62 @@ GUI _D--CsV-EEe2pr7wspri7ww {
   		name "thisOffer"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _ToEegV-EEe2pr7wspri7ww at 10,266 size 140,25 {
+  		ComplexAttribute _GznckXoHEe20HKs7-gjpHQ at 10,320 size 140,25 {
   			libraryComponentUID "_STTrkVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _ToFFkV-EEe2pr7wspri7ww at 10,77 size 140,25 {
+  		ComplexAttribute _GzoDoXoHEe20HKs7-gjpHQ at 10,77 size 140,25 {
   			libraryComponentUID "_xZISQVGIEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _ToGTsV-EEe2pr7wspri7ww at 10,185 size 140,25 {
+  		ComplexAttribute _GzoDo3oHEe20HKs7-gjpHQ at 10,212 size 140,25 {
   			libraryComponentUID "_mFmoEVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _ToIv8F-EEe2pr7wspri7ww at 10,131 size 140,25 {
+  		ComplexAttribute _GzoqsXoHEe20HKs7-gjpHQ at 10,158 size 140,25 {
   			libraryComponentUID "_txofoVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _ToKlIV-EEe2pr7wspri7ww at 10,212 size 140,25 {
-  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  		ComplexAttribute _Gzoqs3oHEe20HKs7-gjpHQ at 10,266 size 140,25 {
+  			libraryComponentUID "_3gXN8XVxEe2cLPYmNcZZ9A"
   			isLive false
   		}
   		
-  		ComplexAttribute _ToKlI1-EEe2pr7wspri7ww at 10,104 size 140,25 {
+  		ComplexAttribute _GzoqtXoHEe20HKs7-gjpHQ at 10,104 size 140,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _ToLMMV-EEe2pr7wspri7ww at 10,158 size 140,25 {
+  		ComplexAttribute _Gzoqt3oHEe20HKs7-gjpHQ at 10,185 size 140,25 {
   			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _ToMaUV-EEe2pr7wspri7ww at 10,50 size 140,25 {
+  		ComplexAttribute _GzpRwXoHEe20HKs7-gjpHQ at 10,239 size 140,25 {
+  			libraryComponentUID "_KESK0XoBEe20HKs7-gjpHQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _GzpRw3oHEe20HKs7-gjpHQ at 10,50 size 140,25 {
   			libraryComponentUID "_rTRUMVuBEe24-NGcS7DsBA"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _ToO2kV-EEe2pr7wspri7ww at 10,239 size 140,25 {
+  		PrimitiveAttribute _GzpRxXoHEe20HKs7-gjpHQ at 10,293 size 140,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveExtensionAttribute _ToQEsV-EEe2pr7wspri7ww at 10,23 size 140,25 {
+  		PrimitiveAttribute _GzpRx3oHEe20HKs7-gjpHQ at 10,131 size 140,25 {
+  			libraryComponentUID "_sr08AXigEe2n6qlSkDlEsw"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _Gzp40XoHEe20HKs7-gjpHQ at 10,23 size 140,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}

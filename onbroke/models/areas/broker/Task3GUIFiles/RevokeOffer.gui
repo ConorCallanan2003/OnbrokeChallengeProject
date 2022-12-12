@@ -1,0 +1,193 @@
+GUI _uHfHQVuMEe2fDrPr3UNYwQ {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "RevokeOffer"
+  DataContext _uHr7kVuMEe2fDrPr3UNYwQ at 10,10 size 180,80 {
+  	dfViewWorkaround true
+  }
+  
+  Template _uHzQUVuMEe2fDrPr3UNYwQ at 240,10 size 510,400 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _uH5-AFuMEe2fDrPr3UNYwQ {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Headline _04COAVuMEe2fDrPr3UNYwQ at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _04vYoFuMEe2fDrPr3UNYwQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "OnBroker- Revoke Offer\n"
+  				styling TextStyling _0480AFuMEe2fDrPr3UNYwQ {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _04eS4FuMEe2fDrPr3UNYwQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _04XlMVuMEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _04aBcVuMEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Headline _ksU-8VuNEe2fDrPr3UNYwQ at 10,90 size 300,50 {
+  		size Medium
+  		content [ StaticContent _ktA7cFuNEe2fDrPr3UNYwQ {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Are You Sure ?"
+  				styling TextStyling _ktBigFuNEe2fDrPr3UNYwQ {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _kshzQFuNEe2fDrPr3UNYwQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ksdh0VuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _kseI4VuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Panel _ZvmuEWDwEe25_IzInx8kXQ at 10,150 size 490,220 {
+  		collapsable false
+  		defaultOpen "true"
+  		coloring ComponentColoring _Zvup4GDwEe25_IzInx8kXQ {
+  				color Default
+  			}
+  		generalStyle GeneralStyling _Zvq_gmDwEe25_IzInx8kXQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _ZvqYcWDwEe25_IzInx8kXQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _Zvq_gWDwEe25_IzInx8kXQ at 2,10 size 14,7 {
+  		}
+  		
+  		ButtonToolbar _XX6d8WDwEe25_IzInx8kXQ at 10,30 size 470,160 {
+  			role DEFAULT
+  			size Default
+  			generalStyle GeneralStyling _XYY_EGDwEe25_IzInx8kXQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _XX9hQWDwEe25_IzInx8kXQ at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _XX9hQ2DwEe25_IzInx8kXQ at 2,10 size 14,7 {
+  			}
+  			
+  			ButtonGroup _XX_9gWDwEe25_IzInx8kXQ at 10,30 size 440,110 {
+  				size Default
+  				alignment horizontal
+  				generalStyle GeneralStyling _XYVUsGDwEe25_IzInx8kXQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _XYBLoWDwEe25_IzInx8kXQ at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _XYBLo2DwEe25_IzInx8kXQ at 10,2 size 7,14 {
+  				}
+  				
+  				Button _HZvOoVuNEe2fDrPr3UNYwQ at 10,30 size 200,60 {
+  					label "Yes"
+  					styling ButtonStyling _HaQMAFuNEe2fDrPr3UNYwQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Red
+  						}
+  					options ButtonOptions _HaXgwFuNEe2fDrPr3UNYwQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _HZ_GQFuNEe2fDrPr3UNYwQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _HZ9REFuNEe2fDrPr3UNYwQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _HZ4_oVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _HZ5msVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _ffyBkFuNEe2fDrPr3UNYwQ at 220,30 size 200,60 {
+  					label "No"
+  					styling ButtonStyling _fhJTgFuNEe2fDrPr3UNYwQ {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions _fheqsFuNEe2fDrPr3UNYwQ {
+  							isLink false
+  							submitsForm true
+  						}
+  					disabled false
+  					icon Icon _fgRJwFuNEe2fDrPr3UNYwQ {
+  							postIcon None
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _ff-O0FuNEe2fDrPr3UNYwQ {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _ff59YVuNEe2fDrPr3UNYwQ at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _ff7ykVuNEe2fDrPr3UNYwQ at 2,10 size 14,7 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

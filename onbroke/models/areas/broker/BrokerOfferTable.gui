@@ -208,7 +208,7 @@ GUI _JXgxEVFUEe2J0bu3ffrh5w {
   				
   				Button _5KRCilF_Ee2J0bu3ffrh5w at 220,30 size 200,60 {
   					displayLabel "Create report"
-  					label "Review offer"
+  					label "Create Report"
   					styling ButtonStyling _5KRCkVF_Ee2J0bu3ffrh5w {
   							fullWidth false
   							size Small
@@ -239,7 +239,7 @@ GUI _JXgxEVFUEe2J0bu3ffrh5w {
   				
   				Button _5KRpf1F_Ee2J0bu3ffrh5w at 430,30 size 200,60 {
   					displayLabel "Edit report"
-  					label "Edit report"
+  					label "Edit Offer Report"
   					styling ButtonStyling _5KRphlF_Ee2J0bu3ffrh5w {
   							fullWidth false
   							size Small
@@ -416,6 +416,10 @@ GUI _JXgxEVFUEe2J0bu3ffrh5w {
   		-AddComplexToSubmission-> _5KRCilF_Ee2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _CqBdMVGHEe2J0bu3ffrh5w
   		}
+  		
+  		-AddComplexToSubmission-> _5KRpf1F_Ee2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
+  			id _vzbl0XoDEe20HKs7-gjpHQ
+  		}
   	}
   	
   	ComplexVariable _MuvuoVGAEe2J0bu3ffrh5w at 730,30 size 201,25 {
@@ -434,10 +438,6 @@ GUI _JXgxEVFUEe2J0bu3ffrh5w {
   		-IF-> _5KRpf1F_Ee2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _Q62isVGAEe2J0bu3ffrh5w
   			negate false
-  		}
-  		
-  		-AddComplexToSubmission-> _5KRpf1F_Ee2J0bu3ffrh5w  decorate "" at (0,0) decorate "Text" at (0,0) {
-  			id _qAHaIVGEEe2J0bu3ffrh5w
   		}
   	}
   	

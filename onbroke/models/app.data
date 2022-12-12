@@ -253,8 +253,36 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   	}
   }
   
-  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1009,62 size 140,30 {
+  ConcreteType _eC67EVFSEe2J0bu3ffrh5w at 1010,60 size 140,109 {
   	name "Report"
+  	PrimitiveAttribute _-9k8IXoAEe20HKs7-gjpHQ at 5,32 size 130,18 {
+  		dataType Text
+  		name "comments"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute __MwAkXoAEe20HKs7-gjpHQ at 5,50 size 130,18 {
+  		dataType File
+  		name "file"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute __dxfIXoAEe20HKs7-gjpHQ at 5,68 size 130,18 {
+  		dataType Text
+  		name "name"
+  		isList false
+  	}
+  	
+  	ComplexAttribute _L7xQ4XoBEe20HKs7-gjpHQ at 5,86 size 130,18 {
+  		dataType _BtX2cVGBEe2J0bu3ffrh5w
+  		name "decision"
+  		isList false
+  	}
+  	-Association-> _BtX2cVGBEe2J0bu3ffrh5w via (1177,116) (1177,406) decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _L7tmgXoBEe20HKs7-gjpHQ
+  		isHidden false
+  		sourceAttr _L7xQ4XoBEe20HKs7-gjpHQ
+  	}
   }
   
   EnumType _lmR-0VFSEe2J0bu3ffrh5w at 1023,472 size 112,73 {
@@ -288,12 +316,6 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   
   AbstractType _V7iG8FGDEe2J0bu3ffrh5w at 1010,191 size 140,145 {
   	name "Submission"
-  	ComplexAttribute _nEaTcVGDEe2J0bu3ffrh5w at 5,86 size 130,18 {
-  		dataType _eC67EVFSEe2J0bu3ffrh5w
-  		name "report"
-  		isList false
-  	}
-  	
   	ComplexAttribute _nrhWwVGDEe2J0bu3ffrh5w at 5,32 size 130,18 {
   		dataType _BtX2cVGBEe2J0bu3ffrh5w
   		name "decision"
@@ -325,12 +347,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		name "description"
   		isList false
   	}
-  	-Association-> _eC67EVFSEe2J0bu3ffrh5w  decorate "Text" at (8,-3) decorate "" at (0,0) {
-  		id _nEOtQVGDEe2J0bu3ffrh5w
-  		isHidden false
-  		sourceAttr _nEaTcVGDEe2J0bu3ffrh5w
-  	}
   	
+  	ComplexAttribute _KESK0XoBEe20HKs7-gjpHQ at 5,86 size 130,18 {
+  		dataType _eC67EVFSEe2J0bu3ffrh5w
+  		name "report"
+  		isList false
+  	}
   	-Association-> _BtX2cVGBEe2J0bu3ffrh5w  decorate "Text" at (7,-4) decorate "" at (0,0) {
   		id _nrT7YVGDEe2J0bu3ffrh5w
   		isHidden false
@@ -341,6 +363,12 @@ Data _tH3fEMwMEeWZVvvwxpYu8A {
   		id _3MnmMVN9Ee2KQc5QIsW97w
   		isHidden false
   		sourceAttr _3M1ooVN9Ee2KQc5QIsW97w
+  	}
+  	
+  	-Association-> _eC67EVFSEe2J0bu3ffrh5w  decorate "Text" at (0,0) decorate "" at (0,0) {
+  		id _KEOgcHoBEe20HKs7-gjpHQ
+  		isHidden false
+  		sourceAttr _KESK0XoBEe20HKs7-gjpHQ
   	}
   }
   

@@ -1,0 +1,177 @@
+GUI _t_kUUV9QEe2nLtxBkX9_SA {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "CheckRevoke"
+  DataContext _uBHMcF9QEe2nLtxBkX9_SA at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _uBiqQV9QEe2nLtxBkX9_SA at 240,10 size 540,390 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _uCXwsF9QEe2nLtxBkX9_SA {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _uCdQQV9QEe2nLtxBkX9_SA at 10,30 size 520,330 {
+  		generalStyle GeneralStyling _uC4HAF9QEe2nLtxBkX9_SA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _uCj98V9QEe2nLtxBkX9_SA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _uCmaMV9QEe2nLtxBkX9_SA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _uCtH4V9QEe2nLtxBkX9_SA at 10,30 size 490,280 {
+  			wideness Full
+  			layout Layout _uC1qwF9QEe2nLtxBkX9_SA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _uC0coF9QEe2nLtxBkX9_SA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _uCvkIV9QEe2nLtxBkX9_SA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _uCwyQV9QEe2nLtxBkX9_SA at 10,2 size 7,14 {
+  			}
+  			
+  			Headline _wgGXYV9QEe2nLtxBkX9_SA at 10,30 size 300,50 {
+  				size Big
+  				content [ StaticContent _wgW2EV9QEe2nLtxBkX9_SA {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "Are you sure?"
+  						styling TextStyling _wgagcF9QEe2nLtxBkX9_SA {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _wgW2EF9QEe2nLtxBkX9_SA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _wgSkoF9QEe2nLtxBkX9_SA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _wgTLsV9QEe2nLtxBkX9_SA at 2,10 size 14,7 {
+  				}
+  			}
+  			
+  			ButtonToolbar _4nlb4V9QEe2nLtxBkX9_SA at 10,90 size 470,160 {
+  				role DEFAULT
+  				size Default
+  				generalStyle GeneralStyling _4oc-kV9QEe2nLtxBkX9_SA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _4nwbAF9QEe2nLtxBkX9_SA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _4nxCEV9QEe2nLtxBkX9_SA at 2,10 size 14,7 {
+  				}
+  				
+  				ButtonGroup _4n16kV9QEe2nLtxBkX9_SA at 10,30 size 440,110 {
+  					size Default
+  					alignment horizontal
+  					generalStyle GeneralStyling _4oc-kF9QEe2nLtxBkX9_SA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _4n494V9QEe2nLtxBkX9_SA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _4n6MAV9QEe2nLtxBkX9_SA at 10,2 size 7,14 {
+  					}
+  					
+  					Button _4n9PUV9QEe2nLtxBkX9_SA at 10,30 size 200,60 {
+  						label "No"
+  						styling ButtonStyling _4oUbsF9QEe2nLtxBkX9_SA {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Default
+  							}
+  						options ButtonOptions _4oZ7QF9QEe2nLtxBkX9_SA {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _4oKDoF9QEe2nLtxBkX9_SA {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _4oJckF9QEe2nLtxBkX9_SA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveLeft _4oEkEV9QEe2nLtxBkX9_SA at 2,2 size 7,14 {
+  						}
+  						
+  						MoveRight _4oGZQV9QEe2nLtxBkX9_SA at 10,2 size 7,14 {
+  						}
+  					}
+  					
+  					Button _5i8Q4V9QEe2nLtxBkX9_SA at 220,30 size 200,60 {
+  						label "Yes"
+  						styling ButtonStyling _5jUEUF9QEe2nLtxBkX9_SA {
+  								fullWidth false
+  								size Default
+  								disabled false
+  								color Green
+  							}
+  						options ButtonOptions _5jY80F9QEe2nLtxBkX9_SA {
+  								isLink false
+  								submitsForm true
+  							}
+  						disabled false
+  						icon Icon _5jEzwV9QEe2nLtxBkX9_SA {
+  								postIcon None
+  								preIcon None
+  							}
+  						generalStyle GeneralStyling _5jEzwF9QEe2nLtxBkX9_SA {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveLeft _5jBwcV9QEe2nLtxBkX9_SA at 2,2 size 7,14 {
+  						}
+  						
+  						MoveRight _5jCXgV9QEe2nLtxBkX9_SA at 10,2 size 7,14 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}

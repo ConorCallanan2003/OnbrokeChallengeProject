@@ -4,9 +4,9 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   additionalJavaScript [  ]
   additionalStylesheets [  ]
   title "deleteBiddingConfirm"
-  DataContext _sSDVoWAsEe2KJog_oImiIQ at 10,10 size 180,336 {
+  DataContext _sSDVoWAsEe2KJog_oImiIQ at 10,10 size 180,390 {
   	dfViewWorkaround true
-  	ComplexVariable _MaQoMGAtEe2KJog_oImiIQ at 8,12 size 160,294 {
+  	ComplexVariable _MaQoMGAtEe2KJog_oImiIQ at 8,12 size 160,348 {
   		expanded true
   		isLive false
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
@@ -14,52 +14,62 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   		name "bidding"
   		dfViewWorkaround true
   		isList false
-  		ComplexAttribute _MqxwcWAtEe2KJog_oImiIQ at 10,266 size 140,25 {
+  		ComplexAttribute _VW9msXoGEe20HKs7-gjpHQ at 10,320 size 140,25 {
   			libraryComponentUID "_T0d8UVFNEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _MqzloWAtEe2KJog_oImiIQ at 10,158 size 140,25 {
+  		ComplexAttribute _VW-NwXoGEe20HKs7-gjpHQ at 10,185 size 140,25 {
   			libraryComponentUID "_xY5BsVGIEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _Mq0MsWAtEe2KJog_oImiIQ at 10,104 size 140,25 {
+  		ComplexAttribute _VW-Nw3oGEe20HKs7-gjpHQ at 10,131 size 140,25 {
   			libraryComponentUID "_xMbLgVMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _Mq1a0WAtEe2KJog_oImiIQ at 10,185 size 140,25 {
+  		ComplexAttribute _VW-00XoGEe20HKs7-gjpHQ at 10,212 size 140,25 {
   			libraryComponentUID "_0_2Z0VMTEe2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		ComplexAttribute _Mq2B4WAtEe2KJog_oImiIQ at 10,212 size 140,25 {
-  			libraryComponentUID "_nEaTcVGDEe2J0bu3ffrh5w"
+  		ComplexAttribute _VW-003oGEe20HKs7-gjpHQ at 10,266 size 140,25 {
+  			libraryComponentUID "_6kjXsXVxEe2cLPYmNcZZ9A"
   			isLive false
   		}
   		
-  		ComplexAttribute _Mq33EWAtEe2KJog_oImiIQ at 10,77 size 140,25 {
+  		ComplexAttribute _VW-01XoGEe20HKs7-gjpHQ at 10,77 size 140,25 {
   			libraryComponentUID "_nrhWwVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		ComplexAttribute _Mq5FMWAtEe2KJog_oImiIQ at 10,131 size 140,25 {
+  		ComplexAttribute _VW-013oGEe20HKs7-gjpHQ at 10,158 size 140,25 {
   			libraryComponentUID "_3M1ooVN9Ee2KQc5QIsW97w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _Mq6TUWAtEe2KJog_oImiIQ at 10,50 size 140,25 {
+  		ComplexAttribute _VW_b4XoGEe20HKs7-gjpHQ at 10,239 size 140,25 {
+  			libraryComponentUID "_KESK0XoBEe20HKs7-gjpHQ"
+  			isLive false
+  		}
+  		
+  		PrimitiveAttribute _VW_b43oGEe20HKs7-gjpHQ at 10,50 size 140,25 {
   			libraryComponentUID "_ynLkUVGJEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveAttribute _Mq66YWAtEe2KJog_oImiIQ at 10,239 size 140,25 {
+  		PrimitiveAttribute _VW_b5XoGEe20HKs7-gjpHQ at 10,293 size 140,25 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
   		}
   		
-  		PrimitiveExtensionAttribute _Mq8vkWAtEe2KJog_oImiIQ at 10,23 size 140,25 {
+  		PrimitiveAttribute _VXAC8XoGEe20HKs7-gjpHQ at 10,104 size 140,25 {
+  			libraryComponentUID "_sr08AXigEe2n6qlSkDlEsw"
+  			isLive false
+  		}
+  		
+  		PrimitiveExtensionAttribute _VXAC83oGEe20HKs7-gjpHQ at 10,23 size 140,25 {
   			libraryComponentUID "_2bMl8FOhEe2KQc5QIsW97w"
   			isLive false
   		}

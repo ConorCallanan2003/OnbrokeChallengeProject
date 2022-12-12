@@ -1,0 +1,146 @@
+Process _iM3T8F0vEe26jeXNN1jOwQ {
+  modelName "DecideBidding"
+  description "DecideBidding"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _iZ0K0F0vEe26jeXNN1jOwQ at 330,20 size 100,90 {
+  	ComplexOutputPort _xmBPQF0vEe26jeXNN1jOwQ at 5,67 size 90,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  		-ComplexDirectDataFlow-> _kfYJJV0vEe26jeXNN1jOwQ via (320,96) (304,218) decorate "" at (0,0) {
+  			id _yLnPoV0vEe26jeXNN1jOwQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _kfYJIV0vEe26jeXNN1jOwQ  decorate "" at (0,0) {
+  		id _k92N0V0vEe26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  EndSIB _iaA_IF0vEe26jeXNN1jOwQ at 330,500 size 100,65 {
+  	branchName "success"
+  }
+  
+  GUISIB _kfYJIV0vEe26jeXNN1jOwQ at 320,142 size 120,90 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_WAd-oF0mEe25K9Bw89qhkQ"
+  	name "Decide"
+  	label "Decide"
+  	ignoredBranch [  ]
+  	ComplexInputPort _kfYJJV0vEe26jeXNN1jOwQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _kfZ-UV0vEe26jeXNN1jOwQ   {
+  		id _kfbzgV0vEe26jeXNN1jOwQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _kfePwl0vEe26jeXNN1jOwQ   {
+  		id _kffd6F0vEe26jeXNN1jOwQ
+  		concurrent true
+  	}
+  	
+  	-BranchConnector-> _JhsiwWD1Ee25_IzInx8kXQ   {
+  		id _JhtJ0WD1Ee25_IzInx8kXQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _kfZ-UV0vEe26jeXNN1jOwQ at 305,270 size 82,50 {
+  	name "Approve"
+  	ComplexOutputPort _ywOCcV04Ee26jeXNN1jOwQ at 5,27 size 72,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  		-ComplexDirectDataFlow-> _kn9uUV04Ee26jeXNN1jOwQ via (264,306) (264,417) decorate "" at (0,0) {
+  			id _zlOX0F04Ee26jeXNN1jOwQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _kn6rAV04Ee26jeXNN1jOwQ  decorate "" at (0,0) {
+  		id _k75W8V04Ee26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  DataContext _yqNWgV03Ee26jeXNN1jOwQ at 20,50 size 180,600 index 5 {
+  	dfViewWorkaround true
+  }
+  
+  Branch _kfePwl0vEe26jeXNN1jOwQ at 402,270 size 80,50 index 4 {
+  	name "Reject"
+  	ComplexOutputPort _ywGGoV04Ee26jeXNN1jOwQ at 5,27 size 70,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  		-ComplexDirectDataFlow-> _MM34cV04Ee26jeXNN1jOwQ via (392,306) (392,426) decorate "" at (0,0) {
+  			id _zLtroV04Ee26jeXNN1jOwQ
+  			dfViewWorkaround true
+  		}
+  	}
+  	-ControlFlow-> _MM0OEV04Ee26jeXNN1jOwQ  decorate "" at (0,0) {
+  		id _rxmqgV04Ee26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _MM0OEV04Ee26jeXNN1jOwQ at 439,350 size 120,90 {
+  	libraryComponentUID "_a1qjQV03Ee26jeXNN1jOwQ"
+  	label "RejectSubmission"
+  	ignoredBranch [  ]
+  	ComplexInputPort _MM34cV04Ee26jeXNN1jOwQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _nepAgV04Ee26jeXNN1jOwQ   {
+  		id _nepnkV04Ee26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _kn6rAV04Ee26jeXNN1jOwQ at 274,341 size 120,90 {
+  	libraryComponentUID "_hQ3PoV04Ee26jeXNN1jOwQ"
+  	label "ApproveSubmission"
+  	ignoredBranch [  ]
+  	ComplexInputPort _kn9uUV04Ee26jeXNN1jOwQ at 5,67 size 110,18 {
+  		libraryComponentUID "_V7iG8FGDEe2J0bu3ffrh5w"
+  		isList false
+  		name "submission"
+  	}
+  	-BranchConnector-> _koFqIV04Ee26jeXNN1jOwQ   {
+  		id _koGRMV04Ee26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _koFqIV04Ee26jeXNN1jOwQ at 274,441 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _iaA_IF0vEe26jeXNN1jOwQ  decorate "" at (0,0) {
+  		id _lJE3UV04Ee26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _nepAgV04Ee26jeXNN1jOwQ at 470,460 size 120,25 {
+  	name "success"
+  	-ControlFlow-> _iaA_IF0vEe26jeXNN1jOwQ  decorate "" at (0,0) {
+  		id _rYJBoV04Ee26jeXNN1jOwQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _JhsiwWD1Ee25_IzInx8kXQ at 470,174 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _iaA_IF0vEe26jeXNN1jOwQ via (615,182) (615,385) (615,534) decorate "" at (0,0) {
+  		id _LT2c4WD1Ee25_IzInx8kXQ
+  		concurrent true
+  	}
+  }
+}
