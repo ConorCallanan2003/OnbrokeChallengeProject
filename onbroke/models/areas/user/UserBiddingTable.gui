@@ -83,9 +83,6 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   		PrimitiveAttribute _uMPQw3ieEe2n6qlSkDlEsw at 10,266 size 181,25 index 0 {
   			libraryComponentUID "_z9pPsVGDEe2J0bu3ffrh5w"
   			isLive false
-  			-TableColumnLoad-> _z5rUsXieEe2n6qlSkDlEsw  decorate "" at (0,0) decorate "Text" at (0,0) {
-  				id _2oz0cXieEe2n6qlSkDlEsw
-  			}
   		}
   		
   		ComplexAttribute _JgpDgXoHEe20HKs7-gjpHQ at 10,77 size 181,25 {
@@ -208,7 +205,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   	}
   }
   
-  Template _uSVFwVFOEe2J0bu3ffrh5w at 300,10 size 1180,350 {
+  Template _uSVFwVFOEe2J0bu3ffrh5w at 300,10 size 1080,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _uSVFwlFOEe2J0bu3ffrh5w {
@@ -217,7 +214,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   			attributes [  ]
   			marginTop None
   		}
-  	Table _xZzNAVFOEe2J0bu3ffrh5w at 10,100 size 1160,220 {
+  	Table _xZzNAVFOEe2J0bu3ffrh5w at 10,100 size 1060,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -290,7 +287,7 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   			}
   		}
   		
-  		TableEntry _xZ0bUVFOEe2J0bu3ffrh5w at 470,30 size 670,170 {
+  		TableEntry _xZ0bUVFOEe2J0bu3ffrh5w at 240,30 size 670,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -413,54 +410,6 @@ GUI _uSTQkVFOEe2J0bu3ffrh5w {
   					
   					MoveRight _xZ1pZ1FOEe2J0bu3ffrh5w at 10,2 size 7,14 {
   					}
-  				}
-  			}
-  		}
-  		
-  		TableEntry _z5rUsXieEe2n6qlSkDlEsw at 240,30 size 220,120 {
-  			fullTextSearch false
-  			defaultSorting NONE
-  			label "Bidding"
-  			sortable false
-  			generalStyle GeneralStyling _z5rUv3ieEe2n6qlSkDlEsw {
-  					tallness Fitting
-  					marginBottom None
-  					attributes [  ]
-  					marginTop None
-  				}
-  			MoveLeft _z5rUwXieEe2n6qlSkDlEsw at 2,2 size 7,14 {
-  			}
-  			
-  			MoveRight _z5rUxHieEe2n6qlSkDlEsw at 10,2 size 7,14 {
-  			}
-  			
-  			Text _z5rUx3ieEe2n6qlSkDlEsw at 10,30 size 200,60 {
-  				content [ StaticContent _z5r7wXieEe2n6qlSkDlEsw {
-  						renderMarkdown false
-  						maxChars 0
-  						html false
-  						rawContent "{{bidding.title}}"
-  						styling TextStyling _z5r7wnieEe2n6qlSkDlEsw {
-  								small false
-  								highlight false
-  								deleted false
-  								underline false
-  								bold false
-  								alignment Left
-  								italic false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling _z5r7wHieEe2n6qlSkDlEsw {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _z5r7xHieEe2n6qlSkDlEsw at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _z5r7x3ieEe2n6qlSkDlEsw at 2,10 size 14,7 {
   				}
   			}
   		}

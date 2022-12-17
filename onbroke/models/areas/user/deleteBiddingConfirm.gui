@@ -76,7 +76,7 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   	}
   }
   
-  Template _sSD8sWAsEe2KJog_oImiIQ at 240,10 size 320,430 {
+  Template _sSD8sWAsEe2KJog_oImiIQ at 240,10 size 320,410 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _sSHAAGAsEe2KJog_oImiIQ {
@@ -85,130 +85,6 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _sSHnEWAsEe2KJog_oImiIQ at 10,90 size 250,310 {
-  		generalStyle GeneralStyling _sSQxAGAsEe2KJog_oImiIQ {
-  				tallness Fitting
-  				marginBottom None
-  				attributes [  ]
-  				marginTop None
-  			}
-  		MoveUp _sSI1MWAsEe2KJog_oImiIQ at 2,2 size 14,7 {
-  		}
-  		
-  		MoveDown _sSI1M2AsEe2KJog_oImiIQ at 2,10 size 14,7 {
-  		}
-  		
-  		Col _sSLRcWAsEe2KJog_oImiIQ at 10,30 size 220,260 {
-  			wideness Full
-  			layout Layout _sSQJ8GAsEe2KJog_oImiIQ {
-  					size Default
-  					offset None
-  					alignment Left
-  				}
-  			generalStyle GeneralStyling _sSPi4GAsEe2KJog_oImiIQ {
-  					tallness Fitting
-  					marginBottom None
-  					attributes [  ]
-  					marginTop None
-  				}
-  			MoveLeft _sSMfkWAsEe2KJog_oImiIQ at 2,2 size 7,14 {
-  			}
-  			
-  			MoveRight _sSNGoWAsEe2KJog_oImiIQ at 10,2 size 7,14 {
-  			}
-  			
-  			Button _xnnFEWAsEe2KJog_oImiIQ at 10,100 size 200,60 {
-  				label "Confirm"
-  				styling ButtonStyling _xnxdIGAsEe2KJog_oImiIQ {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Green
-  					}
-  				options ButtonOptions _xnyEMGAsEe2KJog_oImiIQ {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon _xnvA4WAsEe2KJog_oImiIQ {
-  						postIcon Check
-  						preIcon None
-  					}
-  				generalStyle GeneralStyling _xnvA4GAsEe2KJog_oImiIQ {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _xnoTMWAsEe2KJog_oImiIQ at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _xno6QWAsEe2KJog_oImiIQ at 2,10 size 14,7 {
-  				}
-  			}
-  			
-  			Button _02vTgWAsEe2KJog_oImiIQ at 10,170 size 200,60 {
-  				label "Back"
-  				styling ButtonStyling _025EgGAsEe2KJog_oImiIQ {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Default
-  					}
-  				options ButtonOptions _026SoGAsEe2KJog_oImiIQ {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon _020zEGAsEe2KJog_oImiIQ {
-  						postIcon None
-  						preIcon ArrowLeft
-  					}
-  				generalStyle GeneralStyling _02yW0GAsEe2KJog_oImiIQ {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _02whoWAsEe2KJog_oImiIQ at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _02xIsWAsEe2KJog_oImiIQ at 2,10 size 14,7 {
-  				}
-  			}
-  			
-  			Text _7PJk8WHKEe2ppMVyqO_APw at 10,30 size 200,60 {
-  				content [ StaticContent _7PimgGHKEe2ppMVyqO_APw {
-  						renderMarkdown false
-  						maxChars 0
-  						html false
-  						rawContent "Are you ceartain you want to delete {{bidding.title}}"
-  						styling TextStyling _7PkbsGHKEe2ppMVyqO_APw {
-  								small false
-  								highlight false
-  								deleted false
-  								underline false
-  								bold false
-  								alignment Left
-  								italic false
-  								color Default
-  							}
-  					} ]
-  				generalStyle GeneralStyling _7PfjMGHKEe2ppMVyqO_APw {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _7PbRwWHKEe2ppMVyqO_APw at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _7Pb40WHKEe2ppMVyqO_APw at 2,10 size 14,7 {
-  				}
-  			}
-  		}
-  	}
-  	
   	Headline _B07BMWAtEe2KJog_oImiIQ at 10,30 size 300,50 {
   		size Big
   		content [ StaticContent _B1EyMGAtEe2KJog_oImiIQ {
@@ -237,6 +113,98 @@ GUI _sR_EMGAsEe2KJog_oImiIQ {
   		}
   		
   		MoveDown _B082YWAtEe2KJog_oImiIQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Text _7PJk8WHKEe2ppMVyqO_APw at 10,90 size 200,60 {
+  		content [ StaticContent _7PimgGHKEe2ppMVyqO_APw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Are you ceartain you want to delete {{bidding.title}}"
+  				styling TextStyling _7PkbsGHKEe2ppMVyqO_APw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _7PfjMGHKEe2ppMVyqO_APw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _7PbRwWHKEe2ppMVyqO_APw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _7Pb40WHKEe2ppMVyqO_APw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _xnnFEWAsEe2KJog_oImiIQ at 10,160 size 200,60 {
+  		displayLabel "Confirm"
+  		label "Confirm"
+  		styling ButtonStyling _xnxdIGAsEe2KJog_oImiIQ {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Green
+  			}
+  		options ButtonOptions _xnyEMGAsEe2KJog_oImiIQ {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _xnvA4WAsEe2KJog_oImiIQ {
+  				postIcon Check
+  				preIcon None
+  			}
+  		generalStyle GeneralStyling _xnvA4GAsEe2KJog_oImiIQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _xnoTMWAsEe2KJog_oImiIQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _xno6QWAsEe2KJog_oImiIQ at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Button _02vTgWAsEe2KJog_oImiIQ at 10,230 size 200,60 {
+  		displayLabel "Back"
+  		label "Back"
+  		styling ButtonStyling _025EgGAsEe2KJog_oImiIQ {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Yellow
+  			}
+  		options ButtonOptions _026SoGAsEe2KJog_oImiIQ {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _020zEGAsEe2KJog_oImiIQ {
+  				postIcon None
+  				preIcon ArrowLeft
+  			}
+  		generalStyle GeneralStyling _02yW0GAsEe2KJog_oImiIQ {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _02whoWAsEe2KJog_oImiIQ at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _02xIsWAsEe2KJog_oImiIQ at 2,10 size 14,7 {
   		}
   	}
   }

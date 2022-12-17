@@ -114,6 +114,7 @@ GUI _N90GIV7vEe2Ml8OCwlD7jg {
   			}
   			
   			Button _b3fywV7vEe2Ml8OCwlD7jg at 10,230 size 200,60 {
+  				displayLabel "Cancel"
   				label "Label"
   				styling ButtonStyling _b4GPsF7vEe2Ml8OCwlD7jg {
   						fullWidth false
@@ -144,6 +145,7 @@ GUI _N90GIV7vEe2Ml8OCwlD7jg {
   			}
   			
   			Button _Scyy4V7vEe2Ml8OCwlD7jg at 10,160 size 200,60 {
+  				displayLabel "Submit"
   				label "Submit"
   				styling ButtonStyling _Sc_nMF7vEe2Ml8OCwlD7jg {
   						fullWidth false

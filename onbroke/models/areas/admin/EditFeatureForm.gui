@@ -98,7 +98,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   	}
   }
   
-  Template _-UMlcVuXEe28kPQ81TnB9g at 240,10 size 570,580 {
+  Template _-UMlcVuXEe28kPQ81TnB9g at 240,10 size 340,650 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _-URd8FuXEe28kPQ81TnB9g {
@@ -107,7 +107,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _-USFAVuXEe28kPQ81TnB9g at 10,30 size 550,520 {
+  	Row _-USFAVuXEe28kPQ81TnB9g at 10,30 size 320,590 {
   		generalStyle GeneralStyling _-UdrMFuXEe28kPQ81TnB9g {
   				tallness Fitting
   				marginBottom None
@@ -120,7 +120,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   		MoveDown _-UVIUVuXEe28kPQ81TnB9g at 2,10 size 14,7 {
   		}
   		
-  		Col _-UYLoFuXEe28kPQ81TnB9g at 10,30 size 520,470 {
+  		Col _-UYLoFuXEe28kPQ81TnB9g at 10,30 size 290,540 {
   			wideness Full
   			layout Layout _-UdEIFuXEe28kPQ81TnB9g {
   					size Default
@@ -139,7 +139,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   			MoveRight _-UaA0FuXEe28kPQ81TnB9g at 10,2 size 7,14 {
   			}
   			
-  			Form _BjP7YVuYEe28kPQ81TnB9g at 10,30 size 500,410 {
+  			Form _BjP7YVuYEe28kPQ81TnB9g at 10,30 size 270,480 {
   				inline false
   				generalStyle GeneralStyling _BjRJi1uYEe28kPQ81TnB9g {
   						tallness Fitting
@@ -190,7 +190,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   					}
   				}
   				
-  				Row _sFP0cWBHEe2RjrkbQARhdg at 10,210 size 480,170 {
+  				Row _sFP0cWBHEe2RjrkbQARhdg at 10,210 size 250,240 {
   					generalStyle GeneralStyling _sFjWcGBHEe2RjrkbQARhdg {
   							tallness Fitting
   							marginBottom None
@@ -203,7 +203,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   					MoveDown _sFWiIWBHEe2RjrkbQARhdg at 2,10 size 14,7 {
   					}
   					
-  					Col _sFYXUWBHEe2RjrkbQARhdg at 10,30 size 220,120 {
+  					Col _sFYXUWBHEe2RjrkbQARhdg at 10,30 size 220,190 {
   						wideness Full
   						layout Layout _sFfFAGBHEe2RjrkbQARhdg {
   								size Default
@@ -223,6 +223,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   						}
   						
   						Button _BjRJk1uYEe28kPQ81TnB9g at 10,30 size 200,60 {
+  							displayLabel "Submit"
   							label "Submit"
   							styling ButtonStyling _BjRJmluYEe28kPQ81TnB9g {
   									fullWidth false
@@ -236,7 +237,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   								}
   							disabled false
   							icon Icon _BjRJmVuYEe28kPQ81TnB9g {
-  									postIcon None
+  									postIcon Ok
   									preIcon None
   								}
   							generalStyle GeneralStyling _BjRJmFuYEe28kPQ81TnB9g {
@@ -251,34 +252,15 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   							MoveDown _BjRJoFuYEe28kPQ81TnB9g at 2,10 size 14,7 {
   							}
   						}
-  					}
-  					
-  					Col _tI97QWBHEe2RjrkbQARhdg at 240,30 size 220,120 {
-  						wideness Full
-  						layout Layout _tJF3EGBHEe2RjrkbQARhdg {
-  								size Default
-  								offset None
-  								alignment Right
-  							}
-  						generalStyle GeneralStyling _tJA-kGBHEe2RjrkbQARhdg {
-  								tallness Fitting
-  								marginBottom None
-  								attributes [  ]
-  								marginTop None
-  							}
-  						MoveLeft _tI-iUWBHEe2RjrkbQARhdg at 2,2 size 7,14 {
-  						}
   						
-  						MoveRight _tJAXgWBHEe2RjrkbQARhdg at 10,2 size 7,14 {
-  						}
-  						
-  						Button _BjRwmVuYEe28kPQ81TnB9g at 10,30 size 200,60 {
+  						Button _BjRwmVuYEe28kPQ81TnB9g at 10,100 size 200,60 {
+  							displayLabel "Cancel"
   							label "Cancel"
   							styling ButtonStyling _BjRwoFuYEe28kPQ81TnB9g {
   									fullWidth false
   									size Default
   									disabled false
-  									color Yellow
+  									color Red
   								}
   							options ButtonOptions _BjRwoVuYEe28kPQ81TnB9g {
   									isLink false
@@ -286,7 +268,7 @@ GUI _-UC0cVuXEe28kPQ81TnB9g {
   								}
   							disabled false
   							icon Icon _BjRwn1uYEe28kPQ81TnB9g {
-  									postIcon None
+  									postIcon Remove
   									preIcon None
   								}
   							generalStyle GeneralStyling _BjRwnluYEe28kPQ81TnB9g {

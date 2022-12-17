@@ -301,9 +301,13 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   		isList false
   		name "offer"
+  		-ComplexDirectDataFlow-> _H1ZE4XvDEe2tDcangzz0WA via (1870,656) (1870,814) decorate "" at (0,0) {
+  			id _P4sM8XvDEe2tDcangzz0WA
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (1959,723) (2040,723) (2040,481) decorate "" at (0,0) {
-  		id _UlkWQVMHEe2djpkPxa2Z3Q
+  	-ControlFlow-> _H09AAXvDEe2tDcangzz0WA  decorate "" at (0,0) {
+  		id _PWL80XvDEe2tDcangzz0WA
   		concurrent true
   	}
   }
@@ -348,9 +352,13 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   		isList false
   		name "bidding"
+  		-ComplexDirectDataFlow-> _n8_6gXvDEe2tDcangzz0WA via (2490,656) (2490,846) decorate "" at (0,0) {
+  			id _4PYj4XvDEe2tDcangzz0WA
+  			dfViewWorkaround true
+  		}
   	}
-  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (2560,723) (2640,723) (2640,481) decorate "" at (0,0) {
-  		id _ios50VMHEe2djpkPxa2Z3Q
+  	-ControlFlow-> _n8zGMXvDEe2tDcangzz0WA  decorate "" at (0,0) {
+  		id _3omQsXvDEe2tDcangzz0WA
   		concurrent true
   	}
   }
@@ -482,16 +490,8 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   		isList false
   		name "feature"
   	}
-  	-BranchConnector-> _U_LA4XVoEe2_CvdRyEmMCQ   {
-  		id _U_Ln8HVoEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _U_LA4XVoEe2_CvdRyEmMCQ at 120,834 size 120,25 {
-  	name "Exit"
-  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (80,841) (81,480) decorate "" at (0,0) {
-  		id _W6VtEXVoEe2_CvdRyEmMCQ
+  	-BranchConnector-> _cS7yAX4yEe2sytuC8JliQA   {
+  		id _cS-1UX4yEe2sytuC8JliQA
   		concurrent true
   	}
   }
@@ -519,7 +519,7 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _yn3kEXVoEe2_CvdRyEmMCQ at 700,687 size 120,90 index 32 {
+  ProcessSIB _yn3kEXVoEe2_CvdRyEmMCQ at 700,687 size 120,90 index 31 {
   	libraryComponentUID "_EYvFUVuZEe28kPQ81TnB9g"
   	label "EditFeature"
   	ignoredBranch [  ]
@@ -539,7 +539,7 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _lWhCwXVoEe2_CvdRyEmMCQ at 510,799 size 120,25 index 31 {
+  Branch _lWhCwXVoEe2_CvdRyEmMCQ at 510,799 size 120,25 index 30 {
   	name "cancel"
   	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (652,808) (653,480) decorate "" at (0,0) {
   		id _sSy4YXVoEe2_CvdRyEmMCQ
@@ -570,29 +570,13 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	name "DeleteFeature"
   	label "DeleteFeature"
   	ignoredBranch [  ]
-  	-BranchConnector-> _EGglMXVpEe2_CvdRyEmMCQ   {
-  		id _EGhMQXVpEe2_CvdRyEmMCQ
+  	-BranchConnector-> _MnASYXvGEe2Ch98tr8px-A   {
+  		id _MnCHkXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   	
-  	-BranchConnector-> _EGq9QXVpEe2_CvdRyEmMCQ   {
-  		id _EGrkUXVpEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _EGglMXVpEe2_CvdRyEmMCQ at 900,770 size 120,25 {
-  	name "Confirm Delete"
-  	-ControlFlow-> _VoRLwXVpEe2_CvdRyEmMCQ  decorate "" at (0,0) {
-  		id _YFbxwXVpEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _EGq9QXVpEe2_CvdRyEmMCQ at 981,770 size 120,25 {
-  	name "Cancel"
-  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (1040,172) decorate "" at (0,0) {
-  		id _G-e34XVpEe2_CvdRyEmMCQ
+  	-BranchConnector-> _MnYs4XvGEe2Ch98tr8px-A   {
+  		id _MnZ7AXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   }
@@ -612,7 +596,7 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  ProcessSIB _iS_x8XVpEe2_CvdRyEmMCQ at 1100,667 size 120,65 index 40 {
+  ProcessSIB _iS_x8XVpEe2_CvdRyEmMCQ at 1100,667 size 120,65 index 37 {
   	libraryComponentUID "_EP-IgV3WEe2t19MJLPzxmg"
   	label "ShowCreateUser"
   	ignoredBranch [  ]
@@ -627,7 +611,7 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _VoZHkXVpEe2_CvdRyEmMCQ at 900,894 size 120,25 index 39 {
+  Branch _VoZHkXVpEe2_CvdRyEmMCQ at 900,894 size 120,25 index 36 {
   	name "deleted"
   	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (1060,901) (1060,172) decorate "" at (0,0) {
   		id _Z6ICgXVpEe2_CvdRyEmMCQ
@@ -679,44 +663,28 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  GUISIB _kAAQ4XVqEe2_CvdRyEmMCQ at 1500,687 size 120,65 index 46 {
+  GUISIB _kAAQ4XVqEe2_CvdRyEmMCQ at 1500,687 size 120,65 index 43 {
   	cacheGUI false
   	majorPage true
   	libraryComponentUID "_VDMMEVt7Ee20aa7PI0XDWg"
   	name "DeleteFeature"
   	label "DeleteFeature"
   	ignoredBranch [  ]
-  	-BranchConnector-> _kAMeIXVqEe2_CvdRyEmMCQ   {
-  		id _kANFMXVqEe2_CvdRyEmMCQ
+  	-BranchConnector-> _KICVkXvGEe2Ch98tr8px-A   {
+  		id _KIHOEXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   	
-  	-BranchConnector-> _kAYrYXVqEe2_CvdRyEmMCQ   {
-  		id _kAZScXVqEe2_CvdRyEmMCQ
+  	-BranchConnector-> _KIoygXvGEe2Ch98tr8px-A   {
+  		id _KIqnsXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   }
   
-  Branch _44AP8XVpEe2_CvdRyEmMCQ at 1300,858 size 120,25 index 45 {
+  Branch _44AP8XVpEe2_CvdRyEmMCQ at 1300,858 size 120,25 index 42 {
   	name "cancel"
   	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (1280,868) (1281,480) decorate "" at (0,0) {
   		id _KXUmgXVqEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _kAMeIXVqEe2_CvdRyEmMCQ at 1450,787 size 120,25 {
-  	name "Confirm Delete"
-  	-ControlFlow-> _rrHicXVqEe2_CvdRyEmMCQ  decorate "" at (0,0) {
-  		id _s6AXcXVqEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _kAYrYXVqEe2_CvdRyEmMCQ at 1560,787 size 120,25 {
-  	name "Cancel"
-  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (1660,749) (1660,172) decorate "" at (0,0) {
-  		id _pFrxQXVqEe2_CvdRyEmMCQ
   		concurrent true
   	}
   }
@@ -822,29 +790,13 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	name "DeleteFeature"
   	label "DeleteFeature"
   	ignoredBranch [  ]
-  	-BranchConnector-> _j8raoXVrEe2_CvdRyEmMCQ   {
-  		id _j8sBsXVrEe2_CvdRyEmMCQ
+  	-BranchConnector-> _PKVx0XvGEe2Ch98tr8px-A   {
+  		id _PKWY4XvGEe2Ch98tr8px-A
   		concurrent true
   	}
   	
-  	-BranchConnector-> _j86EIXVrEe2_CvdRyEmMCQ   {
-  		id _j86rMXVrEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _j8raoXVrEe2_CvdRyEmMCQ at 2115,787 size 90,25 {
-  	name "Confirm Delete"
-  	-ControlFlow-> _obHU0XVrEe2_CvdRyEmMCQ  decorate "" at (0,0) {
-  		id _xRgGsXVrEe2_CvdRyEmMCQ
-  		concurrent true
-  	}
-  }
-  
-  Branch _j86EIXVrEe2_CvdRyEmMCQ at 2010,770 size 80,25 {
-  	name "Cancel"
-  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w via (2048,480) decorate "" at (0,0) {
-  		id _x9u6kXVrEe2_CvdRyEmMCQ
+  	-BranchConnector-> _PKrJAXvGEe2Ch98tr8px-A   {
+  		id _PKsXIXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   }
@@ -879,34 +831,34 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	name "DeleteFeature"
   	label "DeleteFeature"
   	ignoredBranch [  ]
-  	-BranchConnector-> _GqdoUXVsEe2_CvdRyEmMCQ   {
-  		id _GqdoU3VsEe2_CvdRyEmMCQ
+  	-BranchConnector-> _Q9pigXvGEe2Ch98tr8px-A   {
+  		id _Q9qJkXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   	
-  	-BranchConnector-> _Gqs44XVsEe2_CvdRyEmMCQ   {
-  		id _Gqtf8XVsEe2_CvdRyEmMCQ
+  	-BranchConnector-> _Q-Au4XvGEe2Ch98tr8px-A   {
+  		id _Q-B9AXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   }
   
-  Branch _GqdoUXVsEe2_CvdRyEmMCQ at 2700,787 size 120,25 {
-  	name "Confirm Delete"
-  	-ControlFlow-> _JqQaQXVsEe2_CvdRyEmMCQ  decorate "" at (0,0) {
-  		id _KuDZkXVsEe2_CvdRyEmMCQ
+  Branch _KICVkXvGEe2Ch98tr8px-A at 1590,810 size 120,25 index 57 {
+  	name "Back"
+  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _xs3xwXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   }
   
-  Branch _Gqs44XVsEe2_CvdRyEmMCQ at 2551,820 size 120,25 {
-  	name "Cancel"
-  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (2609,172) decorate "" at (0,0) {
-  		id _TvlEcXVsEe2_CvdRyEmMCQ
+  Branch _KIoygXvGEe2Ch98tr8px-A at 1479,767 size 120,25 index 58 {
+  	name "Confirm"
+  	-ControlFlow-> _rrHicXVqEe2_CvdRyEmMCQ  decorate "" at (0,0) {
+  		id _LfHdQXvGEe2Ch98tr8px-A
   		concurrent true
   	}
   }
   
-  DeleteSIB _JqQaQXVsEe2_CvdRyEmMCQ at 2700,832 size 120,65 {
+  DeleteSIB _JqQaQXVsEe2_CvdRyEmMCQ at 2700,832 size 120,65 index 51 {
   	force true
   	label "Delete"
   	ignoredBranch [  ]
@@ -916,10 +868,112 @@ Process _rHwukVFLEe2Vgcav4Znc_w {
   	}
   }
   
-  Branch _JqZkMHVsEe2_CvdRyEmMCQ at 2850,852 size 120,25 {
+  Branch _MnASYXvGEe2Ch98tr8px-A at 1000,767 size 120,25 index 59 {
+  	name "Back"
+  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _WRXe4XvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _JqZkMHVsEe2_CvdRyEmMCQ at 2850,852 size 120,25 index 52 {
   	name "deleted"
   	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q via (2896,172) decorate "" at (0,0) {
   		id _NhfKgXVsEe2_CvdRyEmMCQ
+  		concurrent true
+  	}
+  }
+  
+  Branch _MnYs4XvGEe2Ch98tr8px-A at 850,767 size 120,25 index 60 {
+  	name "Confirm"
+  	-ControlFlow-> _VoRLwXVpEe2_CvdRyEmMCQ  decorate "" at (0,0) {
+  		id _N58g8XvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _H09AAXvDEe2tDcangzz0WA at 1880,738 size 120,90 index 53 {
+  	libraryComponentUID "_at4CYXfUEe2cGd7_OEEukw"
+  	label "OfferEditProcess"
+  	ignoredBranch [  ]
+  	ComplexInputPort _H1ZE4XvDEe2tDcangzz0WA at 5,67 size 110,18 {
+  		libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "offer"
+  	}
+  	-BranchConnector-> _H2WuMXvDEe2tDcangzz0WA   {
+  		id _H2ZKcXvDEe2tDcangzz0WA
+  		concurrent true
+  	}
+  }
+  
+  Branch _PKVx0XvGEe2Ch98tr8px-A at 2170,770 size 120,25 index 61 {
+  	name "Back"
+  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _Y5WNwXvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _H2WuMXvDEe2tDcangzz0WA at 1800,882 size 120,25 index 54 {
+  	name "success"
+  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _qMXNsXvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _PKrJAXvGEe2Ch98tr8px-A at 2040,770 size 120,25 index 62 {
+  	name "Confirm"
+  	-ControlFlow-> _obHU0XVrEe2_CvdRyEmMCQ  decorate "" at (0,0) {
+  		id _QT-6cXvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _n8zGMXvDEe2tDcangzz0WA at 2516,770 size 120,90 index 55 {
+  	libraryComponentUID "_mdniwVtTEe2ySJBy9D3dpw"
+  	label "BiddingEditProcess"
+  	ignoredBranch [  ]
+  	ComplexInputPort _n8_6gXvDEe2tDcangzz0WA at 5,67 size 110,18 {
+  		libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
+  		isList false
+  		name "bidding"
+  	}
+  	-BranchConnector-> _n9iGAXvDEe2tDcangzz0WA   {
+  		id _n9jUIXvDEe2tDcangzz0WA
+  		concurrent true
+  	}
+  }
+  
+  Branch _Q9pigXvGEe2Ch98tr8px-A at 1479,300 size 120,25 index 63 {
+  	name "Back"
+  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _cOyfkXvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _n9iGAXvDEe2tDcangzz0WA at 2516,870 size 120,25 index 56 {
+  	name "success"
+  	-ControlFlow-> _ldrMkFLrEe2djpkPxa2Z3Q  decorate "" at (0,0) {
+  		id _ssFYcXvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _Q-Au4XvGEe2Ch98tr8px-A at 2650,786 size 120,25 {
+  	name "Confirm"
+  	-ControlFlow-> _JqQaQXVsEe2_CvdRyEmMCQ  decorate "" at (0,0) {
+  		id _R2aWgXvGEe2Ch98tr8px-A
+  		concurrent true
+  	}
+  }
+  
+  Branch _cS7yAX4yEe2sytuC8JliQA at 110,834 size 120,25 {
+  	name "Back"
+  	-ControlFlow-> _ZewJIVFOEe2J0bu3ffrh5w  decorate "" at (0,0) {
+  		id _dDKVEX4yEe2sytuC8JliQA
   		concurrent true
   	}
   }

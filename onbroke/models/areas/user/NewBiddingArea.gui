@@ -464,6 +464,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				}
   				
   				Button _wqqgYWBHEe2Zz8LOII5r3g at 10,30 size 200,60 {
+  					displayLabel "Submit"
   					label "Submit"
   					styling ButtonStyling _wrCT0GBHEe2Zz8LOII5r3g {
   							fullWidth false
@@ -494,6 +495,7 @@ GUI _ZI100WBHEe2Zz8LOII5r3g {
   				}
   				
   				Button _xCUycWBHEe2Zz8LOII5r3g at 10,100 size 200,60 {
+  					displayLabel "Cancel"
   					label "Cancel"
   					styling ButtonStyling _xCpikGBHEe2Zz8LOII5r3g {
   							fullWidth false

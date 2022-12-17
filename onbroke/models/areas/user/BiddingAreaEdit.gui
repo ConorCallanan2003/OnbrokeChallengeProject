@@ -122,7 +122,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   	}
   }
   
-  Template _Go978Vm_Ee2zbeoDKccEjg_INTERNAL at 240,10 size 540,1630 {
+  Template _Go978Vm_Ee2zbeoDKccEjg_INTERNAL at 240,10 size 540,1640 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _GpBmUFm_Ee2zbeoDKccEjg {
@@ -131,7 +131,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _GpECkVm_Ee2zbeoDKccEjg_INTERNAL at 10,90 size 520,1510 {
+  	Row _GpECkVm_Ee2zbeoDKccEjg_INTERNAL at 10,90 size 520,1520 {
   		generalStyle GeneralStyling _GpeSQFm_Ee2zbeoDKccEjg {
   				tallness Fitting
   				marginBottom None
@@ -144,7 +144,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   		MoveDown _GpNzkFm_Ee2zbeoDKccEjg_INTERNAL at 2,10 size 14,7 {
   		}
   		
-  		Col _GpSsEFm_Ee2zbeoDKccEjg_INTERNAL at 10,30 size 490,1460 {
+  		Col _GpSsEFm_Ee2zbeoDKccEjg_INTERNAL at 10,30 size 490,1470 {
   			wideness Full
   			layout Layout _GpdEIFm_Ee2zbeoDKccEjg {
   					size Default
@@ -163,7 +163,8 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   			MoveRight _GpXkkVm_Ee2zbeoDKccEjg_INTERNAL at 10,2 size 7,14 {
   			}
   			
-  			Button _b9LjoVnDEe2zb-oDKccEjg_INTERNAL at 10,1300 size 200,60 {
+  			Button _b9LjoVnDEe2zb-oDKccEjg_INTERNAL at 10,1310 size 200,60 {
+  				displayLabel "Submit"
   				label "Submit"
   				styling ButtonStyling _b9a0MFnDEe2zb-oDKccEjg {
   						fullWidth false
@@ -193,7 +194,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				}
   			}
   			
-  			Form _-HWNIFtTEe2ySJBy9D3dpw_INTERNAL at 10,30 size 470,1260 {
+  			Form _-HWNIFtTEe2ySJBy9D3dpw_INTERNAL at 10,30 size 470,1270 {
   				inline false
   				generalStyle GeneralStyling _-IDXwFtTEe2ySJBy9D3dpw {
   						tallness Fitting
@@ -207,7 +208,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   				MoveDown _-HglMVtTEe2ySJBy9D3dpw_INTERNAL at 2,10 size 14,7 {
   				}
   				
-  				Row _YKs38V3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 450,1200 {
+  				Row _YKs38V3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 450,1210 {
   					generalStyle GeneralStyling _YL1gYF3eEe2HQ8xwZL7uug {
   							tallness Fitting
   							marginBottom None
@@ -220,7 +221,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   					MoveDown _YK1a0V3eEe2HQ8xwZL7uug_INTERNAL at 2,10 size 14,7 {
   					}
   					
-  					Col _YK5sQV3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 420,1150 {
+  					Col _YK5sQV3eEe2HQ8xwZL7uug_INTERNAL at 10,30 size 420,1160 {
   						wideness Full
   						layout Layout _YLgJMF3eEe2HQ8xwZL7uug {
   								size Default
@@ -239,7 +240,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   						MoveRight _YLF5gV3eEe2HQ8xwZL7uug_INTERNAL at 10,2 size 7,14 {
   						}
   						
-  						Panel _B8j8oWBhEe2z_pJXnN5yhQ at 10,90 size 400,410 {
+  						Panel _B8j8oWBhEe2z_pJXnN5yhQ at 10,30 size 400,410 {
   							collapsable false
   							defaultOpen "true"
   							coloring ComponentColoring _B823kGBhEe2z_pJXnN5yhQ {
@@ -365,7 +366,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							}
   						}
   						
-  						Panel _f0XS0GBhEe2zFOcETdlBwQ at 10,510 size 400,410 {
+  						Panel _f0XS0GBhEe2zFOcETdlBwQ at 10,450 size 400,410 {
   							collapsable false
   							defaultOpen "true"
   							coloring ComponentColoring _f1AzEGBhEe2zFOcETdlBwQ {
@@ -488,7 +489,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							}
   						}
   						
-  						Panel _A9pA0WBiEe2zFOcETdlBwQ at 10,930 size 220,190 {
+  						Panel _A9pA0WBiEe2zFOcETdlBwQ at 10,870 size 220,260 {
   							collapsable false
   							defaultOpen "true"
   							coloring ComponentColoring _A91OEGBiEe2zFOcETdlBwQ {
@@ -506,7 +507,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   							MoveDown _A9q2A2BiEe2zFOcETdlBwQ at 2,10 size 14,7 {
   							}
   							
-  							Field _CRDJcWBiEe2zFOcETdlBwQ at 10,100 size 200,60 {
+  							Field _CRDJcWBiEe2zFOcETdlBwQ at 10,170 size 200,60 {
   								maxMB 0
   								inputType Text
   								label "Desription"
@@ -546,7 +547,7 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   										renderMarkdown false
   										maxChars 0
   										html false
-  										rawContent "Current Desription\n{{bidding.description}}"
+  										rawContent "Current Desription:"
   										styling TextStyling _YK4FsWHREe2pvsVyqO_APw {
   												small false
   												highlight false
@@ -570,12 +571,43 @@ GUI _Goy80Fm_Ee2zbeoDKccEjg_INTERNAL {
   								MoveDown _YKedE2HREe2pvsVyqO_APw at 2,10 size 14,7 {
   								}
   							}
+  							
+  							Text _i-NvgXvHEe2Ch98tr8px-A at 10,100 size 200,60 {
+  								content [ StaticContent _i-gqcHvHEe2Ch98tr8px-A {
+  										renderMarkdown false
+  										maxChars 0
+  										html false
+  										rawContent "\"{{bidding.description}}\""
+  										styling TextStyling _i-hRgHvHEe2Ch98tr8px-A {
+  												small false
+  												highlight false
+  												deleted false
+  												underline false
+  												bold true
+  												alignment Left
+  												italic false
+  												color Default
+  											}
+  									} ]
+  								generalStyle GeneralStyling _i-UdMHvHEe2Ch98tr8px-A {
+  										tallness Fitting
+  										marginBottom None
+  										attributes [  ]
+  										marginTop None
+  									}
+  								MoveUp _i-Qy0XvHEe2Ch98tr8px-A at 2,2 size 14,7 {
+  								}
+  								
+  								MoveDown _i-Qy03vHEe2Ch98tr8px-A at 2,10 size 14,7 {
+  								}
+  							}
   						}
   					}
   				}
   			}
   			
-  			Button _wIQk8V7pEe2MjcOCwlD7jg at 10,1370 size 200,60 {
+  			Button _wIQk8V7pEe2MjcOCwlD7jg at 10,1380 size 200,60 {
+  				displayLabel "Cancel"
   				label "Cancel"
   				styling ButtonStyling _wIxiUF7pEe2MjcOCwlD7jg {
   						fullWidth false

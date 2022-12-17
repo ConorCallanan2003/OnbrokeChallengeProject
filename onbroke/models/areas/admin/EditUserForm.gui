@@ -169,6 +169,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   				}
   				
   				Button _FLv7w2BEEe2RjrkbQARhdg at 10,280 size 200,60 {
+  					displayLabel "Submit"
   					label "Submit"
   					styling ButtonStyling _FLv7ymBEEe2RjrkbQARhdg {
   							fullWidth false
@@ -182,7 +183,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   						}
   					disabled false
   					icon Icon _FLv7yWBEEe2RjrkbQARhdg {
-  							postIcon None
+  							postIcon Ok
   							preIcon None
   						}
   					generalStyle GeneralStyling _FLv7yGBEEe2RjrkbQARhdg {
@@ -199,12 +200,13 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   				}
   				
   				Button _FLv71GBEEe2RjrkbQARhdg at 10,350 size 200,60 {
+  					displayLabel "Cancel"
   					label "Cancel"
   					styling ButtonStyling _FLv722BEEe2RjrkbQARhdg {
   							fullWidth false
   							size Default
   							disabled false
-  							color Yellow
+  							color Red
   						}
   					options ButtonOptions _FLv73GBEEe2RjrkbQARhdg {
   							isLink false
@@ -212,7 +214,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   						}
   					disabled false
   					icon Icon _FLv72mBEEe2RjrkbQARhdg {
-  							postIcon None
+  							postIcon Remove
   							preIcon None
   						}
   					generalStyle GeneralStyling _FLv72WBEEe2RjrkbQARhdg {
@@ -304,7 +306,7 @@ GUI _CPN5EWBEEe2RjrkbQARhdg {
   					label "Role"
   					styling SelectFormFieldStyling _FL7h2mBEEe2RjrkbQARhdg {
   							inline false
-  							size Default
+  							size Large
   							disabled false
   							color Default
   						}

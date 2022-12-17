@@ -317,12 +317,13 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   			}
   			
   			Button _FE6j0V0jEe25K9Bw89qhkQ at 10,30 size 200,60 {
+  				displayLabel "Submit"
   				label "Submit"
   				styling ButtonStyling _FFmgUF0jEe25K9Bw89qhkQ {
   						fullWidth false
   						size Default
   						disabled false
-  						color Blue
+  						color Green
   					}
   				options ButtonOptions _FFw4YF0jEe25K9Bw89qhkQ {
   						isLink false
@@ -330,7 +331,7 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   					}
   				disabled false
   				icon Icon _FFLpkF0jEe25K9Bw89qhkQ {
-  						postIcon None
+  						postIcon Check
   						preIcon None
   					}
   				generalStyle GeneralStyling _FFB4kF0jEe25K9Bw89qhkQ {
@@ -347,12 +348,13 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   			}
   			
   			Button _E0mP4V0jEe25K9Bw89qhkQ at 10,100 size 200,60 {
+  				displayLabel "Back"
   				label "Back"
   				styling ButtonStyling _E1GmMF0jEe25K9Bw89qhkQ {
   						fullWidth false
   						size Default
   						disabled false
-  						color Default
+  						color Yellow
   					}
   				options ButtonOptions _E1NT4F0jEe25K9Bw89qhkQ {
   						isLink false
@@ -360,7 +362,7 @@ GUI _Q_3BQFvCEe29gfndd4k6uw {
   					}
   				disabled false
   				icon Icon _E02ukF0jEe25K9Bw89qhkQ {
-  						postIcon None
+  						postIcon ArrowLeft
   						preIcon None
   					}
   				generalStyle GeneralStyling _E0uywF0jEe25K9Bw89qhkQ {

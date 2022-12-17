@@ -283,7 +283,8 @@ GUI _ptsfcWEREe2Fx80Lw9BAUQ {
   			}
   			
   			Button _mLXFEWGpEe2hs_F3HY5wHA at 10,30 size 200,60 {
-  				label "Exit"
+  				displayLabel "Back"
+  				label "Back"
   				styling ButtonStyling _mLkgcGGpEe2hs_F3HY5wHA {
   						fullWidth false
   						size Default
@@ -296,7 +297,7 @@ GUI _ptsfcWEREe2Fx80Lw9BAUQ {
   					}
   				disabled false
   				icon Icon _mLhdIGGpEe2hs_F3HY5wHA {
-  						postIcon None
+  						postIcon ChevronLeft
   						preIcon None
   					}
   				generalStyle GeneralStyling _mLfn8mGpEe2hs_F3HY5wHA {

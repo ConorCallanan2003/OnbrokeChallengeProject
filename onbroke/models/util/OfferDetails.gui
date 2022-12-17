@@ -122,7 +122,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   			attributes [  ]
   			marginTop None
   		}
-  	Row _xWrjAVN8Ee2KQc5QIsW97w at 10,30 size 350,230 {
+  	Row _xWrjAVN8Ee2KQc5QIsW97w at 10,30 size 350,160 {
   		generalStyle GeneralStyling _xWsKJ1N8Ee2KQc5QIsW97w {
   				tallness Fitting
   				marginBottom Double
@@ -135,7 +135,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   		MoveDown _xWsxJFN8Ee2KQc5QIsW97w at 2,10 size 14,7 {
   		}
   		
-  		Col _xWsxJ1N8Ee2KQc5QIsW97w at 10,30 size 320,180 {
+  		Col _xWsxJ1N8Ee2KQc5QIsW97w at 10,30 size 320,110 {
   			wideness Full
   			layout Layout _xWtYMlN8Ee2KQc5QIsW97w {
   					size Default
@@ -174,41 +174,10 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   				MoveDown _xWtYRVN8Ee2KQc5QIsW97w at 2,10 size 14,7 {
   				}
   			}
-  			
-  			Button _-9XegVOlEe2KQc5QIsW97w at 10,90 size 200,60 {
-  				displayLabel "Back"
-  				label "Back"
-  				styling ButtonStyling _-9XeiFOlEe2KQc5QIsW97w {
-  						fullWidth false
-  						size Default
-  						disabled false
-  						color Default
-  					}
-  				options ButtonOptions _-9XeiVOlEe2KQc5QIsW97w {
-  						isLink false
-  						submitsForm true
-  					}
-  				disabled false
-  				icon Icon _-9Xeh1OlEe2KQc5QIsW97w {
-  						postIcon None
-  						preIcon ArrowLeft
-  					}
-  				generalStyle GeneralStyling _-9XehlOlEe2KQc5QIsW97w {
-  						tallness Fitting
-  						marginBottom None
-  						attributes [  ]
-  						marginTop None
-  					}
-  				MoveUp _-9Xei1OlEe2KQc5QIsW97w at 2,2 size 14,7 {
-  				}
-  				
-  				MoveDown _-9XejlOlEe2KQc5QIsW97w at 2,10 size 14,7 {
-  				}
-  			}
   		}
   	}
   	
-  	Panel _PXMGQVOeEe2KQc5QIsW97w at 10,270 size 270,300 {
+  	Panel _PXMGQVOeEe2KQc5QIsW97w at 10,200 size 270,300 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _PXNUYlOeEe2KQc5QIsW97w {
@@ -339,7 +308,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _oq8pgVOeEe2KQc5QIsW97w at 10,580 size 270,300 {
+  	Panel _oq8pgVOeEe2KQc5QIsW97w at 10,510 size 270,300 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _oq9QslOeEe2KQc5QIsW97w {
@@ -470,7 +439,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _Ueh-EVOfEe2KQc5QIsW97w at 10,1020 size 170,415 {
+  	Panel _Ueh-EVOfEe2KQc5QIsW97w at 10,950 size 170,415 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _UeilLlOfEe2KQc5QIsW97w {
@@ -565,7 +534,7 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   		}
   	}
   	
-  	Panel _JTnK8XpFEe2L4roCShBYJg at 10,890 size 220,120 {
+  	Panel _JTnK8XpFEe2L4roCShBYJg at 10,820 size 220,120 {
   		collapsable false
   		defaultOpen "true"
   		heading StaticContent _JTnyJnpFEe2L4roCShBYJg {
@@ -628,6 +597,37 @@ GUI _fcOIkVN8Ee2KQc5QIsW97w {
   			
   			MoveDown _P53tQXpFEe2L4roCShBYJg at 2,10 size 14,7 {
   			}
+  		}
+  	}
+  	
+  	Button _-9XegVOlEe2KQc5QIsW97w at 10,1375 size 200,60 {
+  		displayLabel "Back"
+  		label "Back"
+  		styling ButtonStyling _-9XeiFOlEe2KQc5QIsW97w {
+  				fullWidth false
+  				size Default
+  				disabled false
+  				color Yellow
+  			}
+  		options ButtonOptions _-9XeiVOlEe2KQc5QIsW97w {
+  				isLink false
+  				submitsForm true
+  			}
+  		disabled false
+  		icon Icon _-9Xeh1OlEe2KQc5QIsW97w {
+  				postIcon None
+  				preIcon ArrowLeft
+  			}
+  		generalStyle GeneralStyling _-9XehlOlEe2KQc5QIsW97w {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _-9Xei1OlEe2KQc5QIsW97w at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _-9XejlOlEe2KQc5QIsW97w at 2,10 size 14,7 {
   		}
   	}
   }
